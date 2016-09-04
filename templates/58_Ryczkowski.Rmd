@@ -1,0 +1,33 @@
+---
+title: "Seamless external R server integration with Excel with step-by-step debugging of the R code"
+author:
+ - name: "Adam Ryczkowski"
+   affiliation: [1,2]
+   email: "adam@statystyka.net"
+   contact: yes
+ - name: "Adam Ryczkowski"
+   affiliation: [1,3]
+affiliation:
+ - "none"
+keywords: "Excelsi-R Rserve Rstudio Excel VBA"
+packages: "Rserve; svSocket"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Excel can be a great UI for repetitive, semi-interactive R procedures. I
+want to present (yet another) solution that allows using R commands in
+Excel. it features
+\begin{enum}
+ \item ability to connect to external R server so you don't have to be limited by local RAM/CPU
+ \item inspection of variables on external R server
+ \item compatibility with RStudio with its awesome step-by-step debugging capabilities
+ \end{enum}
+This setup allowed me to create Excel front end for analysis of dataset
+with &gt;4M cases and 400 variables.
+
+**References**
+
+NA

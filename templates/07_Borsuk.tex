@@ -1,0 +1,78 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\usepackage{filecontents}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{R as a tool for graphical diagnostics in population pharmacokinetic
+modeling}
+
+\begin{center}
+  {\bf Agnieszka Borsuk$^{1, 2,^\star}$, Agnieszka Borsuk$^{1, 3}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Department of Biopharmaceutics and Pharmacodynamics, Medical University
+of Gdańsk, Poland \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:borsuk.agnieszka@gmail.com}{\nolinkurl{borsuk.agnieszka@gmail.com}}\\
+\end{affiliations}
+
+\keywords graphical model diagnostics, population pharmacokinetics
+\packages ggplot2; lattice
+
+\vskip 0.8cm
+
+Population pharmacokinetic (PopPK) modeling aims at finding typical
+pharmacokinetic parameters and their variability within a target
+population of patients treated with a drug of interest. Population
+approach to pharmacokinetic modeling is gaining popularity as it can
+handle sparse data and estimate pharmacokinetic parameters of each
+individual. Large datasets and complexity of the models hinder assessing
+the quality of a model fit with a single numerical value. Graphical
+analysis plays a unique role in PopPK since it enables a better insight
+into the model structure. R is a powerful and versatile tool for
+graphical model diagnostics. It offers variety of visualizations, allows
+creating flexible scripts for quick model assessment and saving the
+results as a formal report. The produced graphics are publication-ready
+and meet the requirements for most nonstandard and customized plots.
+
+\textbf{References}
+
+NA
+
+\end{document}

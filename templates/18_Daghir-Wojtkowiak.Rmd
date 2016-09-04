@@ -1,0 +1,46 @@
+---
+title: "Pharmacokinetics-driven modeling of metabolomics data"
+author:
+ - name: "Emilia Daghir-Wojtkowiak"
+   affiliation: [1,2]
+   email: "emilia.daghir@gmail.com"
+   contact: yes
+ - name: "Emilia Daghir-Wojtkowiak, Paweł Wiczling, Małgorzata Waszczuk-Jankowska, Roman Kaliszan, Michał Jan Markuszewski"
+   affiliation: [1,3]
+affiliation:
+ - "Department of Biopharmaceutics and Pharmacodynamics, Medical University of Gdańsk"
+keywords: "pharmacokinetics; metabolomics; Bayesian analysis; ROC; cancer"
+packages: "runjags; coda; caTools; MCMCglmm; caret; Hmisc; lattice"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Metabolomics is a dynamically developing research area utilizing
+high-throughput analytical techniques to detect spectrum of changes in
+metabolites’ levels. However, technological improvements designed for
+analytical systems are not parallel with the development/application of
+computational methods which would allow for more efficient elucidation
+of knowledge from large datasets. In this study, we introduced the
+concept of pharmacokinetics-driven modelling of targeted metabolomics
+data comprising nucleoside and creatinine concentration measurements in
+urine of healthy and cancer patients. An approach using Bayesian
+analysis was used for the estimation of model parameters. The
+classification performance of the proposed model was summarized via area
+under the ROC, sensitivity and specificity using external validation.
+Cancer was associated with an increase in methylthioadenosine/creatinine
+excretion rate by a factor of 1.82(1.33–2.47). Age influenced
+nucleosides/creatinine excretion rates for all nucleosides in the same
+direction with likely sex-related differences among several nucleosides’
+concentrations. The individual a posteriori prediction of patient
+classification as area under the ROC was 0.58(0.5-0.68) with sensitivity
+and specificity of 0.63(0.46–0.76) and 0.58(0.45–0.68), respectively
+suggesting limited usefulness of 13 nucleosides/creatinine measurements
+in predicting the disease in this population. Pharmacokinetic-based
+approach in metabolomics may be useful in understanding the data when
+searching for potential disease indicators.
+
+**References**
+
+NA

@@ -1,0 +1,27 @@
+---
+title: "`r info$Title`"
+author:
+ - name: "`r paste(info$Name, info$Surname)`"
+   affiliation: [1,2]
+   email: "`r info$Email`"
+   contact: yes
+ - name: "`r info$Authors`"
+   affiliation: [1,3]
+affiliation:
+ - "`r info$Affiliation_for_authors`"
+keywords: "`r info$Keywords`"
+packages: "`r info$R_packages_that_will_be_covered_in_presentation_poster`"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+`r info$Abstract`
+
+**References**
+
+`r info$Literature`
+
+
+

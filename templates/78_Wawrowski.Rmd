@@ -1,0 +1,33 @@
+---
+title: "R packages for social indicators"
+author:
+ - name: "Łukasz Wawrowski"
+   affiliation: [1,2]
+   email: "lukasz8989@gmail.com"
+   contact: yes
+ - name: "Łukasz Wawrowski"
+   affiliation: [1,3]
+affiliation:
+ - "NA"
+keywords: "sample surveys, social indicators"
+packages: "survey; laeken; ineq; vardpoor; convey"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Social cohesion is a very popular motto in European Union. It is
+measured by many different indicators such as poverty rate, low work
+intensity indicator or quintile share ratio. They were established by
+the European Union as part of the Lisbon Strategy and the Europa 2020
+Strategy. Its function is to control realization of above mentioned
+strategies.
+
+Presentation aims to compare R packages used in social indicators
+estimation. Features and efficiency of different packages will be
+examined.
+
+**References**
+
+NA

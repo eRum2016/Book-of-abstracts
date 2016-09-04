@@ -1,0 +1,45 @@
+---
+title: "Data science outside the box: Developing a generic scoring algorithm for customer acquisition"
+author:
+ - name: "Erik Barzagar-Nazari"
+   affiliation: [1,2]
+   email: "erik.barzagar-nazari@eoda.de"
+   contact: yes
+ - name: "Erik Barzagar-Nazari"
+   affiliation: [1,3]
+affiliation:
+ - "eoda GmbH"
+keywords: "data mining; customer acquisition; case study"
+packages: "-"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+One major task in virtually every predictive modelling project is to
+find the method best suited for the problem on hand. Luckily, most of
+the time data scientists can rely on one of the many already existing
+and well established methods such as Random Forests, Gradient Boosting
+Machines, Neural Networks or Support Vector Machines to solve a variety
+of regression and classification problems. However, in some cases these
+standard approaches are not directly applicable to the problem on hand
+and data scientists need to become creative. In this talk, we will
+present a case study about a project we recently conducted for the
+databyte GmbH in Germany. As one of the leading business information
+providers, databyte maintains a vast database of several million
+companies, containing information such as revenue, size and many other
+properties. The aim of the project was to develop an application which,
+after provided with the customer base of a databyte client, would be
+able to score companies in the databyte database in order to identify
+the most promising contacts for direct marketing campaigns. While
+developing this application, we were facing two major requirements:
+first of all, each client has its own customer base, hence we could not
+just train one model; in fact, the algorithm must be able to “train
+itself” in every run. Secondly, the customer base only contains
+“positive data”, that means we are dealing with a so-called
+positive-unlabelled-problem.
+
+**References**
+
+NA

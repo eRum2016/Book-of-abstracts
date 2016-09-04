@@ -1,0 +1,24 @@
+---
+title: "TBA"
+author:
+ - name: "Wojciech Kędziora"
+   affiliation: [1,2]
+   email: "NA"
+   contact: yes
+ - name: "mail poszed"
+   affiliation: [1,3]
+affiliation:
+ - "NA"
+keywords: "NA"
+packages: "NA"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+mail poszedł
+
+**References**
+
+NA

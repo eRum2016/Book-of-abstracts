@@ -1,0 +1,61 @@
+---
+title: "What are sampling errors in the vegetation studies using visual estimation of presence and cover of plants? R can help"
+author:
+ - name: "Damian Chmura"
+   affiliation: [1,2]
+   email: "dchmura@ath.bielsko.pl"
+   contact: yes
+ - name: "Damian Chmura; Anna Salachna; Edyta Sierka"
+   affiliation: [1,3]
+affiliation:
+ - "University of Bielsko-Biala; University of Bielsko-Biala; University of Silesia"
+keywords: "repeatability; interrater reliability, agreement; intraclass correlation coefficient"
+packages: "nlme; multilevel; irr; betapart; vegan"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+In vegetation science e.g. phytosociology, visual estimates of plant
+cover belong to the most frequently used descriptors. The main reason
+for their attractiveness lies in the very low cost of the data obtained
+in this way, both in terms of labour, time and equipment. However, they
+are the subjective methods which result in sampling error, difficult to
+control. It is emphasised that using the visible estimation of cover
+requires some attempt and experience (Dzwonko 2007). However, many
+studies showed that comparison between observers yielded differences in
+the cover of recorded species (Leps, Hadincova 1992; Klimeš 2003) as
+well as between repeated estimates of the same observer (van Hees, Mead
+2000). We conducted several experiments with visual measurements of tree
+canopy, i.e. cover of tree layer and cover of herb layer in forest
+habitats. The experiments were performed with various raters differing
+in experience in fieldwork: from students to professional researchers.
+Several field methods were applied: canopyscope (Brown et al. 1999;
+Chmura et al. 2016), Braun-Blanquet approach, different scales of
+estimates; point method and a few vegetation types were chosen. Contrary
+to similar studies where usually descriptive statistics are shown we
+employed different statistical methods e.g. intra-class correlations,
+analyses of species pseudoturnover and nestedness - associated with loss
+of information among observes. The selected in R statistical methods
+turned out to be sensitive and robust tools. They revealed that even
+between professional researchers distinct differences appear. Pros and
+cons of available field methods are discussed and some possible
+improvements are suggested.
+
+**References**
+
+Braun-Blanquet, J. 1964. Pflanzensoziologie. Grundzüge der
+Vegetationskunde. Springer, Wien. Brown N., Jennings S., Wheeler P.
+Nabe-Nielsen J. 2000. An improved method for the rapid assessment of
+forest understorey light environments. Journal of Applied Ecology
+37:1044–1053. Chmura D., Salachna A., Sierka E. 2016 (in press)
+Comparison of visual estimation of the canopy cover with the canopyscope
+assessment. Sylwan 160. Dzwonko Z. 2007. Przewodnik do badań
+fitosocjologicznych. Sorus. Klimeš, L. 2003. Scale-dependent variation
+in visual estimates of grassland plant cover. J. Veg. Sci. 14: 815–821
+Lepš, J., Hadincová, V. 1992. How reliable are our vegetation analyses?
+J. Veg. Sci. 3: 119–124. Levy, E.B., Madden, E.A. 1933. The point method
+of pasture analysis. N.Z.J. Agric. 46: 267–269. van Hees, W.W.S., Mead,
+B.R. 2000. Ocular estimates of understory vegetation structure in a
+closed Picea glauca/Betula papyrifera forest. J. Veg. Sci. 11: 195–200.

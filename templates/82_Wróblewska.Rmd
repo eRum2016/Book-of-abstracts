@@ -1,0 +1,36 @@
+---
+title: "Search phrases in e-commerce platform allegro.pl - big data analysis using SparkR"
+author:
+ - name: "Anna Wróblewska"
+   affiliation: [1,2]
+   email: "anna.wroblewska@allegrogroup.com"
+   contact: yes
+ - name: "Liliana Pięta; Mariusz Strzelecki; Anna Wróblewska"
+   affiliation: [1,3]
+affiliation:
+ - "1. Allegro, Uniwersytet Ekonomiczny w Krakowie; 2. Allegro; 3. Allegro, Politechnika Warszawska"
+keywords: "text mining, spark, big data"
+packages: "sparkR; wordcloud; tm; rms"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+R is powerful tool for data visualization and analysis but it’s speed is
+limited to only one CPU speed. It stays in the opposite with current Big
+Data trend that focuses on gathering and analysing huge, terabyte-scale
+datasets in clustered environment. Combining R and Spark technology we
+can synergize power of the both tools and we can efficiently work on
+huge datasets. During the presentation we will show you our approach to
+analyze search phrases in the biggest polish e-commerce marketplace
+platform Allegro.pl. We try text mining methods on phrases that our
+users type into the search box. Moreover we analyse transactions and
+user search events and try to find out the associations between
+searching phrase and successful transactional event. We will focus on
+challenges we solved during adapting SparkR in Allegro and share
+difficulties we experienced.
+
+**References**
+
+NA

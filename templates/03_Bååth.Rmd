@@ -1,0 +1,30 @@
+---
+title: "A survey of tools for Bayesian data analysis in R"
+author:
+ - name: "Rasmus Bååth"
+   affiliation: [1,2]
+   email: "rasmus.baath@gmail.com"
+   contact: yes
+ - name: "Rasmus Bååth"
+   affiliation: [1,3]
+affiliation:
+ - "NA"
+keywords: "Bayesian data analysis; MCMC;"
+packages: "rjags; rstan; MCMCpack; R-INLA;"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Bayesian data analysis is an intuitive and straightforward framework for
+doing both inferential statistics and predictive analysis. Because of
+its popularity there is now a plethora of R-packages for fitting
+Bayesian models. This talk will guide you through the jungle and survey
+some of the most useful tools for doing Bayesian data analysis in R. The
+talk will feature concrete code examples throughout and does not assume
+that you have much prior knowledge about Bayesian statistics.
+
+**References**
+
+NA

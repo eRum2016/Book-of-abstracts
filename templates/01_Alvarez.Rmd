@@ -1,0 +1,27 @@
+---
+title: "Classic and network based cluster analysis: together we're better"
+author:
+ - name: "Adolfo Alvarez"
+   affiliation: [1,2]
+   email: "adolfo.alvarez@analyx.com"
+   contact: yes
+ - name: "Adolfo Alvarez"
+   affiliation: [1,3]
+affiliation:
+ - "Analyx"
+keywords: "Cluster analysis, networks, data visualization"
+packages: "NA"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+This talk present the SAGRA method, a new cluster analysis methodology
+which combines traditional and network based clustering techniques.
+Advantages of such combination are better performance and better
+visualization of results.
+
+**References**
+
+NA

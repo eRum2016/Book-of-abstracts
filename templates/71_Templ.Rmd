@@ -1,0 +1,24 @@
+---
+title: "Simulation of complex synthetic data with the R package simPop"
+author:
+ - name: "Matthias Templ"
+   affiliation: [1,2]
+   email: "NA"
+   contact: yes
+ - name: "NA"
+   affiliation: [1,3]
+affiliation:
+ - "NA"
+keywords: "NA"
+packages: "NA"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+NA
+
+**References**
+
+NA

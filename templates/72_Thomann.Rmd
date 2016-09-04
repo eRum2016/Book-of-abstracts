@@ -1,0 +1,69 @@
+---
+title: "SimonsSVM: A Fast and Scalable Support Vector Machine Implementation for R"
+author:
+ - name: "Philipp Thomann"
+   affiliation: [1,2]
+   email: "philipp.thomann@mathematik.uni-stuttgart.de"
+   contact: yes
+ - name: "Philipp Thomann; Ingo Steinwart"
+   affiliation: [1,3]
+affiliation:
+ - "ISA / University of Stuttgart; ISA / University of Stuttgart"
+keywords: "Support Vector Machine; Machine Learning; non-parametric classification; non-parametric regression"
+packages: "SimonsSVM; repo=http://www.isa.uni-stuttgart.de/software/R"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Support vector machines (SVMs) are non-parametric methods for various
+supervised learning scenarios like classification and regression. They
+have been studied extensively both theoretically and practically in the
+last 20 years. There are many well-known implementations also for R, for
+instance the package 'e1071' provides bindings to LIBSVM. We present our
+recent package Simons' SVM for R with the following key features:
+
+UNPRECEDENTED SPEED: - Compared to, e.g. LIBSVM, training that includes
+5-fold cross validation on a 10x10 hyper-parameter grid is about 300
+times faster on, e.g. a 1000 samples containing subset of the binary
+version of the classical covertype dataset. - Partitioning strategies
+further decrease training (and testing) time without sacrifying
+generalization. For example, the full covertype data set (about 523.000
+samples) takes less than 9min. - Partitioning even allows to attack huge
+problems. For instance the higgs data set (10 million samples) could be
+trained and tested in five hours.
+
+INCLUSION OF SOME STANDARD LEARNING SCENARIOS: - (weighted) binary
+classification - multiclass classification (both AvA and OvA) -
+Neyman-Pearson-type classification - Least squares / quantile /
+expectile regression
+
+FLEXIBLE USER INTERFACE: - Fully integrated cross validation let's the
+user focus on parameters he/she can understand. - The underlying
+implementation have more than twenty independent otions leading to an
+enormeous flexibility for the power user. - Meaningful default values,
+which in many cases makes a fine-adjustment unneccesary. - Comprehensive
+documentation.
+
+Quick demo:
+
+install.packages("SimonsSVM",
+repos="<http://www.isa.uni-stuttgart.de/software/R>") library(SimonsSVM)
+
+d &lt;- ttsplit(iris) model &lt;- svm(Species ~ .,
+d*t**r**a**i**n*)*t**e**s**t*(*m**o**d**e**l*, *d*test)
+
+More information:
+
+<http://www.isa.uni-stuttgart.de/software/R/demo.html>
+<http://www.isa.uni-stuttgart.de/software/R/documentation.html>
+
+**References**
+
+-   For the hinge loss, the solver design has already been published in
+    <http://www.jmlr.org/papers/volume12/steinwart11a/steinwart11a.pdf>
+-   For the expectile regression, the solver has been recently developed
+    in <http://arxiv.org/pdf/1507.03887v1>
+-   Some of the partitioning strategies have been described in
+    <http://arxiv.org/pdf/1507.06615v1>

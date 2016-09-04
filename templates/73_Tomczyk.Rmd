@@ -1,0 +1,28 @@
+---
+title: "R gRaph libRaRies"
+author:
+ - name: "Agnieszka Tomczyk"
+   affiliation: [1,2]
+   email: "agnieszka.tomczyk94@gmail.com"
+   contact: yes
+ - name: "Agnieszka Tomczyk"
+   affiliation: [1,3]
+affiliation:
+ - "Lodz University of Technology"
+keywords: "data visualization, plot, graph, graphics, ggplot2, lattice, plotly"
+packages: "graphics, ggplot2, lattice, plotly"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+R gRaph libRaRies: On my poster I want to juxtapose and compare
+different R graph packages. I am a budding R user, but already an
+addict, therefore I intend to help beginners understand differences in
+packages and choose the most appropriate for various purposes.
+
+**References**
+
+P. Biecek, "Zbiór esejów o sztuce prezentowania danych"; P. Biecek,
+"Przewodnik po pakiecie R"

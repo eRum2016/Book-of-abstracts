@@ -1,0 +1,55 @@
+---
+title: "Exploratory data analysis of a clinical study group - revealing patient subgroups."
+author:
+ - name: "Bogumil Konopka"
+   affiliation: [1,2]
+   email: "bogumil.konopka@pwr.edu.pl"
+   contact: yes
+ - name: "Bogumil M. Konopka; Felicja Lwow; Łukasz Łaczmański"
+   affiliation: [1,3]
+affiliation:
+ - "Wroclaw University of Science and Technology; The University School of Physical Education in Wroclaw; Wroclaw Medical University"
+keywords: "Clustering, outlier detection, PCA"
+packages: "clv; ggplot2; chemometrics"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Thorough knowledge of the structure of analyzed data allows to form
+precise research questions. The data structure and basic associations
+between parameters in the data can be revealed with methods for
+exploratory data analysis. Currently a researcher has a whole plethora
+of exploratory tools to choose from. Selecting methods that will work
+together well and facilitate data interpretation is not an easy task. In
+this work we present a well fitted set of tools for a complete
+exploratory analysis of a clinical study dataset and perform a case
+study analysis on a set of 515 patients. The proposed procedure
+comprises several steps: (1)robust data normalization, (2)outlier
+detection with Mahalanobis(MD) and robust Mahalanobis distances(rMD)
+\[1\], (3)hierarchical clustering with Ward’s algorithm \[2\],
+(4)Principal Component Analysis with biplot vectors \[3\]. Introductory
+analysis showed that the case-study dataset comprises two clusters
+separated along the axis of sex hormone attributes. Further analysis was
+carried out separately for male and female patients. The most optimal
+partitioning in the male set resulted in five subgroups. Two of them
+were related to diseased patients: 1)diabetes and 2)gonadotroph adenoma
+patients. Analysis of the female set suggested that it was more
+homogeneous than the male dataset. No evidence of pathological patient
+subgroups were found. In the study we showed that outlier detection with
+MD and rMD allows not only to identify outliers but can also assess the
+heterogeneity of a dataset. The case study proved that our procedure is
+well suited for identification and visualization of biologically
+meaningful patient subgroups.
+
+**References**
+
+\[1\] Mahalanobis PC, On the generalised distance in statistics,
+Proceedings of the National Institute of Science of India 12 1936.
+49–55. \[2\] Murtagh F, Legendre P. Ward's hierarchical agglomerative
+clustering method: which algorithms implement Ward's criterion? Journal
+of Classification, 2014, 31 (3), 274-295 \[3\] Gabriel KR, The biplot
+graphic display of matrices with application to principal component
+analysis., Biometrika (1971) 58 (3): 453-467
+<doi:10.1093/biomet/58.3.453>

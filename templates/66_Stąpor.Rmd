@@ -1,0 +1,55 @@
+---
+title: "Heteroscedastic Discriminant Analysis and its integration into “mlR” package for uniform machine learning"
+author:
+ - name: "Katarzyna Stąpor"
+   affiliation: [1,2]
+   email: "katarzyna.stapor@polsl.pl"
+   contact: yes
+ - name: "Katarzyna Stąpor"
+   affiliation: [1,3]
+affiliation:
+ - "Silesian Technical University, Institute of Computer Science"
+keywords: "discriminant analysis, machine learning, heteroscedasticity, mlR package"
+packages: "5. B. Bischl et al. Machine Learning in R (mlR package): https://cran.r-project.org/-web/packages/mlr/index.html"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The “mlR” package (machine learning in R) offers a unified interface to
+access various machine learning algorithms from other packages in R.
+This framework provides supervised methods like classification,
+regression and survival analysis along with their corresponding
+evaluation and optimization methods, as well as unsupervised methods
+like clustering. It is written in a way that you can extend it yourself
+or deviate from the implemented convenience methods and construct your
+own complex experiments or algorithms. As an example, it will be shown
+how to integrate into the “mlR” package the new, proposed by us learner,
+the Heteroscedastic Discriminant Analysis (HDA), being the extension of
+the classical Fisher Linear Discriminant Analysis (FDA), implemented in
+the “base” package. HDA is the extension of FDA for dealing with the
+case of unequal covariance matrices in the populations, the situation
+that occurs very often in practice. The new implemented permutation test
+for testing the equality of covariance matrices will be presented, too.
+Integration the new learner into “mlR” requires defining the learner
+itself with the name, description, parameters, and a few other things,
+then providing the function that calls the learner function and builds
+the model given the data, and finally, a prediction function that
+returns predicted values given new data. The example of usage the new
+HDA learner on the real world credit dataset will also be presented.
+
+**References**
+
+1.  Krzyśko M. (1990). Discriminant analysis, WNT, Warszawa (in Polish).
+2.  Loog M., Duin R. (2002). Non-iterative heteroscedastic linear
+    dimension reduction for two-class data: from Fisher to Chernoff.
+    Proc. 4th Int. Workshop S+SSPR, pp. 508-517.
+3.  Stąpor K. (2011). Classification methods in computer vision. PWN,
+    Warszawa (in Polish).
+4.  K.Stąpor, T. Smolarczyk, P. Fabian. Heteroscedastic discriminant
+    analysis combined with feature selection for credit scoring.
+    STATISTICS IN TRANSITION New Series, June 2016, v. 17. Nr 2, pp.
+    1-16
+5.  B. Bischl et al. Machine Learning in R (mlR package):
+    <https://cran.r-project.org/-web/packages/mlr/index.html>

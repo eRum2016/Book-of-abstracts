@@ -1,0 +1,40 @@
+---
+title: "Enterprise R Platform – the what, the why and the how"
+author:
+ - name: "David Kun"
+   affiliation: [1,2]
+   email: "david.kun@functionalfinances.com"
+   contact: yes
+ - name: "Gergely Mark; Csongor Somogyi; David Kun"
+   affiliation: [1,3]
+affiliation:
+ - "ownr.io; Functional Finances Ltd"
+keywords: "R, deployment, process, control, enterprise"
+packages: "base; roveR; shiny;"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+In this talk we will introduce a concept for an Enterprise R Platform,
+starting with expectations towards such a platform, followed by the
+benefits and finally giving a reference implementation architecture and
+a case study. R users in enterprise settings are often building shadow
+IT, with no controls but also no access to efficient code sharing,
+automation, deployment, version control, etc. This also means that
+others in the enterprise cannot benefit from the R-based solutions. Our
+proposed architecture addresses all of these issues by introducing a
+playground for the R users and a deployment process supporting all the
+flexibility needed while subject to regular controls. Our solution also
+includes a way to separate the R projects within a single environment,
+so different versions of the same package can be installed for instance.
+Finally, by providing a REST API, we enable non-R users to embed the
+R-based tools in any other application in the enterprise, ranging from
+MS Excel via Java-based ETL tools like Informatica and MI/BI tools like
+Business Objects up to and including in-house solutions created in other
+languages.
+
+**References**
+
+NA

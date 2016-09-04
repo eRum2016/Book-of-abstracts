@@ -1,0 +1,24 @@
+---
+title: "Browse Till You Die: Scalable Hierarchical Bayesian Modeling of cookie deletion"
+author:
+ - name: "Jakub Glinka"
+   affiliation: [1,2]
+   email: "NA"
+   contact: yes
+ - name: "Jakub Glinka"
+   affiliation: [1,3]
+affiliation:
+ - "NA"
+keywords: "NA"
+packages: "NA"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+NA
+
+**References**
+
+NA

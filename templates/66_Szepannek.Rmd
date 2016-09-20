@@ -1,0 +1,34 @@
+---
+title: "k Prototypes Clustering of Mixed Type Data"
+author:
+ - name: "Gero Szepannek"
+   affiliation: [1]
+   email: "gero.szepannek@fh-stralsund.de"
+   contact: yes
+ - name: "Gero Szepannek"
+   affiliation: [2,3]
+affiliation:
+ - "Stralsund University of Applied Sciences"
+keywords: "Clustering; Data Mining; Classification; k prototypes; Multivariate Statistics"
+packages: "clustMixType; klaR; cluster; fpc"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Most literature in mutlivariate Statistics deals with numeric data, same
+for clustering. In practical applications the analyst is often
+confronted with mixed type data of both numeric and factor variables.
+Hierarchical clustering can easily be extended to categorical data by
+specification of an apropriate (dis)similarity measure like e.g. Gower
+distance. The k means algorithm relies on euclidean distance. The klaR
+package offers an R implementation of the k modes extension to the k
+means algorithm for categorical data. Further, the recent clustMixType
+package also makes the k prototypes generalization to mixed type data
+(Huang, 1998) acessible to R users. Both algorithms are presented
+together with their usage in R.
+
+<!--  -->
+<!-- **References** -->
+<!-- Z.Huang (1998): Extensions to the k-Means Algorithm for Clustering Large Data Sets with Categorical Variables, Data Mining and Knowledge Discovery 2, 283-304. -->

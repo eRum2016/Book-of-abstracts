@@ -1,0 +1,33 @@
+---
+title: "Modelling the distrubution of the bryophytes in different spatial scales"
+author:
+ - name: "Sylwia Wierzcholska"
+   affiliation: [1]
+   email: "sylwia.wierzcholska@gmail.com"
+   contact: yes
+ - name: "1. Sylwia Wierzcholska, 2,3. Marcin K. Dyderski 2,3. Andrzej M. Jagodziński"
+   affiliation: [2,3]
+affiliation:
+ - "1. University of Warsaw, Białowieża Geobotanical Station; 2. Institute of Dendrology, Polish Academy of Sciences; 3. Poznań University of Life Sciences, Faculty of Forestry, Department of Game Management and Forest Protection"
+keywords: "species distribution model, biodiversity, plant ecology, predictive modelling, mosses, forest"
+packages: "dismo, rasterVis"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Species distribution models (SDM) are mathematical models describing
+distribution of species within environmental (ecological) and
+geographical space. For example, these models are used for biodiversity
+conservation in two ways: to find out threatened species requirements
+and to predict spread of invasive species. We aimed to model
+distribution of Dicranum viridein Poland and in Europe and compare its
+ecological niches obtained by these two models. We choseD. viride, as
+this easily-recognizable species is a subject of Natura 2000 protection
+and an ancient forest species, may be an umbrella species for numerous
+bryophyte species occurring on decaying wood and in old woodlands.
+
+<!--  -->
+<!--  -->
+<!--  -->

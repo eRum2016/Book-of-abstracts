@@ -1,0 +1,50 @@
+---
+title: "Genie: A new, fast, and outlier-resistant hierarchical clustering algorithm and its R interface"
+author:
+ - name: "Marek Gągolewski"
+   affiliation: [1]
+   email: "marek@gagolewski.com"
+   contact: yes
+ - name: "Marek Gagolewski"
+   affiliation: [2,3]
+affiliation:
+ - "Systems Research Institute, Polish Academy of Sciences"
+keywords: "hierarchical clustering, single linkage, inequity measures, Gini-index"
+packages: "genie"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The time needed to apply a hierarchical clustering algorithm is most
+often dominated by the number of computations of a pairwise
+dissimilarity measure. Such a constraint, for larger data sets, puts at
+a disadvantage the use of all the classical linkage criteria but the
+single linkage one. However, it is known that the single linkage
+clustering algorithm is very sensitive to outliers, produces highly
+skewed dendrograms, and therefore usually does not reflect the true
+underlying data structure - unless the clusters are well-separated.
+
+To overcome its limitations, we proposed a new hierarchical clustering
+linkage criterion called *Genie* (Gagolewski, Bartoszuk, Cena, 2016).
+Namely, our algorithm links two clusters in such a way that a chosen
+economic inequity measure (e.g., the Gini or Bonferroni index) of the
+cluster sizes does not increase drastically above a given threshold.
+
+Benchmarks indicate a high practical usefulness of the introduced
+method: it most often outperforms the Ward or average linkage in terms
+of the clustering quality while retaining the single linkage speed. The
+algorithm is easily parallelizable and thus may be run on multiple
+threads to speed up its execution further on. Its memory overhead is
+small: there is no need to precompute the complete distance matrix to
+perform the computations in order to obtain a desired clustering.
+
+In this talk we will discuss its reference implementation, included in
+the *genie* package for R.
+
+<!--  -->
+<!-- **References** -->
+<!-- Gagolewski M., Bartoszuk M., Cena A.,
+ Genie: A new, fast, and outlier-resistant hierarchical clustering algorithm,
+ *Information Sciences*, 2016, doi:10.1016/j.ins.2016.05.003. -->

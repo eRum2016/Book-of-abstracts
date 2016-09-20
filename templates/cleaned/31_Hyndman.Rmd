@@ -1,0 +1,24 @@
+---
+title: "Reconciling forecasts: the hts package"
+author:
+ - name: "Robin Hyndman"
+   affiliation: [1]
+   email: "NA"
+   contact: yes
+ - name: "NA"
+   affiliation: [2,3]
+affiliation:
+ - ""
+keywords: "NA"
+packages: ""
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+NA
+
+<!--  -->
+<!--  -->
+<!--  -->

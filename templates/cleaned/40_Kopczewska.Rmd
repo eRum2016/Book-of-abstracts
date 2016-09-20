@@ -1,0 +1,38 @@
+---
+title: "Geo-located point data: measurement of agglomeration and concentration"
+author:
+ - name: "Katarzyna Kopczewska"
+   affiliation: [1]
+   email: "kkopczewska@wne.uw.edu.pl"
+   contact: yes
+ - name: "Katarzyna Kopczewska"
+   affiliation: [2,3]
+affiliation:
+ - "Unievrsity of Warsaw, Faculty of Economic Sciences"
+keywords: "spatial location; agglomeration; specialization; SPAG; Ripley's K"
+packages: "rgeos; spdep; sp; rgdal; dbmss"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Geo-located points, representing locations of business and other units
+can be analysed with regard to agglomeration and concentration patterns,
+which in fact indicate a density of region’s coverage with the economic
+activity. There is plenty of measures on territorially aggregated data
+(so called cluster-based measures) and just few on geo-located
+individual data (so called distance-based measures) as SPAG or Ripley’s
+K. This is to present current possibilities of statistical analysis of
+geo-located data in R, as well its applications in regional science. It
+would consider the sensitivity of measures for different spatial
+patterns. Spatial package rgeos allows for treating points as
+geometries, what expands significantly the analytical capabilities. One
+can also see the neighbourhood relations between points, which can be
+applied further in econometric models.
+
+<!--  -->
+<!-- **References** -->
+<!-- Kopczewska, K., Churski, P., Ochojski, A., & Polko, A. (2015). SPAG: Index of spatial agglomeration, ERSA Working Paper http://www.ersa.org.pl/files/1414/5261/0442/ERSA_Working_Papers_Vol2015_No1.pdf 
+ 
+ Marcon, E., & Puech, F. (2009). Measures of the geographic concentration of industries: improving distance-based methods. Journal of Economic Geography, lbp056. -->

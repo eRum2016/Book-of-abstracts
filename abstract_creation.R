@@ -5,10 +5,10 @@ library('RefManageR')
 library('rmarkdown')
 library('purrr')
 library('dplyr')
-#devtools::install_github('eRum2016/erum')
+# devtools::install_github('eRum2016/erum')
 
-## Reading of google sheet data
-# gs_auth(new_user = TRUE)
+# Reading of google sheet data
+gs_auth(new_user = TRUE)
 gap_url <- "https://docs.google.com/spreadsheets/d/1EvGkOt-N_qaGaza9q9j8il4Iw1qNKTcSqT7pRErEk_Q/edit?ts=57bcbc93#gid=0"
 gap <- gap_url %>% gs_url()
 sheet <- gs_read(gap)
@@ -28,6 +28,8 @@ abstract_creation <- function(id, df){
                output_file=paste0(output_name, '.Rmd'))
         ifelse(!dir.exists(file.path("templates")), dir.create(file.path(templates)), FALSE)
         file.rename(paste0(output_name, '.Rmd'), paste0("templates/", paste0(output_name, '.Rmd')))
+        file.copy(paste0("templates/", output_name, '.Rmd'), paste0("templates/cleaned"), overwrite=TRUE)
 }
 
 sheet$id %>% map(~abstract_creation(., sheet))
+

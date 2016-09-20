@@ -1,0 +1,30 @@
+---
+title: "„Turning R into production – make your models reality”"
+author:
+ - name: "Michal Zylinski"
+   affiliation: [1]
+   email: "michalz@microsoft.com"
+   contact: yes
+ - name: "Michał Żyliński"
+   affiliation: [2,3]
+affiliation:
+ - ""
+keywords: "model deployment, Hadoop, scalability, interoperability, big data"
+packages: ""
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Rapid popularity growth of R language among not only academic, but
+commercial communities poses also a few technical challenges. How to
+make R code interoperable and easily accessible to developer team? How
+to scale your models to sustain business needs? How to overcome initial
+hurdles, caused by introducing yet another technology stack? My session
+will cover a few practical solutions that aim to resolve such
+difficulties in real-life scenarios.
+
+<!--  -->
+<!--  -->
+<!--  -->

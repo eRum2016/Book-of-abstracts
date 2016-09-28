@@ -1,0 +1,26 @@
+---
+title: "Ensemble learning - idea and applications"
+author:
+ - name: "Mateusz Filarowski"
+   affiliation: [1]
+   email: "Marta_Swiniarska@mckinsey.com"
+   contact: yes
+affiliation:
+ - "McKinsey"
+keywords: "machine learning; ensemble learning; data mining"
+packages: "mlr"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+In every winning Kaggle solution nowadays you will find an ensemble
+technique. Latest and greatest methods of combining results from
+multiple learning algorithms can lead to better predictive performance.
+This lecture will give you an overview of techniques and real-world
+business cases.
+
+<!--  -->
+<!--  -->
+<!--  -->

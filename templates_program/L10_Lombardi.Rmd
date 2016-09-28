@@ -1,0 +1,23 @@
+---
+title: "Analysing the statistical effects of manipulated data"
+author:
+ - name: "Luigi Lombardi"
+   affiliation: [1]
+   email: "luigi.lombardi@unitn.it"
+   contact: yes
+ - name: "Marco Bressan"
+   affiliation: [1]
+affiliation:
+ - "Department of Psychology and Cognitive Science, University of Trento"
+keywords: "manipulated data; probabilistic models; generative models, sample generation by replacement "
+packages: ""
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Many self-report measures collected in different research fields such as, for example, social and psychological studies, marketing and epidemiological studies may be affected by manipulated information by respondents. For example, an individual may deliberately attempt to manipulate or distort responses to simulate grossly exaggerated psychiatric symptoms in order to obtaining financial compensation or avoiding being charged with a crime. However, in other situations data manipulation can arise without a clear intention or goal by the respondent, for example, when an answer to a question is given under time pressure, or in heavily stressing contexts (e.g. during a job interview). Despite the reasons and motivations that induce people to (voluntarily or involuntarily) manipulate data can be different across contexts and situations, we believe that these processes can be represented by a single but flexible probabilistic model. In this contribution, we introduce an **R** package, called *sgr*, that can be used to perform data analysis on manipulated data according to a sample generation by replacement approach. The package includes functions for making simple inferences about discrete, ordinal as well as categorical data under one or more scenarios of data manipulation. The package also allows to quantify uncertainty in inferences based on possible manipulated data as well as to study the implications of manipulated data for empirical results.
+<!--  -->
+<!--  -->
+<!--  -->

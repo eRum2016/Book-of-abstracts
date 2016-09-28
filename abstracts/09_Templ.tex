@@ -1,0 +1,82 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Simulation of complex synthetic data with the R package simPop}
+
+\begin{center}
+  {\bf Matthias Templ$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Vienna University of Technology \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:matthias.templ@gmail.com}{\nolinkurl{matthias.templ@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords synthetic data; complex sample designs; population data; prediction
+\packages popSim
+\end{minipage}
+
+\vskip 0.8cm
+
+The production of synthetic datasets has been proposed as a statistical
+disclosure control solution to generate public use files out of
+protected data. This is also a tool to create ``augmented datasets'' to
+serve as input for micro-simulation models, and -- more generally -- the
+synthetic data sets can be used for design-based simulation studies in
+general. The performance and acceptability of such a tool relies heavily
+on the quality of the synthetic data, i.e.~on the statistical similarity
+between the synthetic and the true population of interest. Multiple
+approaches and tools have been developed to generate synthetic data.
+These approaches can be categorized into three main groups: synthetic
+reconstruction, combinatorial optimization, and model-based generation.
+We introduce \emph{simPop}, an open source data synthesizer.
+\emph{simPop} is a user-friendly \textbf{R} package based on a modular
+object-oriented concept. It provides a highly optimized S4 class
+implementation of various methods, including calibration by iterative
+proportional fitting and simulated annealing, and modeling or data
+fusion by logistic regression, regression tree methods and many other
+methods.
+
+\end{document}

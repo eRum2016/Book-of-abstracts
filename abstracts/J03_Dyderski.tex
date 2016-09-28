@@ -1,0 +1,92 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Is forest a pharmacy? - problems with data analyses}
+
+\begin{center}
+  {\bf Marcin Dyderski$^{1, 2^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Institute of Dendrology, Polish Academy of Sciences \\[-2pt]
+\item Department of Game Management and Forest Protection, Poznan University
+of Life Sciences \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:Marcin.Dyderski@gmail.com}{\nolinkurl{Marcin.Dyderski@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords forest ecology; data mining; visualisation; linear models
+\packages caret; randomforest; ggplot2; hglm; sp; rgeos
+\end{minipage}
+
+\vskip 0.8cm
+
+\textbf{Scientific supervisor}: Dr.~Andrzej M. Jagodzinski
+
+Forest ecology is a specific branch of ecology, where due to extent
+spatial scale and large dimensions of individual objects we often need a
+special approaches. The aim of this presentation is to show a few case
+studies representing frequent analytical problems in forest ecology and
+its sources. I will present problem with unknown variability of studied
+phenomena on the example of individual biomass of herbaceous forest
+understory plant species. Although minimal sample size was unknown, the
+biggest analytical problem was discontinuity of species occurrences,
+connected with their specific biology. Thus, instead of two-factor
+analyses we performed simple ANOVA and exploratory data analysis to find
+specific patterns. In case of the study on alien species natural
+regeneration, due to high amount of zero values and lack of good
+explanatory variables, we were forced to simplify our densities data
+into presence-absence and use logistic model to find interactions
+between type of tree stand and distance from the seed source. However,
+this interaction is hard to find without graphical data exploration. I
+also will present the study in coarser spatial scale, based mainly on
+published data on ancient woodland indicator species. This study is a
+simple analyses of species richness and use of random forest model to
+analyze highly-collinear variables -- land-use types within grid square.
+Here I will show that simple (ANOVA) and more sophisticated (Poisson
+Hierarchic GLM with SAR) statistical approach lead into the same
+conclusions. I will also discuss potential sources of outliers and
+artifacts, which may be important threat for results interpretation.
+
+\end{document}

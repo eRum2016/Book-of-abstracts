@@ -1,0 +1,76 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{The full process of creating an R application in recommendation systems:
+from Dockerfile to Zabbix monitoring}
+
+\begin{center}
+  {\bf Natalia Potocka$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Grupa Wirtualna Polska \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:Natalia.Potocka@grupawp.pl}{\nolinkurl{Natalia.Potocka@grupawp.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords R application; docker; monitoring
+\packages rkafka; elastic; httr; RJBDC; RZabbix
+\end{minipage}
+
+\vskip 0.8cm
+
+The presentation covers the main steps of creating a reproducible
+\textbf{R} application. First of all, there is a need of collecting the
+data. We present how to receive it from various sources, including
+Kafka, Elasticsearch or Hadoop (with the help of suitable \textbf{R}
+packages). After transforming the data, doing the necessary calculations
+and obtaining the desired outcome we show how to push out the results.
+When the application is ready and running, it needs to be controlled. We
+present the proccess of creating reliable monitoring (with the help of
+Zabbix and Hipchat notifications). All of that can be wrapped up in a
+Docker to make the application reproducible in different environments
+and platforms.
+
+\end{document}

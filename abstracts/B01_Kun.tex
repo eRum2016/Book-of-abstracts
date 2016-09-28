@@ -1,0 +1,82 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Enterprise R Platform -- the what, the why and the how}
+
+\begin{center}
+  {\bf Gergely Mark$^{1}$, Csongor Somogyi$^{1}$, David Kun$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item ownr.io; Functional Finances Ltd \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:david.kun@functionalfinances.com}{\nolinkurl{david.kun@functionalfinances.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords deployment; process; control; enterprise
+\packages base; roveR; shiny;
+\end{minipage}
+
+\vskip 0.8cm
+
+In this talk we will introduce a concept for an Enterprise \textbf{R}
+Platform, starting with expectations towards such a platform, followed
+by the benefits and finally giving a reference implementation
+architecture and a case study. \textbf{R} users in enterprise settings
+are often building shadow IT, with no controls but also no access to
+efficient code sharing, automation, deployment, version control, etc.
+This also means that others in the enterprise cannot benefit from the
+\textbf{R}-based solutions. Our proposed architecture addresses all of
+these issues by introducing a playground for the \textbf{R} users and a
+deployment process supporting all the flexibility needed while subject
+to regular controls. Our solution also includes a way to separate the
+\textbf{R} projects within a single environment, so different versions
+of the same package can be installed for instance. Finally, by providing
+a REST API, we enable non-\textbf{R} users to embed the \textbf{R}-based
+tools in any other application in the enterprise, ranging from MS Excel
+via Java-based ETL tools like Informatica and MI/BI tools like Business
+Objects up to and including in-house solutions created in other
+languages.
+
+\end{document}

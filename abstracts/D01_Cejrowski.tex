@@ -1,0 +1,84 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Power of Java's RSession and rKafka in the data science team
+collaboration}
+
+\begin{center}
+  {\bf Paweł Cejrowski$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Grupa Wirtualna Polska \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:pcejrowski@gmail.com}{\nolinkurl{pcejrowski@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords integration; microservices; rsession; kafka; team collaboration
+\packages rkafka
+\end{minipage}
+
+\vskip 0.8cm
+
+The times of single geniuses able to solve most advanced problems of the
+technical industry passed away. Nowadays, it is necessary to collaborate
+and support each other within teams. When it comes to Data Science
+teams, they are cross-functional and consist of people possessing
+different skills and having different duties. When working on a single
+product mathematicians, statisticians and engineers have to find right
+ways of exchanging and interfacing their piece of work. Unfortunately,
+not only they think differently, but they also use different platforms
+and languages. It implies in creating solutions for integration. One
+well known way of co-working is embedding code in different language in
+your own software. As an example, \textbf{R} code can be invoked from
+Java family languages using RSession. Another way of collaboration is
+passing messages throughout a middleware. Best known messaging system is
+Apache Kafka, originally developed by Linkedin. It is distributed among
+cluster nodes and allows high-throughput in a publish-subscribe manner
+and what is more important can be accessed from \textbf{R} code using
+\emph{rKafka} package. In my presentation, I am going to familiarize you
+with those subjects and prepare for using them in production. There are
+a few tricks that will make your life easier.
+
+\end{document}

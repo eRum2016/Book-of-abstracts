@@ -1,0 +1,82 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Addressing the Gender Gap in the R Project}
+
+\begin{center}
+  {\bf Heather Turner$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item University of Warwick \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:ht@heatherturner.net}{\nolinkurl{ht@heatherturner.net}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords R community; package development
+\end{minipage}
+
+\vskip 0.8cm
+
+Despite \textbf{R}'s origins in the discipline of statistics and the
+strong uptake of \textbf{R} in fields such as ecology and genomics,
+where women are well represented in the workforce, the \textbf{R}
+developer community looks more like that of computer science generally,
+where women are in a distinct minority. If we consider contributions to
+the \textbf{R} project, the situation is even worse. How can we
+encourage more women to become developers and leaders in the \textbf{R}
+community?
+
+Earlier this year the \textbf{R} Foundation, a not-for-profit
+organisation set up to support the \textbf{R} project
+(\url{https://www.r-project.org/foundation/}), established a task force
+to explore this question and to take actions to address the gender gap
+(\url{http://forwards.github.io/};
+\url{https://twitter.com/RWomenTaskforce}). In this talk I will give an
+overview of the activities of the taskforce so far and our plans for the
+future. I will also share some tips for women looking to get more
+involved and ideas of ways everyone can help to make our community more
+inclusive.
+
+\end{document}

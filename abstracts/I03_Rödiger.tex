@@ -1,0 +1,90 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{R as an Environment for the Reproducible Analysis of DNA Amplification
+Experiments}
+
+\begin{center}
+  {\bf Stefan Rödiger$^{1^\star}$, Michal Burdukiewic$^{2}$, Peter Schierac$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Institute of Biotechnology, Brandenburg University of Technology
+Cottbus-Senftenberg \\[-2pt]
+\item Department of Genomics, University of Wroclaw \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:stefan.roediger@b-tu.de}{\nolinkurl{stefan.roediger@b-tu.de}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords bioinfrmatics; qPCR; digital PCR; reproducible research;non-linear
+regression; smoothing; pre-processingI;
+\packages chipPCR; dpcR; MBmca; RDML; rkwarddev; qpcR
+\end{minipage}
+
+\vskip 0.8cm
+
+Quantitative PCR (qPCR), digital PCR (dPCR), quantitative isothermal
+amplification (qIA) and melting curve analysis (MCA) are key
+technologies in molecular diagnostics, forensics and life sciences.
+However, software for the biostatistical data analysis of such
+technologies is either tied to a specific task or part of a monolithic
+closed source software. This limits the reproducibility of computations
+and gives no control over the analysis algorithms.
+
+We contributed bioinformatics software tools for reproducible and
+transparent data analysis. Analysis pipelines consisting of statistical
+procedures, raw data preprocessing, analysis, charts and report
+generation are implemented for increasingly demanded reproducible
+research. This is achieved with our packages \emph{MBmca},
+\emph{chipPCR}, \emph{dpcR} and \emph{RDML}. We implemented selected
+findings for the \textbf{R} GUI/IDE RKWard and as \emph{shiny} web
+browser applications. For rapid prototyping of RKWard plugins we used
+the \emph{rkwarddev} package.
+
+In our exemplary workflows we show analyzers for qPCR, qIA, MCA and dPCR
+experiments, which can be build in short development cycles. Our
+software is targeted at users who develop novel devices or users who
+wish to analyze raw and unprocessed data.
+
+\end{document}

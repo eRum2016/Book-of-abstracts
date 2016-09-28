@@ -1,0 +1,91 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{What are sampling errors in the vegetation studies using visual
+estimation of presence and cover of plants? R can help}
+
+\begin{center}
+  {\bf Damian Chmura$^{1^\star}$, Anna Salachna$^{1}$, Edyta Sierka$^{2}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item University of Bielsko-Biala \\[-2pt]
+\item University of Silesia \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:dchmura@ath.bielsko.pl}{\nolinkurl{dchmura@ath.bielsko.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords repeatability; interrater reliability, agreement; intraclass correlation
+coefficient
+\packages nlme; multilevel; irr; betapart; vegan
+\end{minipage}
+
+\vskip 0.8cm
+
+In vegetation science (e.g.~phytosociology), visual estimates of plant
+cover belong to the most frequently used descriptors. The main reason
+for their attractiveness lies in the very low cost of the data obtained
+in this way, both in terms of labour, time and equipment. However, they
+are a subjective methods which result in sampling error, difficult to
+control. It is emphasised that using the visible estimation of cover
+requires some attempt and experience. However, many studies showed that
+comparison between observers yielded differences in the cover of
+recorded species as well as between repeated estimates of the same
+observer. We conducted several experiments with visual measurements of
+tree canopy, i.e.~cover of tree layer and cover of herb layer in forest
+habitats. The experiments were performed with various raters, differing
+in experience in fieldwork: from students to professional researchers.
+Several field methods were applied: canopyscope, Braun-Blanquet
+approach, different scales of estimates; point method and a few
+vegetation types were chosen. Contrary to similar studies, where usually
+descriptive statistics are shown, we employed different statistical
+methods e.g.~intra-class correlations, analyses of species
+pseudoturnover and nestedness -- associated with loss of information
+among observes. The selected in \textbf{R} statistical methods turned
+out to be sensitive and robust tools. They revealed that even between
+professional researchers distinct differences appear. Advantages and
+disadvantages of available field methods are discussed and some possible
+improvements are suggested.
+
+\end{document}

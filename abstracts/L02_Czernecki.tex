@@ -1,0 +1,91 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Machine learning modeling of phenological phases in Poland}
+
+\begin{center}
+  {\bf Bartosz Czernecki$^{1^\star}$, Jakub Nowosad$^{2}$, Katarzyna Jabłońska$^{3}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Adam Mickiewicz University in Poznań, Department of Climatology \\[-2pt]
+\item Adam Mickiewicz University, Department of Geoinformation \\[-2pt]
+\item Institute of Meteorology and Water Management - National Research
+Institute \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:nwp@amu.edu.pl}{\nolinkurl{nwp@amu.edu.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords phenology; machine learning; modeling; satellite; meteorology;
+climatology
+\packages caret; raster; Boruta; parallel
+\end{minipage}
+
+\vskip 0.8cm
+
+Changes in timing of phenological phases are important proxies in
+contemporary climate research. The aim of the study was to create and
+evaluate different statistical models for reconstructing and predicting
+the selected phenological phase within \emph{caret} \textbf{R} package.
+Three types of data sources were applied as predictors:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  satellite derived products,
+\item
+  preprocessed gridded meteorological data
+\item
+  spatial features (longitude, latitude, altitude) of the monitoring
+  sites.
+\end{enumerate}
+
+The obtained results has shown potential for coupling meteorological
+derived indices with remote sensing products in terms of phenological
+(late spring) modelling. It was also shown that choosing a specific set
+of predictors and applying a robust preprocessing procedures is more
+affecting final results than applying a statistical model.
+
+\end{document}

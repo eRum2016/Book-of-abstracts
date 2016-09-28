@@ -1,0 +1,83 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Seamless external R server integration with Excel with step-by-step
+debugging of the R code}
+
+\begin{center}
+  {\bf Adam Ryczkowski$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item statystyka.net \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:adam@statystyka.net}{\nolinkurl{adam@statystyka.net}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords Excelsi-R; Rstudio; Excel; VBA
+\packages Rserve; svSocket
+\end{minipage}
+
+\vskip 0.8cm
+
+Excel can be a great UI for repetitive, semi-interactive \textbf{R}
+procedures. I want to present (yet another) solution that allows using
+\textbf{R} commands in Excel. It features:
+
+\begin{itemize}
+\tightlist
+\item
+  ability to connect to external \textbf{R} server so you don't have to
+  be limited by local RAM/CPU
+\item
+  inspection of variables on external \textbf{R} server
+\item
+  compatibility with RStudio with its awesome step-by-step debugging
+  capabilities
+\end{itemize}
+
+This setup allowed me to create Excel front end for analysis of dataset
+with \textgreater{}4M cases and 400 variables.
+
+\end{document}

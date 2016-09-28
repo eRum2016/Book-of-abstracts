@@ -1,0 +1,81 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Reporting automation with ReporteRs}
+
+\begin{center}
+  {\bf David Gohel$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item ArData \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:david.gohel@ardata.fr}{\nolinkurl{david.gohel@ardata.fr}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords reporting; Word; PowerPoint; tables; graphics
+\packages ReporteRs; rtable; shiny
+\end{minipage}
+
+\vskip 0.8cm
+
+\textbf{R} usage has risen in companies and reporting capabilities of
+\textbf{R} is now an important subject. The way results are compiled in
+documents and spread to colleagues or customers can be time consuming.
+Key points are reproducibility, ability to produce pretty outputs and
+document types.
+
+Microsoft document formats are still pretty ubiquitous in corporate
+environments. The package \emph{ReporteRs} make easier the production of
+these documents on any platform. \textbf{R} users can produce pretty
+formatted outputs into Word or PowerPoint documents with only \textbf{R}
+code. It comes with an API to produce advanced graphical and tabular
+reporting.
+
+In this talk, I will introduce \emph{ReporteRs} and others related
+packages. Major features will be explained and illustrated. A use case
+will be presented to show a clinical reporting application made with
+\emph{shiny}.
+
+\end{document}

@@ -1,0 +1,91 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{EnvCpt: An R package for changepoint identification in environmental
+data}
+
+\begin{center}
+  {\bf Rebecca Killick$^{1^\star}$, Claudie Beaulieu$^{2}$, Simon Taylor$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Lancaster University \\[-2pt]
+\item University of Southampton \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:r.killick@lancs.ac.uk}{\nolinkurl{r.killick@lancs.ac.uk}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords model selection; changepoints; nonstationary time series; environment;
+oceanography; climate science
+\packages EnvCpt; changepoint
+\end{minipage}
+
+\vskip 0.8cm
+
+Man-made pressure on the Earths climate and ecosystems is increasing
+vulnerability to abrupt changes, which can be especially
+socio-economically challenging given the rapidity at which an ecosystem
+switches from one state to another relative to the time spent in the
+different states (e.g.~a shift from one year to the next that persists
+on decadal or longer time scales). The ecosystem shift can be a response
+to change in external forcing (e.g.~climate shift) or a random
+reorganization of the system, which can often be characterized by a
+simple autoregressive process. The distinction between stochastic and
+deterministic regime shifts is fundamental to gain a better
+understanding of the underlying mechanisms. In the climate and
+oceanography literature, the detection of regime shifts is commonly made
+using a sequential algorithm to test for shifts in the mean. However,
+this methodology can lead to spurious regime shift detection in the
+presence of autocorrelation, which is typically present in climate and
+environmental time series. Furthermore, a trend (e.g.~long-term climate
+change) may be falsely interpreted as a series of regime shifts using
+this methodology. The \emph{EnvCpt} \textbf{R} package presents a
+flexible methodology able to discern between the presence of mean, trend
+and autocorrelation and any combination of multiple shifts therein. The
+benefit of the package is that an automatic choice is made between
+whether trend, autocorrelation or changepoint models best fit the data
+using model selection. Thus no visual inspection of the data is required
+unlike current methods.
+
+\end{document}

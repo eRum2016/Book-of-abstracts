@@ -1,0 +1,101 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Turning Text Mining into Language Mining: Corpus Linguistics in R}
+
+\begin{center}
+  {\bf George Moroz$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item School of Linguistics, National Research University Higher School of
+Economics \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:agricolamz@gmail.com}{\nolinkurl{agricolamz@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords corpus linguistics; cross-linguistic linked databases; minority language
+analysis; text mining
+\packages shiny; rmarkdown; leaflet; stringr
+\end{minipage}
+
+\vskip 0.8cm
+
+Few books deal with both linguistics and R. Most of them are actually
+textbooks on statistics with examples of real-life linguistic problems
+solved. So it is about analyzing linguistic data in \textbf{R} (there is
+nothing special about it, statistically speaking), not about doing
+linguistics in \textbf{R}. Fortunately, there are some linguistic
+packages in \textbf{R}. Santiago Barreda created package
+\emph{phonTools} for phonetics research and experiments. Aaron Albin
+made a package \emph{PraatR}, which provides \textbf{R} with the
+functionality of the well known phonetic program Praat by Paul Boersma
+and David Weenink. There are some text mining technics implemented in
+\textbf{R} (e.g. \emph{tm}) and a few packages which allows extracting
+data from social networks.
+
+However, linguistic \textbf{R} packages are mostly focused on phonetics.
+Pure text mining is insufficient for the linguistic research. So we
+decided to create an extended package, which helps to solve problems in
+linguistic typology and minority language description. In this talk, I
+will show preliminary results dealing with creation of a language
+corpora using \emph{shiny}, \emph{rmarkdown}, \emph{leaflet}, and
+\emph{stringr}. Problems, that I will cover during the talk:
+
+\begin{itemize}
+\tightlist
+\item
+  storing and analyzing texts in minority language: transcription,
+  translation and morphological analysis; all examples are based on
+  Adyghe (Circassian language family) and Mehweb (Northeast Caucasian
+  language family)
+\item
+  standardization of language documentation in \textbf{R}: integration
+  with Cross-Linguistic Linked Databases
+\end{itemize}
+
+Support from the Basic Research Program of the National Research
+University Higher School of Economics is gratefully acknowledged
+
+\end{document}

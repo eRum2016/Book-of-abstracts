@@ -1,0 +1,113 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{R as a tool for geospatial modeling in large dataset - example of
+dasymetric modeling at a continental scale (United States)}
+
+\begin{center}
+  {\bf Anna Dmowska$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Adam Mickiewicz University \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:dmowska@amu.edu.pl}{\nolinkurl{dmowska@amu.edu.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords geospatial data; large dataset; dasymetric modeling
+\packages rgrass7; rgdal; RSQLite; sp
+\end{minipage}
+
+\vskip 0.8cm
+
+Geospatial raster datasets are usually large data structures. Thus its
+processing requires algorithms that are both efficient and fully
+automatic. The philosophy of development of GIS software offers many
+solutions to a user. These solutions are conceptually limited which
+means that they perform well in their native tasks but are difficult to
+extend if the problem goes beyond its foundations. In such situations
+computationally complex tasks require tailored software which is
+difficult to develop without programming experiences. \textbf{R}
+language offers extensive amount of tools designed to work with
+geospatial data like \emph{sp} library, as well as bindings to external
+data sources like \emph{rgrass7}, \emph{rgdal}, \emph{RSQLite}. Flexible
+nature of geospatial objects in \textbf{R} allows to create a fully
+automatic procedure that complements GIS software without long-term
+programing experiences.
+
+Here we present an automatic procedure which was designed to work on
+high resolution datasets at a continental scale: 11 million of records
+in tabular data and over 8 billion of grid cells. To process such amount
+of data we automated our procedure by dividing it into few steps:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  import and store Census data in SQLite database,
+\item
+  preprocessing of geospatial data performed in GRASS GIS software,
+\item
+  performing dasymetric modeling in \textbf{R},
+\item
+  propagation model for geospatial data and export geospatial data from
+  \textbf{R} to GIS format to map population distribution.
+\end{enumerate}
+
+Our results show that:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{R} can perform such a calculation in a reasonable time (60
+  hours for the entire U.S.),
+\item
+  no additional intermediate layers or steps are required,
+\item
+  procedure is flexible: it can be reproduced regardless of the data
+  scale.
+\end{enumerate}
+
+\end{document}

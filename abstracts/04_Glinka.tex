@@ -1,0 +1,80 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Browse Till You Die: Scalable Hierarchical Bayesian Modeling of cookie
+deletion}
+
+\begin{center}
+  {\bf Jakub Glinka$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item GfK SE, Nuremberg \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:Jakub.Glinka@gfk.com}{\nolinkurl{Jakub.Glinka@gfk.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords hierarchical bayesian modeling; model based machine learning; consensus
+MCMC
+\packages rstan; parallelMCMCcombine; Rcpp
+\end{minipage}
+
+\vskip 0.8cm
+
+The common approach for tracking the device's on-line movement is
+through cookies - small portion of information stored within user
+Internet Browser. This enables Market Research companies to assign web
+browsing data to one specific browser. The main problem within cookie
+tracking framework is to assess whether on given day the lack of its
+activity is due to the real absence or deletion. In usual site-centric
+approach one can only observe cookie's digital footprint on limited
+number of media providers which leads to the highly skewed data,
+moreover the deletion moment is not directly observable. In order to
+deal with mentioned challenges we designed Hierarchical Bayes model of
+the cookie behavior that enables us to pose questions about the
+probability of the cookie deletion. We will present how it fits Model
+Based Machine Learning Paradigm and how one can effciently estimate
+model coefficients using existing \textbf{R} packages.
+
+\end{document}

@@ -1,0 +1,83 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Embedding R in business processes}
+
+\begin{center}
+  {\bf Andreas Wygrabek$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item eoda GmbH \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:andreas.wygrabek@eoda.de}{\nolinkurl{andreas.wygrabek@eoda.de}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords business; process integration
+\end{minipage}
+
+\vskip 0.8cm
+
+There is no doubt about it: a variety of implemented statistical methods
+that are easy to access can make \textbf{R} a valuable tool for plenty
+application scenarios in business e.g.~planning sales campaigns,
+monitoring machines, acceptance sampling on incoming goods or in-process
+control. All these scenarios are ruled by standardized business
+processes and tied with substantial financial risks. Beside the
+analytical capabilities of \textbf{R}, there are two main requirements
+on \textbf{R} that are important for companies: on the one hand
+\textbf{R} needs to be smoothly integrated into existing business
+processes. On the other hand, \textbf{R} needs to be a reliable part of
+the process chain: secure, easy to maintain, automatable and integrable
+into a right management system. Even though \textbf{R} reaches an
+incredible popularity many companies struggle to make \textbf{R} more
+than a proof of concept tool. The maturity level of \textbf{R} is
+reached when it has become crutial a part of business process chains.
+The talk will delight the main questions and critical issues of making
+\textbf{R} an essential link in a business process chain. Furthermore
+the talk will present some state of the art strategies to face the
+depicted issues regarding security, reliability and automatization in
+operating systems.
+
+\end{document}

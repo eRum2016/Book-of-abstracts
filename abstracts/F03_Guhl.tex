@@ -1,0 +1,87 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Discrete Choice Models in R}
+
+\begin{center}
+  {\bf Daniel Guhl$^{1^\star}$, Sebastian Gabel$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Humboldt University, Berlin \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:daniel.guhl@hu-berlin.de}{\nolinkurl{daniel.guhl@hu-berlin.de}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords discrete choice models; econometrics; Bayesian statistics; Stan
+\packages Stan; mlogit; gmnl; bayesm; ChoiceModelR; RSGHB
+\end{minipage}
+
+\vskip 0.8cm
+
+Discrete choice models (DCM) are a widely used class of models in
+economics, marketing, and transportation Science. These models are
+rooted in random utility theory and can be applied if a decision maker
+picks one alternative out of multiple options. The most commonly used
+variations of DCM are the multinomial logit model (MNL), the mixed logit
+model (MXL), and multinomial probit (MNP). Many \textbf{R} packages
+(e.g., \emph{mlogit}, \emph{gmnl}, \emph{bayesm}) are available for
+frequentist and Bayesian inference of DCM. However, the different
+packages lack a unified data interface, common structure of functions
+and methods, and comparable output. Therefore, the analyst is faced with
+a typical dilemma: to test several models and follow established
+research processes (and maybe fulfill reviewer requests) one has to deal
+with data transformations, model translations, and output formatting,
+which is tedious, time consuming, and error-prone. In addition, the
+established \textbf{R} packages lack flexibility and transparency. To
+this end, we propose to use Stan, a general purpose modeling language
+for Bayesian inference written in C++ with interfaces to \textbf{R},
+python, Matlab, Julia and Stata. We compare Stan-implementations of MNL
+and MXL models using simulated and real data. We show how Stan can be
+used for estimating more sophisticated models (e. g. models in
+willingness-to-pay space). We also provide a quick reference over our
+\textbf{R} package \emph{DCM} that aims at closing the gap for existing
+packages regarding a unified data API and comparable model output.
+
+\end{document}

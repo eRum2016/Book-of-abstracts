@@ -1,0 +1,90 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Penalized regression inference regarding variable selection in regular
+and high dimensions: comparison of selected methods implemented in R}
+
+\begin{center}
+  {\bf Marta Karas$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Department of Biostatistics, Indiana University Fairbanks School of
+Public Health \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:marta.karass@gmail.com}{\nolinkurl{marta.karass@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords penalized regression; inference; p-value
+\packages lassoscore; hdi; refund
+\end{minipage}
+
+\vskip 0.8cm
+
+In recent years, penalized regression techniques, such as lasso, have
+become commonly used for variable selection in linear regression
+modeling, but relatively little work has been done on quantifying the
+uncertainty in these procedures. Here, we perform comparison of four
+different approaches to this problem. With a score test method,
+penalized regression of an outcome on all but a single feature is
+performed, and test for correlation of the residuals with the held-out
+feature follows. PEER Ridge estimation procedure exploits the
+equivalence between penalized least squares estimation and a linear
+mixed model representation, and thus provides an automatic selection of
+tuning parameter alpha using REML criterion; then, the General SVD
+provides algebraic insight and a convenient way to derive the variance
+expressions of the estimates, which allows to perform inference
+regarding variable selection. With Multi sample-splitting method, the
+sample is split into two equal halves, where the first half is used for
+variable selection and the second half, with the reduced set of already
+pre-selected variables, is used for statistical inference in terms of
+\(p\)-values. In stability selection method, a stable subset of
+variables is selected in stochastic simulation where probability of a
+variable being selected into a model is approximated. We utilized
+\textbf{R} implementations of the methods listed above to compare
+variables selection inference in terms of FDR and power. We experimented
+with different covariance settings as well as dimensions of X design
+matrix in looking for situations when one method might be preferred.
+
+\end{document}

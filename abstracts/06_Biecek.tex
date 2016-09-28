@@ -1,0 +1,79 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{How to use R to hack the publicly available data about skills of 2M+
+worldwide students?}
+
+\begin{center}
+  {\bf Przemyslaw Biecek$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item University of Warsaw \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:przemyslaw.biecek@gmail.com}{\nolinkurl{przemyslaw.biecek@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords visualisation; survey data; archivist; data mining
+\packages ggplot2; shiny; intsvy; archivist; knitr; BetaBit; PISA2012lite
+\end{minipage}
+
+\vskip 0.8cm
+
+During the talk I will introduce The Programme for International Student
+Assessment (PISA), an international survey that aims to evaluate
+education systems worldwide. It's a source of large data about
+educational performance and various other characteristics of over 2 000
+000 students from 62 countries. The data from the last PISA assessment
+is available in the \textbf{R} package.
+
+To play with it we will use packages and to explain the relation between
+parental occupation and student's performance. Then we will overview the
+package -- the toolbox for statistical analyses of international
+surveys. Finally we will discuss applications of packages and and the
+role of reproducibility and traceability of results. At the end I will
+introduce the project that aims to boost data science skills of
+students.
+
+\end{document}

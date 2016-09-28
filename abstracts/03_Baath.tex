@@ -1,0 +1,72 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{A survey of tools for Bayesian data analysis in R}
+
+\begin{center}
+  {\bf Rasmus Bååth$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Lund University \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:rasmus.baath@gmail.com}{\nolinkurl{rasmus.baath@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords Bayesian data analysis; MCMC
+\packages rjags; rstan; MCMCpack; R-INLA
+\end{minipage}
+
+\vskip 0.8cm
+
+Bayesian data analysis is an intuitive and straightforward framework for
+doing both inferential statistics and predictive analysis. Because of
+its popularity there is now a plethora of \textbf{R} packages for
+fitting Bayesian models. This talk will guide you through the jungle and
+survey some of the most useful tools for doing Bayesian data analysis in
+\textbf{R}. The talk will feature concrete code examples throughout and
+does not assume that you have much prior knowledge about Bayesian
+statistics.
+
+\end{document}

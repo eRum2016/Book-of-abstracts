@@ -1,0 +1,85 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Heteroscedastic Discriminant Analysis and its integration into `mlR'
+package for uniform machine learning}
+
+\begin{center}
+  {\bf Katarzyna Stąpor$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Institute of Computer Science, Silesian Technical University \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:katarzyna.stapor@polsl.pl}{\nolinkurl{katarzyna.stapor@polsl.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords discriminant analysis; machine learning; heteroscedasticity
+\packages mlR
+\end{minipage}
+
+\vskip 0.8cm
+
+The \emph{mlR} package (machine learning in \textbf{R}) offers a unified
+interface to access various machine learning algorithms from other
+packages in \textbf{R}. This framework provides supervised methods like
+classification, regression and survival analysis along with their
+corresponding evaluation and optimization methods, as well as
+unsupervised methods like clustering. It is written in a way that you
+can extend it yourself or deviate from the implemented convenience
+methods and construct your own complex experiments or algorithms. As an
+example, it will be shown how to integrate into the \emph{mlR} package
+the new, proposed by us learner, the Heteroscedastic Discriminant
+Analysis (HDA), being the extension of the classical Fisher Linear
+Discriminant Analysis (FDA), implemented in the \emph{base} package. HDA
+is the extension of FDA for dealing with the case of unequal covariance
+matrices in the populations, the situation that occurs very often in
+practice. The new implemented permutation test for testing the equality
+of covariance matrices will be also presented. Integration the new
+learner into \emph{mlR} requires defining the learner itself with the
+name, description, parameters, and a few other things, then providing
+the function that calls the learner function and builds the model given
+the data, and finally, a prediction function that returns predicted
+values given new data. The example of usage the new HDA learner on the
+real world credit dataset will also be presented.
+
+\end{document}

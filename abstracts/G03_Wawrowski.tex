@@ -1,0 +1,72 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{R packages for social indicators}
+
+\begin{center}
+  {\bf Łukasz Wawrowski$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Poznań University of Economics and Business \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:lukasz8989@gmail.com}{\nolinkurl{lukasz8989@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords sample surveys; social indicators
+\packages survey; laeken; ineq; vardpoor; convey
+\end{minipage}
+
+\vskip 0.8cm
+
+Social cohesion is a very popular motto in European Union. It is
+measured by many different indicators such as poverty rate, low work
+intensity indicator or quintile share ratio. They were established by
+the European Union as part of the Lisbon Strategy and the Europa 2020
+Strategy. Its function is to control realization of above mentioned
+strategies. Presentation aims to compare \textbf{R} packages used in
+social indicators estimation. Features and efficiency of different
+packages will be examined.
+
+\end{document}

@@ -1,0 +1,72 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{stplanr: an R package for transport planning}
+
+\begin{center}
+  {\bf Robin Lovelace$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item University of Leeds \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:r.lovelace@leeds.ac.uk}{\nolinkurl{r.lovelace@leeds.ac.uk}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords transport; GIS; modelling; visualisation
+\packages stplanr; leaflet; shiny
+\end{minipage}
+
+\vskip 0.8cm
+
+\emph{stplanr} was developed to solve a real world problem: how to
+convert official data on travel patterns into geographic objects that
+could be plotted on a map and analysed using GIS? Over time the package
+has evolved to include a number of other functions. Analysis of road
+traffic casualty data, various routing algorithms, `travel watershed'
+analysis and access to Google's Travel Matrix are all possible. This
+paper traces the development of these capabilities with a focus on
+applied case studies and reproducible examples.
+
+\end{document}

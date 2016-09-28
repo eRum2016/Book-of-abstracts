@@ -1,0 +1,88 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\renewcommand{\title}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\title{Unattended SVM parameters fitting for monitoring nonlinear profiles}
+
+\begin{center}
+  {\bf Emilio L. Cano$^{1^\star}$, Javier M. Moguerza$^{2}$, Mariano Prieto Corcoba$^{3}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item The University of Castilla-La Mancha \\[-2pt]
+\item Rey Juan Carlos University \\[-2pt]
+\item ENUSA Industrias Avanzadas \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:emilio@lcano.com}{\nolinkurl{emilio@lcano.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords quality control; SVMs; nonlinear profiles
+\packages SixSigma; e1071; qcc
+\end{minipage}
+
+\vskip 0.8cm
+
+The monitoring of nonlinear profiles is a recent quality control
+technique. It allows to apply Statistical Process Control (SPC) methods
+to processes in which, rather than having a quality characteristic,
+there is a sort of nonlinear function that characterises the process.
+This method has been implemented in the \emph{SixSigma} \textbf{R}
+package. The underlying idea is to compute a prototype profile and
+confidence bands using a data set from an in-control process, monitoring
+subsequent profiles thereafter. Thus, the same methodology used in
+well-known Shewhart control charts can be applied to complex processes.
+To this aim, raw data can be used. Nevertheless, using regularisation
+theory nonlinear profiles can be smoothed in order to better represent
+and analyse the profiles. In this work, we use Support Vector Machines
+(SVMs) to smooth profiles throughout the control process. Consequently,
+SVM parameters must be selected in order to reach a good fit of the
+nonlinear function at hand. Such parameters, namely: \(C\) and
+\(\epsilon\), can be explicitely assigned in the \emph{smoothProfile()}
+function of the \emph{SixSigma} package. However, a quality control
+practicioner seldom knows about SVMs, needless to say that they have no
+time to spend modelling functions. Hence, we rely on to automatically
+fit the SVM parameters using the process data, thereby achieving
+unattended SVM fitting. Furthermore, noise is previously estimated by
+means of a loess fit.
+
+\end{document}

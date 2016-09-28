@@ -1,0 +1,22 @@
+---
+title: "Design of Experiments in R"
+author:
+ - name: "Ulrike Grömping"
+   affiliation: [1]
+   email: "groemping@bht-berlin.de"
+   contact: yes
+affiliation:
+ - "Beuth University of Applied Sciences, Berlin"
+keywords: "design of experiments"
+packages: "agricolae; AlgDesign; conf.design; DiceDesign; DiceKriging; DoE.base; DoE.wrapper; ICAOD; lhs; OptimalDesign; planor; rsm; tgp"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+This talk discusses the development of the landscape of packages on Design of Experiments in **R**, the current state of which is documented in the Experimental Design Task View (http://cran.r-project.org/web/views/ExperimentalDesign.html). That landscape is quite diverse, currently consisting of (at least) four larger areas and various specialized packages. Descendants and relatives of the pioneering packages *conf.desig*n (2001) and *AlgDesign* (2004) as well as the growing area of packages for computer experiments are considered in more detail, and recent additions based on modern optimization methods are discussed.
+
+<!--  -->
+<!--  -->
+<!--  -->

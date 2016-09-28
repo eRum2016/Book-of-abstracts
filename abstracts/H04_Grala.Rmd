@@ -1,0 +1,23 @@
+---
+title: "RevoScaleR - performance and scalability R"
+author:
+ - name: "Łukasz Grala"
+   affiliation: [1]
+   email: "lukasz@tidk.pl"
+   contact: yes
+affiliation:
+ - "Poznan University of Technology"
+keywords: "performance; scalability"
+packages: "RevoScaleR; RevoUtils; RevoUtilsMath; RevoMods; RevoTreeView; RevoPemaR"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The Big Data scalability and performance are key issues.
+Microsoft Server **R** (HADOOP, Teradata, Spark) and **R** Services for SQL Server 2016 provides a set of libraries *RevoScaleR*. During the session, we compare the performance and scalability CRAN **R** and *RevoScaleR* in typical applications.
+
+<!--  -->
+<!--  -->
+<!--  -->

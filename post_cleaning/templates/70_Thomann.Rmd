@@ -1,0 +1,75 @@
+---
+title: "SimonsSVM: A Fast and Scalable Support Vector Machine Implementation for R"
+author:
+ - name: "Philipp Thomann"
+   affiliation: [1]
+   email: "philipp.thomann@mathematik.uni-stuttgart.de"
+   contact: yes
+ - name: "Ingo Steinwart"
+   affiliation: [1]
+affiliation:
+ - "ISA / University of Stuttgart"
+keywords: "support vector machine; machine learning; non-parametric classification; non-parametric regression"
+packages: "SimonsSVM"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Support vector machines (SVMs) are non-parametric methods for
+various supervised learning scenarios like classification and regression. They have been studied extensively both theoretically and practically in the last 20 years. There are many well-known implementations also for **R**,
+ for instance the package *e1071* provides bindings to *LIBSVM*.
+ We present our recent package *Simons' SVM* for **R** with the following key features:
+ 
+1. Unprecented speed:
+ - Compared to, e.g. *LIBSVM*, training that includes
+  5-fold cross validation on a 10x10 hyper-parameter
+  grid is about 300 times faster on, e.g. a 1000
+  samples containing subset of the binary version
+  of the classical covertype dataset.
+ - Partitioning strategies further decrease training
+  (and testing) time without sacrifying generalization.
+  For example, the full covertype data set (about 523.000
+  samples) takes less than 9 min.
+ - Partitioning even allows to attack huge problems.
+  For instance the higgs data set (10 million samples)
+  could be trained and tested in five hours.
+  
+ 2. Inclusion of some standard learning scenarios:
+ - (weighted) binary classification
+ - multiclass classification (both AvA and OvA)
+ - Neyman-Pearson-type classification
+ - Least squares / quantile / expectile regression
+ 
+3. Flexible user interface:
+ - Fully integrated cross validation let's the user
+  focus on parameters he/she can understand.
+ - The underlying implementation have more than twenty
+  independent otions leading to an enormeous flexibility
+  for the power user. 
+ - Meaningful default values, which in many cases makes
+  a fine-adjustment unneccesary.
+ - Comprehensive documentation.
+ 
+Quick demo:
+
+```
+install.packages("SimonsSVM",
+repos="http://www.isa.uni-stuttgart.de/software/R")
+library(SimonsSVM)
+d <- ttsplit(iris)
+model <- svm(Species ~ ., d$train)
+test(model, d$test)
+```
+ 
+More information:
+ 
+http://www.isa.uni-stuttgart.de/software/R/demo.html
+
+http://www.isa.uni-stuttgart.de/software/R/documentation.html
+
+
+<!--  -->
+<!--  -->
+<!--  -->

@@ -1,0 +1,21 @@
+---
+title: "Using SparkR with distributed database in Parquet - a genomic example"
+author:
+ - name: "Michał Okoniewski"
+   affiliation: [1]
+   email: "michal.okoniewski@id.ethz.ch"
+   contact: yes
+affiliation:
+ - "ETH Zürich"
+keywords: "xxxxx"
+packages: "xxxxx"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+TBA
+<!--  -->
+<!--  -->
+<!--  -->

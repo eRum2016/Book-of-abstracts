@@ -1,0 +1,63 @@
+---
+title: "Turning Text Mining into Language Mining: Corpus Linguistics in R"
+author:
+ - name: "George Moroz"
+   affiliation: [1]
+   email: "agricolamz@gmail.com"
+   contact: yes
+affiliation:
+ - "School of Linguistics, National Research University Higher School of Economics"
+keywords: "corpus linguistics; cross-linguistic linked databases; minority language analysis; text mining"
+packages: "shiny; rmarkdown; leaflet; stringr"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Few books deal with both linguistics and R. Most of them are actually textbooks on statistics with examples of real-life linguistic problems solved. So it is about analyzing linguistic data in **R** (there is nothing special about it, statistically speaking), not about doing linguistics in **R**. Fortunately, there are some linguistic packages in **R**. Santiago Barreda created package *phonTools* for phonetics research and experiments. Aaron Albin made a package *PraatR*, which provides **R** with the functionality of the well known phonetic program Praat by Paul Boersma and David Weenink. There are some text mining technics implemented in **R** (e.g. *tm*) and a few packages which allows extracting data from social networks.
+
+However, linguistic **R** packages are mostly focused on phonetics. Pure text mining is insufficient for the linguistic research. So we decided to create an extended package, which helps to solve problems in linguistic typology and minority language description. In this talk, I will show preliminary results dealing with creation of a language corpora using *shiny*, *rmarkdown*, *leaflet*, and *stringr*. Problems, that I will cover during the talk:
+
+* storing and analyzing texts in minority language: transcription, translation and morphological analysis; all examples are based on Adyghe (Circassian language family) and Mehweb (Northeast Caucasian language family)
+* standardization of language documentation in **R**: integration with Cross-Linguistic Linked Databases
+
+Support from the Basic Research Program of the National Research University Higher School of Economics is gratefully acknowledged
+
+<!--  -->
+<!-- **References** -->
+<!-- @misc{boersma13,
+  title={Praat: doing phonetics by computer (Version 5.3.51)[Computer program]. Retrieved 2 June 2013},
+  author={Boersma, P. and Weenink, D.},
+  year={2013}
+ }
+ 
+ @article{feinerer08,
+  title = {Text Mining Infrastructure in R},
+  author = {Feinerer, I. and Hornik, K. and Meyer, D.},
+  year = {2008},
+  journal = {Journal of Statistical Software},
+  volume = {25},
+  number = {5},
+  pages = {1--54},
+  url = {http://www.jstatsoft.org/v25/i05/},
+  month = {March},
+  }
+ 
+ @misc{barreda12,
+  title={phon{T}ools: A collection of functions useful for phonetics work},
+  author={Barreda, S.},
+  year={2012},
+  publisher={R package version 0.1-2. http://CRAN. R-project. org/package= phonTools (accessed June 14, 2016)}
+ }
+ 
+ @article{albin14,
+  title={Praat{R}: An architecture for controlling the phonetics software “{P}raat” with the {R} programming language},
+  author={Albin, A. L.},
+  journal={The Journal of the Acoustical Society of America},
+  volume={135},
+  number={4},
+  pages={2198--2199},
+  year={2014},
+  publisher={Acoustical Society of America}
+ } -->

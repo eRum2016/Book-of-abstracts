@@ -1,0 +1,52 @@
+---
+title: "R for pharmacokineticists - smulation of steady-state concentrations of amiodarone in heart compartmental model as an example."
+author:
+ - name: "Zofia Tylutki"
+   affiliation: [1]
+   email: "zofia.tylutki@doctoral.uj.edu.pl"
+   contact: yes
+ - name: "Sebastian Polak"
+   affiliation: [1]
+affiliation:
+ - "Faculty of Pharmacy, Jagiellonian University"
+keywords: "pharmacokinetics; modelling; parameter optimization"
+packages: "deSolve; FME"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Amiodarone poses a known risk of torsade de pointes arrhythmia
+induction, according to CredibleMeds classification. Thus, the data on
+its effective concentration at heart tissue are desired. Patients
+prescribed to amiodarone usually are on long-term treatment following
+the standard dosing regimen, i.e. 200 mg t.i.d. as a priming dose, and
+100 mg q.d. as a sustaining dose. The aim of the study was to build a
+functional heart model in order to simulate the amiodarone cardiac
+concentration at steady state. Three compartments of physiological
+volumes of plasma (central compartment), cardiac tissue, and
+pericardial fluid linked via first-order rate constants represented
+model structure. The model was described by set of differential
+equations, and written in **R** v.3.1.3. Numerical solutions were computed
+using *deSolve* library. The model parameters were optimized using *FME*
+package. The fit was performed to mean amiodarone concentrations
+observed by Escoubet et al. in plasma and heart tissue,
+respectively, in 61 patients given amiodarone in a single dose. The
+optimized parameters  ([h-1] ka: 0.038, kht_in: 0.200, kht_out: 0.149, kpf_in: 0.680, kpf_out: 9.700, ke: 5.000) were used to simulate
+amiodarone time-concentration profiles in two-months standard dosage
+schedule of amiodarone. An event function was describing multiple
+administrations. The simulated cardiac concentrations at steady-state
+were ca. 20 times higher than corresponding amiodarone levels in central
+compartment, which occurred to be in accordance with the ratios reported
+in literature that can be assumed to refer to steady state
+situation. Results support the feasibility of the model as well as
+the approach to simulate steady-state.
+
+<!--  -->
+<!-- **References** -->
+<!-- [1] de la Grandmaison, Clairand, Durigon, “Forensic. Sci. Int.” 2001, 119 (2), 149–154.
+ [2] Levis, Delgado, “West. J. Emerg. Med.” 2008, 10 (2),115–119.
+ [3] Soetaert, Petzoldt, “J. Stat. Softw.” 2010, 33 (3), 1–28.
+ [4] Escoubet et al., “Am. J. Cardiol.” 1985, 55 (6), 696–702.
+ [5] Tylutki, Polak, “Biopharm. Drug. Dispos.” 2015, 36 (6), 337–351. -->

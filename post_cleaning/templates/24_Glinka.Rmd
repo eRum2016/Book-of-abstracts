@@ -1,0 +1,35 @@
+---
+title: "Browse Till You Die: Scalable Hierarchical Bayesian Modeling of cookie deletion"
+author:
+ - name: "Jakub Glinka"
+   affiliation: [1]
+   email: "Jakub.Glinka@gfk.com"
+   contact: yes
+affiliation:
+ - "GfK SE, Nuremberg"
+keywords: "hierarchical bayesian modeling; model based machine learning; consensus MCMC"
+packages: "rstan; parallelMCMCcombine; Rcpp"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The common approach for tracking the device's on-line movement is
+through cookies - small portion of information stored within user
+Internet Browser. This enables Market Research companies to assign web
+browsing data to one specific browser. The main problem within cookie
+tracking framework is to assess whether on given day the lack of its
+activity is due to the real absence or deletion. In usual site-centric
+approach one can only observe cookie’s digital footprint on limited
+number of media providers which leads to the highly skewed data,
+moreover the deletion moment is not directly observable. In order to
+deal with mentioned challenges we designed Hierarchical Bayes model of
+the cookie behavior that enables us to pose questions about the
+probability of the cookie deletion. We will present how it fits Model
+Based Machine Learning Paradigm and how one can effciently estimate
+model coefficients using existing **R** packages.
+
+<!--  -->
+<!--  -->
+<!--  -->

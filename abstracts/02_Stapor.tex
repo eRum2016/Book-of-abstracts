@@ -39,7 +39,7 @@ corresponding evaluation and optimization methods, as well as
 unsupervised methods like clustering. It is written in a way that you
 can extend it yourself or deviate from the implemented convenience
 methods and construct your own complex experiments or algorithms. As an
-example, it will be shown how to integrate into the \emph{mlR} package
+example, it will be shown how to integrate into the \emph{mlr} package
 the new, proposed by us learner, the Heteroscedastic Discriminant
 Analysis (HDA), being the extension of the classical Fisher Linear
 Discriminant Analysis (FDA), implemented in the \emph{base} package. HDA
@@ -47,7 +47,7 @@ is the extension of FDA for dealing with the case of unequal covariance
 matrices in the populations, the situation that occurs very often in
 practice. The new implemented permutation test for testing the equality
 of covariance matrices will be also presented. Integration the new
-learner into \emph{mlR} requires defining the learner itself with the
+learner into \emph{mlr} requires defining the learner itself with the
 name, description, parameters, and a few other things, then providing
 the function that calls the learner function and builds the model given
 the data, and finally, a prediction function that returns predicted

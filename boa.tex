@@ -1,10 +1,20 @@
-\documentclass[11pt]{book}
+\documentclass[11pt,oneside]{book}
 
 \usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{eRum2016}
+\lhead{Book of Abstracts}
+\rfoot{\thepage}
 
 \usepackage{subfiles}
 \usepackage{hyperref}
 \usepackage{titlesec}
+
+\usepackage{longtable} 
+\usepackage{pdflscape} 
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -55,6 +65,14 @@
 \begin{document}
 \frontmatter
 \maketitle
+
+\chapter{Program at glance}
+\noindent\makebox[\textwidth]{\includegraphics[width=1.25\textwidth]{figs/program_at_glance.pdf}}
+
+\begin{landscape}
+\chapter{Full Program}
+\input{figs/full_program.tex}
+\end{landscape}
 
 \chapter{Welcome Address}
 Welcome! Have a good time!
@@ -117,7 +135,7 @@ Welcome! Have a good time!
 \chapter{Packages 1}
 \subfile{abstracts/G01_Hyndman.tex}
 \subfile{abstracts/G02_Lovelace.tex}
-\subfile{abstracts/G03_Wawrowski.tex}
+% \subfile{abstracts/G03_Wawrowski.tex}
 \subfile{abstracts/G04_Buerkner.tex}
 \subfile{abstracts/G05_Pastore.tex}
 

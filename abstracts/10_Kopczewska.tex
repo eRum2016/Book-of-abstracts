@@ -1,0 +1,47 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Geo-located point data: measurement of agglomeration and concentration}
+
+\begin{center}
+  {\bf Katarzyna Kopczewska$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Faculty of Economic Sciences, Unievrsity of Warsaw \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:kkopczewska@wne.uw.edu.pl}{\nolinkurl{kkopczewska@wne.uw.edu.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords spatial location; agglomeration; specialization; SPAG; Ripley's K
+\packages rgeos; spdep; sp; rgdal; dbmss
+\end{minipage}
+
+\vskip 0.8cm
+
+Geo-located points, representing locations of business and other units
+can be analysed with regard to agglomeration and concentration patterns,
+which in fact indicate a density of region's coverage with the economic
+activity. There is plenty of measures on territorially aggregated data
+(so called cluster-based measures) and just few on geo-located
+individual data (so-called distance-based measures) as SPAG or Ripley's
+\(K\). This is to present current possibilities of statistical analysis
+of geo-located data in \textbf{R}, as well its applications in regional
+science. It would consider the sensitivity of measures for different
+spatial patterns. Spatial package \emph{rgeos} allows for treating
+points as geometries, what expands significantly the analytical
+capabilities. One can also see the neighbourhood relations between
+points, which can be applied further in econometric models.
+
+\end{document}

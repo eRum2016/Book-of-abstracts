@@ -1,0 +1,56 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Using R for backtesting algorithmic trading strategies on high-frequency
+data}
+
+\begin{center}
+  {\bf Piotr Wójcik$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Faculty of Economic Sciences, University of Warsaw \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:pwojcik@wne.uw.edu.pl}{\nolinkurl{pwojcik@wne.uw.edu.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords algorithmic trading; high-frequency data; backtesting; efficient
+calculations
+\packages xts; chron; quantmod; Rbbg; IBrokers; TFX; tseries;
+PerformanceAnalytics; caTools; TTR; inline; Rcpp; RcppArmadillo
+\end{minipage}
+
+\vskip 0.8cm
+
+Along with the advances in computer technology high-frequency trading
+developed in 1990s and became widely popular since then. Traders started
+to build algorithms that use highly developed quantitative models to
+automatically determine when and where to trade. The profitability of
+trading strategies based on such algorithms needs to be verified on
+historical data (backtested) prior to its application in real life.
+Intraday data in finance may have large volumes (up to 1440 minutes or
+86400 seconds of quotations every day, i.e.~20 millions of observations
+for one year). In addition, developed algorithms are usually
+parametrized and their final version needs to be optimized with respect
+to these parameters. This introduces a possibly huge number of
+combinations that need to be compared with respect to selected
+performance measures. Large amounts of data and many variants of the
+algorithm require a computationally efficient tool that should also
+allow to relatively easily apply statistical models. And \textbf{R}
+together with C++ can provide such a tool. The presentation shows how
+\textbf{R} can be used to access intraday data and to develop and
+backtest different algorithmic trading strategies with the help of
+\emph{Rcpp} family packages.
+
+\end{document}

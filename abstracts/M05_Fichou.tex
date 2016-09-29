@@ -1,0 +1,48 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Application of Artificial Neural Network to Planar Chromatography Data}
+
+\begin{center}
+  {\bf Dimitri Fichou$^{1^\star}$, Gertrud Morlock$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Justus Liebig University Giessen, Germany \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:dimitrifichou@gmail.com}{\nolinkurl{dimitrifichou@gmail.com}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords chemometrics; neural network; planar chromatography
+\packages deepnet; jpeg; abind; EBImage
+\end{minipage}
+
+\vskip 0.8cm
+
+Planar chromatography has a unique specificity compared to other
+chromatographic techniques, i. e. the data format is a picture, in which
+each pixel has quantitative and qualitative properties that corresponds
+to the molecular reality in the physical word. This results in a greater
+amount of data points that allows the use of high-level machine learning
+algorithms like artificial neural network. Restricted Boltzmann Machine
+was used on planar chromatograms for denoising and classification. For
+both, no other preprocessing than a normalization between 0 and 1 was
+needed. The denoising task took as input patches of pixels; when
+crossing the network, the noise is removed and only the signal remains.
+For the classification task, several layers of this neural network were
+stacked together in order to analyze vertical bands of pixels. The last
+layer of this network discriminated the two classes of the dataset with
+an accuracy of 85 \% when compared to human decisions.
+
+\end{document}

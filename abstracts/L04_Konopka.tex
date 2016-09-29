@@ -1,0 +1,74 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Exploratory data analysis of a clinical study group - revealing patient
+subgroups.}
+
+\begin{center}
+  {\bf Bogumil M. Konopka$^{1^\star}$, Felicja Lwow$^{2}$, Łukasz Łaczmański$^{3}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Wroclaw University of Science and Technology \\[-2pt]
+\item The University School of Physical Education in Wroclaw \\[-2pt]
+\item Wroclaw Medical University \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:bogumil.konopka@pwr.edu.pl}{\nolinkurl{bogumil.konopka@pwr.edu.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords clustering; outlier detection; PCA
+\packages clv; ggplot2; chemometrics
+\end{minipage}
+
+\vskip 0.8cm
+
+Thorough knowledge of the structure of analyzed data allows to form
+precise research questions. The data structure and basic associations
+between parameters in the data can be revealed with methods for
+exploratory data analysis. Currently a researcher has a whole plethora
+of exploratory tools to choose from. Selecting methods that will work
+together well and facilitate data interpretation is not an easy task. In
+this work we present a well fitted set of tools for a complete
+exploratory analysis of a clinical study dataset and perform a case
+study analysis on a set of 515 patients. The proposed procedure
+comprises several steps:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  robust data normalization,
+\item
+  outlier detection with Mahalanobis (MD) and robust Mahalanobis
+  distances (rMD)
+\item
+  hierarchical clustering with Ward's algorithm,
+\item
+  Principal Component Analysis with biplot vectors.
+\end{enumerate}
+
+Introductory analysis showed that the case-study dataset comprises two
+clusters separated along the axis of sex hormone attributes. Further
+analysis was carried out separately for male and female patients. The
+most optimal partitioning in the male set resulted in five subgroups.
+Two of them were related to diseased patients: diabetes and gonadotroph
+adenoma patients. Analysis of the female set suggested that it was more
+homogeneous than the male dataset. No evidence of pathological patient
+subgroups were found. In the study we showed that outlier detection with
+MD and rMD allows not only to identify outliers but can also assess the
+heterogeneity of a dataset. The case study proved that our procedure is
+well suited for identification and visualization of biologically
+meaningful patient subgroups.
+
+\end{document}

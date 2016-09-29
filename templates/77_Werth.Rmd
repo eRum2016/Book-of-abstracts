@@ -1,0 +1,44 @@
+---
+title: "nsoAPI - retrieving data from National Statistical Offices with R"
+author:
+ - name: "Bo Werth"
+   affiliation: [1]
+   email: "Bo.Werth@fao.org"
+   contact: yes
+ - name: "Bo Werth"
+   affiliation: [2,3]
+affiliation:
+ - ""
+keywords: "statistical office, API, time series,"
+packages: "nsoApi"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+National Statistical Offices have started setting up web services to
+provide published information through data APIs. Even though
+international standards exist, e.g. SDMX, the majority of NSOs create
+their individual API and few use existing community standards.
+
+nsoAPI is an attempt to create a single package with functions for each
+provider that convert a custom data format into an R standard time
+series format ready for analysis or further transformation.
+
+<https://www.gitbook.com/read/book/bowerth/opendata-tables> lists tables
+that can be retrieved from SDMX (International Organizations, ABS:
+Australia, INEGI: Mexico, INSEE: France and ISTAT: Italy, NBB: Belgium),
+the pxweb package (PXNET2: Finland, SCB: Sweden) and the nsoAPI package
+(BEA: USA, CBS: the Netherlands, GENESIS: Germany, ONS: UK, SSB: Norway,
+STATAT: Austria, STATBANK: Denmark).
+
+With the exception of France, large countries tend to set their own
+standards. The BEA (USA) and ONS (UK) require the user to create an ID
+that needs to be submitted with each request. GENESIS (Germany) require
+the user to pay 500 Euros per year (250 Euros for academic users) to
+access the API.
+
+<!--  -->
+<!--  -->
+<!--  -->

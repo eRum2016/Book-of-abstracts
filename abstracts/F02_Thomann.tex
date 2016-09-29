@@ -1,0 +1,127 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{SimonsSVM: A Fast and Scalable Support Vector Machine Implementation for
+R}
+
+\begin{center}
+  {\bf Philipp Thomann$^{1^\star}$, Ingo Steinwart$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item ISA / University of Stuttgart \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:philipp.thomann@mathematik.uni-stuttgart.de}{\nolinkurl{philipp.thomann@mathematik.uni-stuttgart.de}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords support vector machine; machine learning; non-parametric classification;
+non-parametric regression
+\packages SimonsSVM
+\end{minipage}
+
+\vskip 0.8cm
+
+Support vector machines (SVMs) are non-parametric methods for various
+supervised learning scenarios like classification and regression. They
+have been studied extensively both theoretically and practically in the
+last 20 years. There are many well-known implementations also for
+\textbf{R}, for instance the package \emph{e1071} provides bindings to
+\emph{LIBSVM}. We present our recent package \emph{Simons' SVM} for
+\textbf{R} with the following key features:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Unprecented speed:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Compared to, e.g. \emph{LIBSVM}, training that includes 5-fold cross
+  validation on a 10x10 hyper-parameter grid is about 300 times faster
+  on, e.g.~a 1000 samples containing subset of the binary version of the
+  classical covertype dataset.
+\item
+  Partitioning strategies further decrease training (and testing) time
+  without sacrifying generalization. For example, the full covertype
+  data set (about 523.000 samples) takes less than 9 min.
+\item
+  Partitioning even allows to attack huge problems. For instance the
+  higgs data set (10 million samples) could be trained and tested in
+  five hours.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Inclusion of some standard learning scenarios:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  (weighted) binary classification
+\item
+  multiclass classification (both AvA and OvA)
+\item
+  Neyman-Pearson-type classification
+\item
+  Least squares / quantile / expectile regression
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Flexible user interface:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Fully integrated cross validation let's the user focus on parameters
+  he/she can understand.
+\item
+  The underlying implementation have more than twenty independent otions
+  leading to an enormeous flexibility for the power user.
+\item
+  Meaningful default values, which in many cases makes a fine-adjustment
+  unneccesary.
+\item
+  Comprehensive documentation.
+\end{itemize}
+
+Quick demo:
+
+\begin{verbatim}
+install.packages("SimonsSVM",
+repos="http://www.isa.uni-stuttgart.de/software/R")
+library(SimonsSVM)
+d <- ttsplit(iris)
+model <- svm(Species ~ ., d$train)
+test(model, d$test)
+\end{verbatim}
+
+More information:
+
+\url{http://www.isa.uni-stuttgart.de/software/R/demo.html}
+
+\url{http://www.isa.uni-stuttgart.de/software/R/documentation.html}
+
+\end{document}

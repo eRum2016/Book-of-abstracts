@@ -1,0 +1,56 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Data science outside the box: Developing a generic scoring algorithm for
+customer acquisition}
+
+\begin{center}
+  {\bf Erik Barzagar-Nazari$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item eoda GmbH \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:erik.barzagar-nazari@eoda.de}{\nolinkurl{erik.barzagar-nazari@eoda.de}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords data mining; customer acquisition; case study
+\end{minipage}
+
+\vskip 0.8cm
+
+One major task in virtually every predictive modelling project is to
+find the method best suited for the problem on hand. Luckily, most of
+the time data scientists can rely on one of the many already existing
+and well established methods such as Random Forests, Gradient Boosting
+Machines, Neural Networks or Support Vector Machines to solve a variety
+of regression and classification problems. However, in some cases these
+standard approaches are not directly applicable to the problem on hand
+and data scientists need to become creative. In this talk, we will
+present a case study about a project we recently conducted for the
+databyte GmbH in Germany. As one of the leading business information
+providers, databyte maintains a vast database of several million
+companies, containing information such as revenue, size and many other
+properties. The aim of the project was to develop an application which,
+after provided with the customer base of a databyte client, would be
+able to score companies in the databyte database in order to identify
+the most promising contacts for direct marketing campaigns. While
+developing this application, we were facing two major requirements:
+first of all, each client has its own customer base, hence we could not
+just train one model; in fact, the algorithm must be able to `train
+itself' in every run. Secondly, the customer base only contains
+`positive data', that means we are dealing with a so-called
+positive-unlabelled-problem.
+
+\end{document}

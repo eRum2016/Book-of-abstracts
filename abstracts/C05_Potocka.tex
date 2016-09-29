@@ -1,0 +1,46 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{The full process of creating an R application in recommendation systems:
+from Dockerfile to Zabbix monitoring}
+
+\begin{center}
+  {\bf Natalia Potocka$^{1^\star}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Grupa Wirtualna Polska \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:Natalia.Potocka@grupawp.pl}{\nolinkurl{Natalia.Potocka@grupawp.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords R application; docker; monitoring
+\packages rkafka; elastic; httr; RJBDC; RZabbix
+\end{minipage}
+
+\vskip 0.8cm
+
+The presentation covers the main steps of creating a reproducible
+\textbf{R} application. First of all, there is a need of collecting the
+data. We present how to receive it from various sources, including
+Kafka, Elasticsearch or Hadoop (with the help of suitable \textbf{R}
+packages). After transforming the data, doing the necessary calculations
+and obtaining the desired outcome we show how to push out the results.
+When the application is ready and running, it needs to be controlled. We
+present the proccess of creating reliable monitoring (with the help of
+Zabbix and Hipchat notifications). All of that can be wrapped up in a
+Docker to make the application reproducible in different environments
+and platforms.
+
+\end{document}

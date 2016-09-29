@@ -1,0 +1,22 @@
+---
+title: "Simulation of complex synthetic data with the R package simPop"
+author:
+ - name: "Matthias Templ"
+   affiliation: [1]
+   email: "matthias.templ@gmail.com"
+   contact: yes
+affiliation:
+ - "Vienna University of Technology"
+keywords: "synthetic data; complex sample designs; population data; prediction"
+packages: "popSim"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The production of synthetic datasets has been proposed as a statistical disclosure control solution to generate public use files out of protected data. This is also a tool to create "augmented datasets" to serve as input for micro-simulation models, and -- more generally -- the synthetic data sets can be used for design-based simulation studies in general. The performance and acceptability of such a tool relies heavily on the quality of the synthetic data, i.e. on the statistical similarity between the synthetic and the true population of interest. Multiple approaches and tools have been developed to generate synthetic data. These approaches can be categorized into three main groups: synthetic reconstruction, combinatorial optimization, and model-based generation. We introduce *simPop*, an open source data synthesizer. *simPop* is a user-friendly **R** package based on a modular object-oriented concept. It provides a highly optimized S4 class implementation of various methods, including calibration by iterative proportional fitting and simulated annealing, and modeling or data fusion by logistic regression, regression tree methods and many other methods.
+
+<!--  -->
+<!--  -->
+<!--  -->

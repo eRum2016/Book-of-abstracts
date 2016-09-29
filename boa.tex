@@ -1,0 +1,199 @@
+\documentclass[11pt,oneside]{book}
+
+\usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{eRum2016}
+\lhead{Book of Abstracts}
+\rfoot{\thepage}
+
+\usepackage{subfiles}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\usepackage{longtable} 
+\usepackage{pdflscape} 
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amsfonts, amsmath, hanging, hyperref, parskip, times}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\hypersetup{
+	colorlinks,
+	linkcolor=black,
+	urlcolor=black,
+	citecolor=black
+}
+
+%\let\section=\subsubsection
+\newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
+\let\proglang=\textit
+\let\code=\texttt
+\newcommand{\atitle}[1]{\begin{center}{\bf \LARGE #1}\end{center}}
+\newcommand{\affiliations}{\footnotesize\centering}
+\newcommand{\keywords}{\paragraph{Keywords:}}
+\newcommand{\packages}{\paragraph{R packages:}}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\oddsidemargin}{-2mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{250mm}
+
+\titleformat{\chapter}[display]
+{\normalfont\bfseries}{}{0pt}{\Large}
+
+\titleformat{\section}[block]
+{\Large\bfseries}{}{0pt}{\titlerule\\}[\vspace{2pt}\titlerule]
+
+%\titleformat{\section}[block]
+%{\Large\bfseries\filcenter}{}{1em}{}
+
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{3}
+
+\title{eRum 2016 \\ european R users meeting}
+\author{October 12-14, 2016 in Poznan, Poland}
+\date{}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\chapter{Program at glance}
+\noindent\makebox[\textwidth]{\includegraphics[width=1.25\textwidth]{figs/program_at_glance.pdf}}
+
+\begin{landscape}
+\chapter{Full Program}
+\input{figs/full_program.tex}
+\end{landscape}
+
+\chapter{Welcome Address}
+Welcome! Have a good time!
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Invited Talks}
+\subfile{abstracts/01_Turner.tex}
+\subfile{abstracts/02_Stapor.tex}
+\subfile{abstracts/03_Baath.tex}
+\subfile{abstracts/04_Glinka.tex}
+\subfile{abstracts/05_Gromping.tex}
+\subfile{abstracts/06_Biecek.tex}
+\subfile{abstracts/07_Francois.tex}
+\subfile{abstracts/08_Gagolewski.tex}
+\subfile{abstracts/09_Templ.tex}
+\subfile{abstracts/10_Kopczewska.tex}
+
+\chapter{Business 1}
+\subfile{abstracts/A01_Zylinski.tex}
+% \subfile{abstracts/A02.tex}
+\subfile{abstracts/A03_Jakuczun.tex}
+\subfile{abstracts/A04_Barzagar-Nazari.tex}
+\subfile{abstracts/A05_Wygrabek.tex}
+
+\chapter{Business 2}
+\subfile{abstracts/B01_Kun.tex}
+\subfile{abstracts/B02_Bracht.tex}
+\subfile{abstracts/B03_Ladyzynski.tex}
+\subfile{abstracts/B04_Brys.tex}
+\subfile{abstracts/B05_Wojcik.tex}
+
+\chapter{Data Workflow 1}
+\subfile{abstracts/C01_Aydin.tex}
+\subfile{abstracts/C02_Maj.tex}
+\subfile{abstracts/C03_Warnholz.tex}
+\subfile{abstracts/C04_Wroblewska.tex}
+\subfile{abstracts/C05_Potocka.tex}
+
+\chapter{Data Workflow 2}
+\subfile{abstracts/D01_Cejrowski.tex}
+\subfile{abstracts/D02_Shan.tex}
+\subfile{abstracts/D03_Ryczkowski.tex}
+\subfile{abstracts/D04_Stachura.tex}
+
+\chapter{Methodology 1}
+\subfile{abstracts/E01_Eckhoff.tex}
+\subfile{abstracts/E02_Filarowski.tex}
+\subfile{abstracts/E03_Smolarczyk.tex}
+
+\chapter{Methodology 2}
+\subfile{abstracts/F01_Cano.tex}
+\subfile{abstracts/F02_Thomann.tex}
+\subfile{abstracts/F03_Guhl.tex}
+\subfile{abstracts/F04_Gorecki.tex}
+\subfile{abstracts/F05_Hoffmann.tex}
+
+\chapter{Packages 1}
+\subfile{abstracts/G01_Hyndman.tex}
+\subfile{abstracts/G02_Lovelace.tex}
+% \subfile{abstracts/G03_Wawrowski.tex}
+\subfile{abstracts/G04_Buerkner.tex}
+\subfile{abstracts/G05_Pastore.tex}
+
+\chapter{Packages 2}
+\subfile{abstracts/H01_Killick.tex}
+\subfile{abstracts/H02_Kosinski.tex}
+\subfile{abstracts/H03_Gohel.tex}
+\subfile{abstracts/H04_Grala.tex}
+\subfile{abstracts/H05_Wais.tex}
+
+\chapter{BioR}
+\subfile{abstracts/I01_Labaj.tex}
+\subfile{abstracts/I02_Burdukiewicz.tex}
+\subfile{abstracts/I03_Rodiger.tex}
+\subfile{abstracts/I04_Wiewiorka.tex}
+\subfile{abstracts/I05_Okoniewski.tex}
+
+\chapter{Methodology 3}
+\subfile{abstracts/J01_Alvarez.tex}
+% \subfile{abstracts/J02_.tex}
+\subfile{abstracts/J03_Dyderski.tex}
+\subfile{abstracts/J04_Szepannek.tex}
+
+\chapter{Education Learning}
+\subfile{abstracts/K01_Schouwenaars.tex}
+\subfile{abstracts/K02_Schneider.tex}
+\subfile{abstracts/K03_Julin.tex}
+\subfile{abstracts/K04_Krawczyk.tex}
+
+\chapter{Lightning Talks}
+\subfile{abstracts/L01_Borsuk.tex}
+\subfile{abstracts/L02_Czernecki.tex}
+\subfile{abstracts/L03_Kleka.tex}
+\subfile{abstracts/L04_Konopka.tex}
+\subfile{abstracts/L05_Kruse.tex}
+% \subfile{abstracts/L06_.tex}
+\subfile{abstracts/L07_Moroz.tex}
+\subfile{abstracts/L08_Piatkowski.tex}
+\subfile{abstracts/L09_Roback.tex}
+\subfile{abstracts/L10_Lombardi.tex}
+\subfile{abstracts/L11_Ooms.tex}
+\subfile{abstracts/L12_Sobczyk.tex}
+\subfile{abstracts/L13_Tylutki.tex}
+
+\chapter{Poster Session}
+\subfile{abstracts/M01_Chmura.tex}
+\subfile{abstracts/M02_Correia.tex}
+\subfile{abstracts/M03_Daghir-Wojtkowiak.tex}
+\subfile{abstracts/M04_Dmowska.tex}
+\subfile{abstracts/M05_Fichou.tex}
+\subfile{abstracts/M06_Jablonska.tex}
+\subfile{abstracts/M07_Karas.tex}
+\subfile{abstracts/M08_Kedziora.tex}
+\subfile{abstracts/M09_Owczarek.tex}
+\subfile{abstracts/M10_Rybinska.tex}
+\subfile{abstracts/M11_Santos.tex}
+% \subfile{abstracts/M12_.tex}
+\subfile{abstracts/M13_Wierzcholska.tex}
+
+\backmatter
+\end{document}

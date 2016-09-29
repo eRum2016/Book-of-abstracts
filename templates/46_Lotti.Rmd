@@ -1,0 +1,44 @@
+---
+title: "R shiny server as core of multiple technologies into Travel Industry."
+author:
+ - name: "Giovanni Lotti"
+   affiliation: [1]
+   email: "glotti@calrsonwagonlit.com"
+   contact: yes
+ - name: "Giovanni Lotti"
+   affiliation: [2,3]
+affiliation:
+ - "Pierre Alexandre Chanteau; Cwt Solutions Group"
+keywords: "Shiny;d3;visualization;javascript"
+packages: "rHubble"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The travel industry is a natural fit for big data applications – not
+only through the large transaction volumes but also through the
+diversity of data sources (search, booking, air, hotel, rail, ground,
+credit card, expense reports etc). The challenge is to transform these
+data into meaningful information for our various types of audiences –
+from non-technical staff to business intelligence specialists.
+
+One solution we would like to showcase is the use of R shiny server as
+the core of multiple technologies.
+
+The data flows from Hadoop via hive to shiny server, from which we
+transform the data through several R packages, including the famous
+dplyr, tidyr, data.table and more peculiar ones like data.tree or ad hoc
+functions written in c++ to obtain the most reactive experience.
+
+For this session we would like to present our newly created package
+rHubble. rHubble package ports d3.js via htmlwidgets to enrich our
+visualizations by increasing user exploration possibilities, linking our
+multiple widgets through pubsub architecture.
+
+As the author of the package I would be delighted to show its potential.
+
+<!--  -->
+<!--  -->
+<!--  -->

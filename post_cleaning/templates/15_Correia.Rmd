@@ -1,0 +1,67 @@
+---
+title: "RNA-seq transcriptional profiling of PPD-b-stimulated peripheral blood from cattle infected with *Mycobacterium bovis*"
+author:
+ - name: "Carolina N. Correia"
+   affiliation: [1]
+   email: "carolina.correia@ucdconnect.ie"
+   contact: yes
+ - name: "Kirsten E. McLoughlin"
+   affiliation: [1]
+ - name: "Nicolas C. Nalpas"
+   affiliation: [1]
+ - name: "David A. Magee"
+   affiliation: [1]
+ - name: "John A. Browne"
+   affiliation: [1]   
+ - name: "Kate E. Killick"
+   affiliation: [1]
+ - name: "H. Martin Vordermeier"
+   affiliation: [2]
+ - name: "Bernardo Villarreal-Ramos"
+   affiliation: [2]   
+ - name: "Stephen V. Gordon"
+   affiliation: [3]  
+ - name: "David E. MacHugh"
+   affiliation: [1] 
+affiliation:
+ - "Animal Genomics Laboratory, UCD School of Agriculture and Food Science, University College Dublin"
+ - "Animal and Plant Health Agency, UK"
+ - "UCD School of Veterinary Medicine, University College Dublin"
+keywords: "transcriptomics; differential gene expression; tuberculosis"
+packages: "AnnotationFuncs; magrittr; VennDiagram; MASS; RColorBrewer; svglite; org.Bt.eg.db; dplyr; edgeR; limma; extrafont; ggplot2; gridExtra"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+*Mycobacterium bovis* infection, the cause of bovine tuberculosis (BTB),
+costs an estimated $3 billion to global agriculture annually. During the last decade, the maturation of high-throughput sequencing technologies coupled with well-annotated genome resources, has provided an
+unprecedented opportunity to gain a deeper understanding of
+host-pathogen interactions for many infectious diseases. Within this
+context, transcriptional profiling of the host immune response to *M.
+bovis* infection is a powerful approach for identifying host genes and
+cellular pathways important to disease pathology. For the present study,
+ten age-matched male Holstein-Friesian calves were infected
+endobronchially with *M. bovis* (~2,000 CFU -- colony forming units). Peripheral blood samples
+were collected in duplicate at four time points (-1 week pre-infection, +1
+week, +2 week, and +10 week post-infection) and used for:
+
+a. an overnight stimulation with purified protein derivative of bovine tuberculin (PPD-b) at 37$^\circ$C
+b. a control overnight incubation at 37$^\circ$C without PPD-b stimulation. 
+
+After isolation of total RNA, poly(A)+ purified RNA
+was used to generate strand-specific RNA-seq libraries for
+high-throughput sequencing. Transcripts were quality checked, adapter
+and quality filtered, and then aligned to the *Bos taurus* reference
+genome UMD3.1.1. Following summarisation of gene counts, lowly expressed
+transcripts were removed prior to subsequent gene annotation and
+differential expression analyses. Results showed 929 differentially
+expressed (DE) genes at -1 week pre-infection, 1,619 DE genes +1 week
+post-infection, 1,170 DE genes at +2 week, and 5,535 DE genes at +10 week
+(compared to non-PPDb-stimulated group at each time point; FDR
+correction threshold $\leq$ 0.05).
+
+<!--  -->
+<!--  -->
+<!--  -->

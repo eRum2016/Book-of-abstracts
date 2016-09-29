@@ -1,0 +1,36 @@
+---
+title: "archivist 2.0: News from Managing Data Analysis Results Toolkit"
+author:
+ - name: "Marcin Kosiński"
+   affiliation: [1]
+   email: "marcin.kosinski@grupawp.pl"
+   contact: yes
+affiliation:
+ - "Warsaw University of Technology"
+keywords: "reproducible research; sharing objects; archiving"
+packages: "archivist; archivist.github"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+Open science needs not only reproducible research but also accessible
+final and partial results. During the speech I will present the most
+valuable applications of the *archivist* package. The archivist is an **R**
+package for data analysis results management, which helps in managing,
+sharing, storing, linking and searching for **R** objects. The *archivist*
+package automatically retrieves the object’s meta-data and creates a
+rich structure that allows for easy management of calculated **R** objects.
+The *archivist* package extends the reproducible research paradigm by
+creating new ways to retrieve and validate previously calculated
+objects. These functionalities also result in a variety of opportunities
+such as: sharing **R** objects within reports/articles by adding hooks to **R**
+objects in table/figure captions; interactive exploration of object
+repositories; caching function calls; retrieving object’s pedigree along
+with information on how the object was created; automated tracking of
+performance of models.
+
+<!--  -->
+<!--  -->
+<!--  -->

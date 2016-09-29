@@ -1,0 +1,23 @@
+---
+title: "Introduction to RDruid"
+author:
+ - name: "Michał Maj"
+   affiliation: [1]
+   email: "Michal.Maj@grupawp.pl"
+   contact: yes
+affiliation:
+ - "Grupa Wirtualna Polska"
+keywords: "Druid"
+packages: "RDruid"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+This presentation will briefly describe *RDruid* package which is **R**
+connector for Druid data store.
+
+<!--  -->
+<!--  -->
+<!--  -->

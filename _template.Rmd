@@ -1,0 +1,26 @@
+---
+title: "`r info$Title`"
+author:
+ - name: "`r paste(info$Name, info$Surname)`"
+   affiliation: [1]
+   email: "`r info$Email`"
+   contact: yes
+ - name: "`r info$Authors`"
+   affiliation: [2,3]
+affiliation:
+ - "`r a = info$Affiliation_for_authors; if (is.na(a)) NULL else a`"
+keywords: "`r info$Keywords`"
+packages: "`r p = info$R_packages_that_will_be_covered_in_presentation_poster; if (is.na(p)) NULL else p`"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+`r info$Abstract`
+
+
+<!-- `r l = info$Literature` -->
+<!-- `r if (is.na(l)) NULL else {"**References**"}` -->
+<!-- `r if (is.na(l)) NULL else l` -->
+

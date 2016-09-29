@@ -1,0 +1,50 @@
+---
+title: "LimeRick: Bridge between LimeSurvey and R"
+author:
+ - name: "Kamil Wais"
+   affiliation: [1]
+   email: "kamil.wais@gmail.com"
+   contact: yes
+ - name: "Kamil Wais"
+   affiliation: [2,3]
+affiliation:
+ - "University of Information Technology and Management in Rzeszow"
+keywords: "LimeSurvey, on-line survey, CAWI, survey meta data"
+packages: "LimeRick (not publicly available yet)"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+The first public presentation of the prototype of a new R package that
+provides useful connection between R and the most popular open-source
+web scripts for on-line surveys (www.LimeSurvey.org).
+
+The package aims to enable and simplify the work flow of reproducible
+CAWI research in Social Science; preparing templates for ad hoc and
+real-time analysis, performing detailed meta-analysis, archiving and
+monitoring responses directly from R.
+
+With the LimeRick package one can import pre-processed data from an
+on-line survey with an R script (with the use of RemoteConrol2 API or
+with non-API solution). Then, the data can be processed analytically by
+an R script and automatically reported with the use of Shiny package.
+The whole process can be pre-programmed and performed without the
+researcher interference. This enables to build data products based on
+declarative data from on-line surveys, which are processed, analyzed,
+and visualized on-line and in real-time. It can be of use for performing
+automatic tracking studies with real-time KPIs monitoring (ex. for a
+customer satisfaction survey).
+
+The package will be also linked to a tool for unique, advanced analysis
+of meta-data from an on-line survey, which has already been alpha tested
+during large CAWI research project.
+
+As the early prototype of the package is presented, the presentation
+will end with a call for collaboration for developing and testing the
+package in different usage cases.
+
+<!--  -->
+<!-- **References** -->
+<!-- www.LimeSurvey.org -->

@@ -1,0 +1,53 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Multivariate analysis of variance for functional data using R}
+
+\begin{center}
+  {\bf Tomasz Górecki$^{1^\star}$, Łukasz Smaga$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Adam Mickiewicz University \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:tomasz.gorecki@amu.edu.pl}{\nolinkurl{tomasz.gorecki@amu.edu.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords functional data; multivariate analysis of variance
+\packages fda
+\end{minipage}
+
+\vskip 0.8cm
+
+We develop two testing procedures for multivariate analysis of variance
+problem for functional data. Similarly as the one-way analysis of
+variance for such data, this problem seems to be of practical interest.
+The first method approximates the functional data from each
+observational unit with of linear combination of orthonormal basis. Then
+time is integrated out from the usual MANOVA sum-of-squares and
+cross-products matrices. The null distribution of the standard MANOVA
+statistics are determined by permutation. In the second test, the
+functional data from each observational unit are projected on
+\(\mathbb{R}^p\). Then, standard or permutation MANOVA tests are applied
+to the projected data. The main rationale for this test is that equality
+of the mean-functions vectors does not hold if equality of mean vectors
+does not hold for any random projection of the mean-function vectors.
+The performance of these methods is examined in comprehensive simulation
+studies. The results suggest that the tests can detect small differences
+between vectors of curves even with small sample sizes. We demonstrate
+how these methods can be performed efficiently in \textbf{R} by applying
+them to real world data. We implement these methods for \textbf{R} in
+our forthcoming package.
+
+\end{document}

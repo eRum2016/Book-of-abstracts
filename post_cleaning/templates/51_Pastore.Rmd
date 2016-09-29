@@ -1,0 +1,26 @@
+---
+title: "influence.SEM 2.0: An R Package for Sensitivity Analysis in Structural Equation Models"
+author:
+ - name: "Gianmarco Altoè"
+   affiliation: [1]
+ - name: "Massimo Nucci"
+   affiliation: [1]
+ - name: "Massimiliano Pastore"
+   affiliation: [1]
+   email: "massimiliano.pastore@unipd.it"
+   contact: yes
+affiliation:
+ - "University of Padova"
+keywords: "sensitivity analysis; influential cases; structural equation models"
+packages: "lavaan; influence.SEM"
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+The **R** package *influence.SEM* 2.0 provides tools to perform sensitivity analysis in Structural Equation Models (SEM). Despite SEM are widely used by researchers in the social and behavioral sciences, the application of associated case-diagnostic tools (i.e. sensitivity analysis) have received limited attention and understanding in practice. Sensitivity analysis provides information regarding the impact of single cases on parameter estimates and goodness of fit of the model, thus supporting the researcher in the interpretation of results. In this paper, we present an easy-to-use **R** package yielding several measures of case influence for SEM via two applications to real data. We discuss the utility of detecting influential cases in SEM, provide recommendations for the use of measures of case influence, and give suggestions on how this analysis can be usefully employed in combination with other statistical techniques. 
+
+
+<!--  -->
+<!--  -->
+<!--  -->

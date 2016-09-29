@@ -1,0 +1,62 @@
+\providecommand{\main}{..} 
+\documentclass[\main/boa.tex]{subfiles}
+
+\begin{document}
+
+\section{Workflow around modelling in Data Science / R}
+
+\begin{center}
+  {\bf Filip Stachura$^{1^\star}$, Olga Mierzwa$^{1}$, Paweł Przytuła$^{1}$}
+\end{center}
+
+\vskip 0.3cm
+
+\begin{affiliations}
+\begin{enumerate}
+\begin{minipage}{0.915\textwidth}
+\centering
+\item Appsilon \\[-2pt]
+\end{minipage}
+\end{enumerate}
+$^\star$Contact author: \href{mailto:filip@appsilon.pl}{\nolinkurl{filip@appsilon.pl}}\\
+\end{affiliations}
+
+\vskip 0.5cm
+
+\begin{minipage}{0.915\textwidth}
+\keywords workflow; process; data science
+\packages dplyr; caret; randomForest
+\end{minipage}
+
+\vskip 0.8cm
+
+Working as a data scientist usually means working with data, building
+models, evaluating the results, translating them into actionable
+insights, getting feedback from experts and repeating the process.
+Hardly ever one starts with the model that finally will be used in
+production. It is usually trial and error process of trying new things
+and experimenting. That's why data science project could get
+disorganized rapidly. Every test involves a new script, each script
+requires a multiple arguments and produces one or more data files.
+Keeping track of all this implied structure is a pain.
+
+The talk stresses the importance of having a process around data science
+related tasks, while keeping the main focus on creating a data product.
+We demonstrate the implementation of the light data science workflow --
+Dataflows. Dataflows allows \textbf{R} users to create pipelines,
+without writing extra code, is self documenting and easy to start
+working with.
+
+During the talk we show the benefits of formalizing and structuring the
+process of model building in \textbf{R}. We mention the bottlenecks,
+propose solutions and biggest wins accomplished by introducing
+Dataflows. We strive to share our hands-on experience from various data
+science projects using \textbf{R}.
+
+Target audience practitioners, data scientists and researchers
+interested in rising standards of their current data product creation
+process, with the stress on reproducibility, early error detection, easy
+of results evaluation, comparison and communication with less technical
+colleagues.
+
+\end{document}

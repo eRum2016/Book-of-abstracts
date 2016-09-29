@@ -1,0 +1,28 @@
+---
+title: "Predicting machine failures"
+author:
+ - name: "Maren Eckhoff"
+   affiliation: [1]
+   email: "Marta_Swiniarska@mckinsey.com"
+   contact: yes
+affiliation:
+ - "McKinsey"
+keywords: "failure modelling, machine learning"
+packages: ""
+# bibliography: bibliography.bib
+output:  
+        erum::erum_abstract:
+                  keep_tex: TRUE
+---
+
+With the advent of the Internet of Things, companies collect a wealth of
+data that can be used to monitor degradation of their assets. In this
+talk, we will discuss how statistical modelling and machine learning can
+be used to predict failures and derive an optimal maintenance strategy.
+We will explore different modelling approaches and some of the feature
+engineering challenges. Moreover, the high value of combining different
+data sources to enrich the model will be explained.
+
+<!--  -->
+<!--  -->
+<!--  -->

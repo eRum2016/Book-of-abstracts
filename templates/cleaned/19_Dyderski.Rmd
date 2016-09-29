@@ -39,7 +39,7 @@ published data on ancient woodland indicator species. This study is a
 simple analyses of species richness and use of random forest model to
 analyze highly-collinear variables – land-use types within grid square.
 Here I will show that simple (ANOVA) and more sophisticated (Poisson
-Hierarchic GLM with SAR) statistical approach lead into the same
+Hierarchical GLM with SAR) statistical approach lead into the same
 conclusions. I will also discuss potential sources of outliers and
 artifacts, which may be important threat for results interpretation.
 

@@ -11,12 +11,8 @@ Encoding: UTF-8
 
 RnwWeave: knitr
 LaTeX: pdfLaTeX
-<<<<<<< HEAD
-=======
 
 AutoAppendNewline: Yes
 
-BuildType: Package
-PackageUseDevtools: Yes
-PackageInstallArgs: --no-multiarch --with-keep.source
->>>>>>> abstracts
+BuildType: Makefile
+MakefilePath: ~/Documents/Book-of-abstracts

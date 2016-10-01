@@ -5,9 +5,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
+
+\fancypagestyle{mainmatter}{
 \rhead{eRum2016}
 \lhead{Book of Abstracts}
 \rfoot{\thepage}
+}
 
 \usepackage{subfiles}
 \usepackage{hyperref}
@@ -15,10 +18,11 @@
 
 \usepackage{longtable} 
 \usepackage{pdflscape} 
+\usepackage{afterpage}
 
 \usepackage{imakeidx}
-\makeindex[name=a,title=Authors]
-\makeindex[name=p,title=Packages]
+\makeindex[name=a,title=Authors,intoc=true]
+\makeindex[name=p,title=Packages,intoc=true]
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -69,6 +73,10 @@
 \date{}
 
 \begin{document}
+
+\includepdf{figs/front_cover.pdf}
+% \cleardoublepage
+
 \frontmatter
 \maketitle
 
@@ -111,6 +119,8 @@ Welcome! Have a good time!
 \tableofcontents
 
 \mainmatter
+
+\pagestyle{mainmatter}% mainmatter page style
 
 \chapter{Invited Talks}
 \subfile{abstracts/01_Turner.tex}

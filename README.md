@@ -1,4 +1,1 @@
-# Book-of-abstracts
-Repository for the eRum 2016 Book of Abstracts
-
-[Book of Abstracts](https://github.com/eRum2016/Book-of-abstracts/blob/master/boa.pdf)
+<a href="https://github.com/eRum2016/Book-of-abstracts/blob/master/boa.pdf" rel="some text">![Book of Abstracts](figs/front_cover.jpg)]</a>

@@ -16,6 +16,10 @@
 \usepackage{longtable} 
 \usepackage{pdflscape} 
 
+\usepackage{imakeidx}
+\makeindex[name=a,title=Authors]
+\makeindex[name=p,title=Packages]
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{eurosym}
@@ -28,6 +32,8 @@
 	urlcolor=black,
 	citecolor=black
 }
+
+\usepackage{pdfpages}
 
 %\let\section=\subsubsection
 \newcommand{\pkg}[1]{{\normalfont\fontseries{b}\selectfont #1}}
@@ -66,8 +72,33 @@
 \frontmatter
 \maketitle
 
+\chapter{The Organizing Committee}
+
+\textbf{Maciej Beresewicz (Chair), Poznan University of Economics and Business}
+
+Adolfo Alvarez, Analyx
+
+Przemyslaw Biecek, MIM University of Warsaw, MiNI Warsaw University of Technology
+
+Marcin Dyderski, Institute of Dendrology of the Polish Academy of Sciences, Poznan University of Life Sciences
+
+Marcin Kosinski, Warsaw R Enthusiasts
+
+Jakub Nowosad, Adam Mickiewicz University in Poznan, University of Cincinnati
+
+Kamil Rotter, Poznan University of Economics and Business
+
+Alicja Szabelska, Poznan University of Life Sciences
+
+Marcin Szymkowiak, Poznan University of Economics and Business
+
+Lukasz Wawrowski, Poznan University of Economics and Business
+
+Joanna Zyprych-Walczak, Poznan University of Life Sciences
+
+
 \chapter{Program at glance}
-\noindent\makebox[\textwidth]{\includegraphics[width=1.25\textwidth]{figs/program_at_glance.pdf}}
+\noindent\makebox[\textwidth]{\includegraphics[width=1.25\textwidth,trim=0cm 10cm 0cm 0cm,clip]{figs/program_at_glance.pdf}}
 
 \begin{landscape}
 \chapter{Full Program}
@@ -196,4 +227,7 @@ Welcome! Have a good time!
 \subfile{abstracts/M13_Wierzcholska.tex}
 
 \backmatter
+\printindex[a]
+\printindex[p]
+
 \end{document}

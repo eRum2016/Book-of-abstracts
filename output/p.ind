@@ -123,7 +123,7 @@
 
   \indexspace
 
-  \item magrittr, 19, 55
+  \item magrittr, 17, 19, 55
   \item maps, 19
   \item maptools, 19
   \item MASS, 55, 61
@@ -197,7 +197,6 @@
   \item rkafka, 17, 18
   \item rkwarddev, 38
   \item rmarkdown, 12, 42, 48
-  \item rms, 17
   \item roveR, 11
   \item Rserve, 20, 43
   \item rsm, 4
@@ -230,7 +229,7 @@
 
   \item TFX, 13
   \item tgp, 4
-  \item tm, 17, 28
+  \item tm, 28
   \item tseries, 13
   \item TTR, 13
   \item tutorial, 42

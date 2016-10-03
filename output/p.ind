@@ -181,6 +181,12 @@
   \item RDML, 37
   \item RDruid, 16
   \item refund, 58
+  \item RevoMods, 8
+  \item RevoPemaR, 8
+  \item RevoScaleR, 8
+  \item RevoTreeView, 8
+  \item RevoUtils, 8
+  \item RevoUtilsMath, 8
   \item rgdal, 7, 19, 56
   \item rgeos, 7, 19, 39
   \item RGoogleAnalytics, 13

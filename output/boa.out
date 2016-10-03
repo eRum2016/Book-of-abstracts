@@ -1,7 +1,7 @@
 \BOOKMARK [0][-]{chapter*.1}{The Organizing Committee}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{Program at glance}{}% 2
 \BOOKMARK [0][-]{chapter*.3}{Full Program}{}% 3
-\BOOKMARK [0][-]{chapter*.4}{Welcome Address}{}% 4
+\BOOKMARK [0][-]{chapter*.4}{Welcome to eRum 2016}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Invited Talks}{}% 5
 \BOOKMARK [1][-]{section*.6}{Addressing the Gender Gap in the R Project}{chapter.1}% 6
 \BOOKMARK [1][-]{Item.1}{Heteroscedastic Discriminant Analysis and its integration into `mlR' package for uniform machine learning}{chapter.1}% 7
@@ -97,5 +97,6 @@
 \BOOKMARK [1][-]{Item.116}{R as an effective data mining tool in chemistry}{chapter.14}% 97
 \BOOKMARK [1][-]{Item.117}{Applying genetic algorithms to calibrate a processing chain for a Landsat-based time series analysis of disturbance - regrowth dynamics in tropical forests}{chapter.14}% 98
 \BOOKMARK [1][-]{Item.118}{Modelling the distrubution of the bryophytes in different spatial scales}{chapter.14}% 99
-\BOOKMARK [0][-]{section*.20}{Authors}{}% 100
-\BOOKMARK [0][-]{section*.22}{Packages}{}% 101
+\BOOKMARK [1][-]{Item.121}{Mortality mapping using R}{chapter.14}% 100
+\BOOKMARK [0][-]{section*.20}{Authors}{}% 101
+\BOOKMARK [0][-]{section*.22}{Packages}{}% 102

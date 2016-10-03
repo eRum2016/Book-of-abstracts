@@ -15,4 +15,4 @@ LaTeX: pdfLaTeX
 AutoAppendNewline: Yes
 
 BuildType: Makefile
-MakefilePath: ~/Documents/Book-of-abstracts
+MakefilePath: ~/Science/pzn/Book-of-abstracts

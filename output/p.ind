@@ -1,254 +1,252 @@
 \begin{theindex}
 
-  \item abind, 46
-  \item agricolae, 3
-  \item AlgDesign, 3
-  \item AnnotationFuncs, 44
-  \item archivist, 3, 27
-  \item archivist.github, 27
+  \item abind, 58
+  \item agricolae, 4
+  \item AlgDesign, 4
+  \item AnnotationFuncs, 55
+  \item archivist, 4, 33
+  \item archivist.github, 33
 
   \indexspace
 
-  \item base, 9
-  \item bayesm, 16, 22
-  \item BetaBit, 3
-  \item betapart, 43
-  \item biogram, 30
-  \item Boruta, 36
-  \item BreakoutDetection, 49
-  \item brms, 25
+  \item base, 11
+  \item bayesm, 19, 26
+  \item BetaBit, 4
+  \item betapart, 54
+  \item biogram, 37
+  \item Boruta, 46
+  \item BreakoutDetection, 62
+  \item brms, 30
 
   \indexspace
 
-  \item caret, 17, 32, 36, 44
-  \item caTools, 11, 44
-  \item cgmisc, 46
-  \item changepoint, 26, 49
-  \item checkpoint, 6
-  \item chemometrics, 37
-  \item chipPCR, 30
-  \item ChoiceModelR, 22
-  \item chron, 11
-  \item cluster, 16, 33, 48
-  \item clustMixType, 33
-  \item clv, 37
-  \item coda, 44
-  \item conf.design, 3
+  \item caret, 20, 40, 46, 56
+  \item caTools, 13, 56
+  \item cgmisc, 59
+  \item changepoint, 32, 62
+  \item chemometrics, 47
+  \item chipPCR, 38
+  \item ChoiceModelR, 26
+  \item chron, 13
+  \item cluster, 19, 41, 61
+  \item clustMixType, 41
+  \item clv, 47
+  \item coda, 56
+  \item conf.design, 4
 
   \indexspace
 
-  \item data.table, 10
-  \item dbmss, 5
-  \item deepnet, 46
-  \item dendextend, 48
-  \item deSolve, 41
-  \item DiceDesign, 3
-  \item DiceKriging, 3
-  \item dismo, 49
-  \item DoE.base, 3
-  \item DoE.wrapper, 3
-  \item doParallel, 6
-  \item dpcR, 30
-  \item dplyr, 4, 10, 16, 17, 39, 44, 48
+  \item data.table, 12
+  \item dbmss, 7
+  \item deepnet, 58
+  \item dendextend, 61
+  \item deSolve, 52
+  \item DiceDesign, 4
+  \item DiceKriging, 4
+  \item dismo, 63
+  \item DoE.base, 4
+  \item DoE.wrapper, 4
+  \item dpcR, 38
+  \item dplyr, 5, 12, 19, 20, 50, 55, 61
 
   \indexspace
 
-  \item e1071, 20, 23, 37
-  \item EBImage, 46
-  \item ecp, 49
-  \item edgeR, 44
-  \item elastic, 14
-  \item EnvCpt, 26
-  \item extrafont, 44
+  \item e1071, 24, 28, 46
+  \item EBImage, 58
+  \item ecp, 62
+  \item edgeR, 55
+  \item elastic, 17
+  \item EnvCpt, 32
+  \item extrafont, 55
 
   \indexspace
 
-  \item fda, 22
-  \item fields, 16
-  \item FME, 41
-  \item fpc, 33
-  \item FWDselect, 48
+  \item fda, 27
+  \item fields, 19
+  \item FME, 52
+  \item fpc, 41
+  \item FWDselect, 61
 
   \indexspace
 
-  \item GA, 49
-  \item GenABEL, 46
-  \item genie, 4
-  \item ggplot2, 3, 10, 12, 16, 32, 35--37, 39, 41, 44, 48
-  \item gmnl, 22
-  \item grid, 35
-  \item gridExtra, 44
+  \item GA, 62
+  \item GenABEL, 59
+  \item genie, 5
+  \item ggplot2, 4, 12, 13, 15, 19, 40, 43--45, 47, 50, 51, 55, 61
+  \item gmnl, 26
+  \item grid, 43
+  \item gridExtra, 55
+  \item GWR, 64
 
   \indexspace
 
-  \item h2o, 6, 10
-  \item hdi, 47
-  \item hglm, 32
-  \item Hmisc, 44
-  \item hts, 24
-  \item httr, 14
+  \item h2o, 12
+  \item hdi, 59
+  \item hglm, 40
+  \item Hmisc, 56
+  \item hts, 29
+  \item httr, 17
 
   \indexspace
 
-  \item IBrokers, 11
-  \item ICAOD, 3
-  \item igraph, 48
-  \item import, 13
-  \item influence.SEM, 25
-  \item inline, 11
-  \item intsvy, 3
-  \item irr, 43
-  \item ISLR, 39
+  \item IBrokers, 13
+  \item ICAOD, 4
+  \item igraph, 61
+  \item import, 16
+  \item influence.SEM, 31
+  \item INLA, 64
+  \item inline, 13
+  \item intsvy, 4
+  \item irr, 54
+  \item ISLR, 50
 
   \indexspace
 
-  \item jpeg, 46
+  \item jpeg, 58
 
   \indexspace
 
-  \item klaR, 33, 48
-  \item knitr, 3, 6, 34, 39
-  \item kohonen, 16
+  \item klaR, 41, 61
+  \item knitr, 4, 42, 49
+  \item kohonen, 19
 
   \indexspace
 
-  \item lassoscore, 47
-  \item lattice, 36, 44
-  \item lavaan, 25
-  \item leaflet, 16, 24, 38, 41
-  \item lhs, 3
-  \item LimeRick, 28
-  \item limma, 44
-  \item lme4, 16
-  \item localsolver, 6
+  \item lassoscore, 59
+  \item lattice, 45, 56
+  \item lavaan, 31
+  \item leaflet, 19, 29, 48, 51
+  \item lhs, 4
+  \item LimeRick, 34
+  \item limma, 55
+  \item lme4, 19
 
   \indexspace
 
-  \item magrittr, 16, 44
-  \item maps, 16
-  \item maptools, 16
-  \item MASS, 44, 48
-  \item Matrix, 48
-  \item matrixStats, 48
-  \item MBmca, 30
-  \item MCMCglmm, 44
+  \item magrittr, 19, 55
+  \item maps, 19
+  \item maptools, 19
+  \item MASS, 55, 61
+  \item Matrix, 61
+  \item matrixStats, 61
+  \item MBmca, 38
+  \item MCMCglmm, 56
   \item MCMCpack, 2
-  \item mlogit, 22
-  \item mlR, 1
-  \item mlr, 18, 19
-  \item modules, 13
-  \item multilevel, 43
+  \item mlogit, 26
+  \item mlR, 2
+  \item mlr, 22, 23
+  \item modules, 16
+  \item multilevel, 54
 
   \indexspace
 
-  \item nlme, 43
+  \item nlme, 54
 
   \indexspace
 
-  \item openssl, 41
-  \item OptimalDesign, 3
-  \item org.Bt.eg.db, 44
+  \item openssl, 51
+  \item OptimalDesign, 4
+  \item org.Bt.eg.db, 55
 
   \indexspace
 
-  \item parallel, 13, 36
-  \item parallelMCMCcombine, 2
-  \item party, 16
-  \item pdbeeR, 39
-  \item PerformanceAnalytics, 11
-  \item PISA2012lite, 3
-  \item planor, 3
-  \item plotly, 10, 41
-  \item popSim, 5
+  \item parallel, 16, 46
+  \item parallelMCMCcombine, 3
+  \item party, 19
+  \item pdbeeR, 49
+  \item PerformanceAnalytics, 13
+  \item PISA2012lite, 4
+  \item planor, 4
+  \item plotly, 13, 51
+  \item popSim, 6
 
   \indexspace
 
-  \item qcc, 20
-  \item qpcR, 30
-  \item quantmod, 11
+  \item qcc, 24
+  \item qpcR, 38
+  \item quantmod, 13
 
   \indexspace
 
   \item R-INLA, 2
-  \item randomForest, 17, 32
-  \item ranger, 30
-  \item raster, 36
-  \item rasterVis, 49
-  \item Rbbg, 11
-  \item RColorBrewer, 35, 44
-  \item Rcpp, 2, 4, 11
-  \item RcppArmadillo, 11
-  \item RDML, 30
-  \item RDruid, 12
-  \item refund, 47
-  \item ReporteRs, 27
-  \item RevoMods, 27
-  \item RevoPemaR, 27
-  \item RevoScaleR, 27
-  \item RevoTreeView, 27
-  \item RevoUtils, 27
-  \item RevoUtilsMath, 27
-  \item rgdal, 5, 16, 45
-  \item rgeos, 5, 16, 32
-  \item RGoogleAnalytics, 10
-  \item rgrass7, 45
+  \item R2WinBUGS, 64
+  \item randomForest, 20, 40
+  \item ranger, 37
+  \item raster, 46
+  \item rasterVis, 63
+  \item Rbbg, 13
+  \item RColorBrewer, 43, 55
+  \item Rcpp, 3, 5, 13
+  \item RcppArmadillo, 13
+  \item RDML, 38
+  \item RDruid, 16
+  \item refund, 59
+  \item ReporteRs, 33
+  \item RevoMods, 34
+  \item RevoPemaR, 34
+  \item RevoScaleR, 34
+  \item RevoTreeView, 34
+  \item RevoUtils, 34
+  \item RevoUtilsMath, 34
+  \item rgdal, 7, 19, 57
+  \item rgeos, 7, 19, 40
+  \item RGoogleAnalytics, 13
+  \item rgrass7, 57
   \item rjags, 2
-  \item RJBDC, 14
-  \item rkafka, 14, 15
-  \item rkwarddev, 30
-  \item rmarkdown, 10, 34, 38
-  \item rms, 13
-  \item roveR, 9
-  \item Rserve, 16, 35
-  \item RSGHB, 22
-  \item rsm, 3
-  \item RSQLite, 45
-  \item rstan, 2
-  \item rtable, 27
-  \item runjags, 44
-  \item rvest, 12
-  \item RZabbix, 14
+  \item RJBDC, 17
+  \item rkafka, 17, 18
+  \item rkwarddev, 38
+  \item rmarkdown, 12, 42, 48
+  \item rms, 17
+  \item roveR, 11
+  \item Rserve, 20, 43
+  \item rsm, 4
+  \item RSQLite, 57
+  \item rstan, 2, 3, 26
+  \item rtable, 33
+  \item runjags, 56
+  \item rvest, 15
+  \item RZabbix, 17
 
   \indexspace
 
-  \item sgr, 40
-  \item shiny, 3, 9, 10, 12, 16, 24, 27, 34, 35, 38
-  \item SimonsSVM, 21
-  \item SixSigma, 20
-  \item slam, 30
-  \item sodium, 41
-  \item sp, 5, 16, 32, 45
-  \item SparkR, 12, 13, 31
-  \item spatstat, 16
-  \item spdep, 5
-  \item Stan, 22
-  \item stats, 48
-  \item stplanr, 24
-  \item stringr, 38
-  \item svglite, 44
-  \item svSocket, 16
+  \item sgr, 50
+  \item shiny, 4, 11, 12, 15, 19, 29, 33, 42, 44, 48
+  \item SimonsSVM, 25
+  \item SixSigma, 24
+  \item slam, 37
+  \item sodium, 51
+  \item sp, 7, 19, 40, 57
+  \item SparkR, 15, 17, 39
+  \item spatstat, 19
+  \item spdep, 7, 64
+  \item stats, 61
+  \item stplanr, 29
+  \item stringr, 48
+  \item svglite, 55
+  \item svSocket, 20
 
   \indexspace
 
-  \item TFX, 11
-  \item tgp, 3
-  \item tm, 13, 23
-  \item tseries, 11
-  \item TTR, 11
-  \item tutorial, 34
-  \item twitteR, 23
+  \item TFX, 13
+  \item tgp, 4
+  \item tm, 17, 28
+  \item tseries, 13
+  \item TTR, 13
+  \item tutorial, 42
+  \item twitteR, 28
 
   \indexspace
 
-  \item vegan, 43
-  \item VennDiagram, 44
+  \item vegan, 54
+  \item VennDiagram, 55
 
   \indexspace
 
-  \item wordcloud, 13
+  \item wordcloud, 17
 
   \indexspace
 
-  \item xts, 11
+  \item xts, 13
 
 \end{theindex}

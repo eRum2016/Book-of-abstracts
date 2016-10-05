@@ -119,7 +119,6 @@
   \item lhs, 5
   \item LimeRick, 38
   \item limma, 59
-  \item lme4, 22
 
   \indexspace
 
@@ -170,7 +169,7 @@
 
   \item R-INLA, 3
   \item R2WinBUGS, 68
-  \item randomForest, 23, 32
+  \item randomForest, 22, 23, 32
   \item ranger, 42
   \item raster, 50
   \item rasterVis, 67

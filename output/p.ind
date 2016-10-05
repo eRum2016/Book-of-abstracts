@@ -40,14 +40,14 @@
   \item dbmss, 10
   \item deepnet, 62
   \item dendextend, 65
-  \item deSolve, 56
+  \item deSolve, 57
   \item DiceDesign, 5
   \item DiceKriging, 5
   \item dismo, 67
   \item DoE.base, 5
   \item DoE.wrapper, 5
   \item dpcR, 43
-  \item dplyr, 7, 15, 22, 23, 53, 59, 65
+  \item dplyr, 7, 15, 22, 23, 54, 59, 65
 
   \indexspace
 
@@ -63,7 +63,7 @@
 
   \item fda, 30
   \item fields, 22
-  \item FME, 56
+  \item FME, 57
   \item fpc, 33
   \item FWDselect, 65
 
@@ -72,7 +72,7 @@
   \item GA, 66
   \item GenABEL, 63
   \item genie, 8
-  \item ggplot2, 6, 15, 16, 18, 22, 32, 47--49, 51, 53, 55, 59, 65
+  \item ggplot2, 6, 15, 16, 18, 22, 32, 47--49, 51, 54, 56, 59, 65
   \item gmnl, 29
   \item grid, 47
   \item gridExtra, 59
@@ -98,7 +98,7 @@
   \item inline, 16
   \item intsvy, 6
   \item irr, 58
-  \item ISLR, 53
+  \item ISLR, 54
 
   \indexspace
 
@@ -107,7 +107,7 @@
   \indexspace
 
   \item klaR, 33, 65
-  \item knitr, 6, 46, 53
+  \item knitr, 6, 46, 54
   \item kohonen, 22
 
   \indexspace
@@ -115,7 +115,7 @@
   \item lassoscore, 63
   \item lattice, 49, 60
   \item lavaan, 36
-  \item leaflet, 22, 34, 52, 55
+  \item leaflet, 22, 34, 53, 56
   \item lhs, 5
   \item LimeRick, 38
   \item limma, 59
@@ -144,7 +144,7 @@
 
   \indexspace
 
-  \item openssl, 55
+  \item openssl, 56
   \item OptimalDesign, 5
   \item org.Bt.eg.db, 59
 
@@ -153,11 +153,11 @@
   \item parallel, 35, 50
   \item parallelMCMCcombine, 4
   \item party, 22
-  \item pdbeeR, 53
+  \item pdbeeR, 54
   \item PerformanceAnalytics, 16
   \item PISA2012lite, 6
   \item planor, 5
-  \item plotly, 16, 55
+  \item plotly, 16, 56
   \item popSim, 9
 
   \indexspace
@@ -191,11 +191,12 @@
   \item rgeos, 10, 22, 32
   \item RGoogleAnalytics, 16
   \item rgrass7, 61
+  \item rHubble, 52
   \item rjags, 3
   \item RJBDC, 20
   \item rkafka, 20, 21
   \item rkwarddev, 43
-  \item rmarkdown, 15, 46, 52
+  \item rmarkdown, 15, 46, 53
   \item roveR, 14
   \item Rserve, 23, 47
   \item rsm, 5
@@ -207,19 +208,19 @@
 
   \indexspace
 
-  \item sgr, 54
-  \item shiny, 6, 14, 15, 18, 22, 34, 46, 48, 52
+  \item sgr, 55
+  \item shiny, 6, 14, 15, 18, 22, 34, 46, 48, 53
   \item SimonsSVM, 28
   \item SixSigma, 27
   \item slam, 42
-  \item sodium, 55
+  \item sodium, 56
   \item sp, 10, 22, 32, 61
   \item SparkR, 18, 19, 44
   \item spatstat, 22
   \item spdep, 10, 68
   \item stats, 65
   \item stplanr, 34
-  \item stringr, 52
+  \item stringr, 53
   \item svglite, 59
   \item svSocket, 23
 

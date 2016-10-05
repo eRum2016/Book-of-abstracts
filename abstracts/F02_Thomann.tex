@@ -44,7 +44,7 @@ last 20 years. There are many well-known implementations also for
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Unprecented speed:
+  Unprecedented speed:
 \end{enumerate}
 
 \begin{itemize}
@@ -53,10 +53,10 @@ last 20 years. There are many well-known implementations also for
   Compared to, e.g. \emph{LIBSVM}, training that includes 5-fold cross
   validation on a 10x10 hyper-parameter grid is about 300 times faster
   on, e.g.~a 1000 samples containing subset of the binary version of the
-  classical covertype dataset.
+  classical covertype data set.
 \item
   Partitioning strategies further decrease training (and testing) time
-  without sacrifying generalization. For example, the full covertype
+  without sacrificing generalization. For example, the full covertype
   data set (about 523.000 samples) takes less than 9 min.
 \item
   Partitioning even allows to attack huge problems. For instance the
@@ -99,10 +99,10 @@ last 20 years. There are many well-known implementations also for
   he/she can understand.
 \item
   The underlying implementation have more than twenty independent otions
-  leading to an enormeous flexibility for the power user.
+  leading to an enormous flexibility for the power user.
 \item
   Meaningful default values, which in many cases makes a fine-adjustment
-  unneccesary.
+  unnecessary.
 \item
   Comprehensive documentation.
 \end{itemize}
@@ -110,8 +110,7 @@ last 20 years. There are many well-known implementations also for
 Quick demo:
 
 \begin{verbatim}
-install.packages("SimonsSVM",
-repos="http://www.isa.uni-stuttgart.de/software/R")
+install.packages("SimonsSVM", repos="http://www.isa.uni-stuttgart.de/R")
 library(SimonsSVM)
 d <- ttsplit(iris)
 model <- svm(Species ~ ., d$train)

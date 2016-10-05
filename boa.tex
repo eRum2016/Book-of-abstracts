@@ -1,4 +1,4 @@
-\documentclass[11pt,oneside]{book}
+\documentclass[11pt,twoside]{book}
 
 \usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
 
@@ -11,6 +11,8 @@
 \lhead{Book of Abstracts}
 \rfoot{\thepage}
 }
+
+\usepackage{emptypage}
 
 \usepackage{subfiles}
 \usepackage{hyperref}
@@ -77,6 +79,8 @@
 \includepdf{figs/front_cover.pdf}
 % \cleardoublepage
 
+\clearpage
+
 \frontmatter
 \maketitle
 
@@ -105,15 +109,13 @@ Lukasz Wawrowski, \textit{Poznan University of Economics and Business}
 Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 
 \chapter{Program at glance}
-\includegraphics[width=0.25\textwidth,trim=1cm 1cm 1cm 1cm,clip]{figs/qrcode} \\
 \noindent\makebox[\textwidth]{\includegraphics[width=1.25\textwidth,trim=0cm 14cm 0cm 0cm,clip]{figs/program_at_glance.pdf}}
+\begin{flushright}
+\includegraphics[width=0.25\textwidth,trim=1cm 1cm 1cm 1cm,clip]{figs/qrcode}
+\end{flushright}
 
-
-
-\begin{landscape}
 \chapter{Full Program}
 \input{figs/full_program.tex}
-\end{landscape}
 
 \chapter{Workshops}
 \begin{center}
@@ -121,16 +123,23 @@ Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 \vskip1em
 \input{figs/workshops_location.tex}
 \end{center}
+\begin{flushright}
+\includegraphics[width=0.25\textwidth,trim=1cm 1cm 1cm 1cm,clip]{figs/qrcode_work}
+\end{flushright}
 
 \chapter{Welcome to eRum 2016}
+
 \input{misc/welcome.tex}
+
+\begin{small}
 \tableofcontents
+\end{small}
 
 \mainmatter
 
 \pagestyle{mainmatter}% mainmatter page style
 
-\chapter{Invited Talks}
+\chapter{Invited Talks}{\LARGE \textit{Room AULA}}
 \subfile{abstracts/01_Turner.tex}
 \newpage
 \subfile{abstracts/02_Stapor.tex}
@@ -151,51 +160,51 @@ Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 \newpage
 \subfile{abstracts/10_Kopczewska.tex}
 
-\chapter{Business 1}
+\chapter{Business 1}{\LARGE \textit{Room 111A - Chairman: Adolfo Alvarez}}
 \subfile{abstracts/A01_Zylinski.tex}
 \subfile{abstracts/A02_Grala.tex}
 \subfile{abstracts/A03_Jakuczun.tex}
 \subfile{abstracts/A04_Barzagar-Nazari.tex}
 \subfile{abstracts/A05_Wygrabek.tex}
 
-\chapter{Business 2}
+\chapter{Business 2}{\LARGE \textit{Room 111A - Chairman: Łukasz Wawrowski}}
 \subfile{abstracts/B01_Kun.tex}
 \subfile{abstracts/B02_Bracht.tex}
 \subfile{abstracts/B03_Ladyzynski.tex}
 \subfile{abstracts/B04_Brys.tex}
 \subfile{abstracts/B05_Wojcik.tex}
 
-\chapter{Data Workflow 1}
+\chapter{Data Workflow 1}{\LARGE \textit{Room 111A - Chairman: Marcin Kosiński}}
 \subfile{abstracts/C01_Aydin.tex}
 \subfile{abstracts/C02_Maj.tex}
 \subfile{abstracts/C04_Wroblewska.tex}
 \subfile{abstracts/C05_Potocka.tex}
 
-\chapter{Data Workflow 2}
+\chapter{Data Workflow 2}{\LARGE \textit{Room 111A - Chairman: Marcin Dyderski}}
 \subfile{abstracts/D01_Cejrowski.tex}
 \subfile{abstracts/D02_Shan.tex}
 \subfile{abstracts/D03_Ryczkowski.tex}
 \subfile{abstracts/D04_Stachura.tex}
 
-\chapter{Methodology 1}
+\chapter{Methodology 1}{\LARGE \textit{Room AULA - Chairman: Marcin Szymkowiak}}
 \subfile{abstracts/E01_Eckhoff.tex}
 \subfile{abstracts/E02_Filarowski.tex}
 \subfile{abstracts/E03_Smolarczyk.tex}
 
-\chapter{Methodology 2}
+\chapter{Methodology 2}{\LARGE \textit{Room AULA - Chairman: Maciej Beręsewicz}}
 \subfile{abstracts/F01_Cano.tex}
 \subfile{abstracts/F02_Thomann.tex}
 \subfile{abstracts/F03_Guhl.tex}
 \subfile{abstracts/F04_Gorecki.tex}
 \subfile{abstracts/F05_Hoffmann.tex}
 
-\chapter{Methodology 3}
+\chapter{Methodology 3}{\LARGE \textit{Room AULA - Chairman: Tomasz Klimanek}}
 \subfile{abstracts/J01_Alvarez.tex}
-% \subfile{abstracts/J02_.tex}
+\subfile{abstracts/J02_Beresewicz.tex}
 \subfile{abstracts/J03_Dyderski.tex}
 \subfile{abstracts/J04_Szepannek.tex}
 
-\chapter{Packages 1}
+\chapter{Packages 1}{\LARGE \textit{Room 308A - Chairman: Tomasz Górecki}}
 \subfile{abstracts/G01_Hyndman.tex}
 \subfile{abstracts/G02_Lovelace.tex}
 \subfile{abstracts/G03_Buerkner.tex}
@@ -203,27 +212,27 @@ Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 % \subfile{abstracts/G03_Wawrowski.tex}
 \subfile{abstracts/G05_Pastore.tex}
 
-\chapter{Packages 2}
+\chapter{Packages 2}{\LARGE \textit{Room 308A - Chairman: Marek Gągolewski}}
 \subfile{abstracts/H01_Killick.tex}
 \subfile{abstracts/H02_Kosinski.tex}
 \subfile{abstracts/H03_Wais.tex}
 \subfile{abstracts/H04_Ibtihel.tex}
 % \subfile{abstracts/H03_Gohel.tex}
 
-\chapter{BioR}
+\chapter{BioR}{\LARGE \textit{Room 308A - Chairman: Przemysław Biecek}}
 \subfile{abstracts/I01_Labaj.tex}
 \subfile{abstracts/I02_Burdukiewicz.tex}
 \subfile{abstracts/I03_Rodiger.tex}
 \subfile{abstracts/I04_Wiewiorka.tex}
 \subfile{abstracts/I05_Okoniewski.tex}
 
-\chapter{Education Learning}
+\chapter{Education Learning}{\LARGE \textit{Room 308A - Chairman: Alicja Szabelska-Beręsewicz}}
 \subfile{abstracts/K01_Schouwenaars.tex}
 \subfile{abstracts/K02_Schneider.tex}
 \subfile{abstracts/K03_Julin.tex}
 \subfile{abstracts/K04_Krawczyk.tex}
 
-\chapter{Lightning Talks}
+\chapter{Lightning Talks}{\LARGE \textit{Room AULA - Chairman: Joanna Zyprych-Walczak}}
 \subfile{abstracts/L01_Borsuk.tex}
 \subfile{abstracts/L02_Czernecki.tex}
 \subfile{abstracts/L03_Kleka.tex}
@@ -238,7 +247,7 @@ Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 \subfile{abstracts/L12_Sobczyk.tex}
 \subfile{abstracts/L13_Tylutki.tex}
 
-\chapter{Poster Session}
+\chapter{Poster Session}{\LARGE \textit{Room AULA}}
 \subfile{abstracts/M01_Chmura.tex}
 \subfile{abstracts/M02_Correia.tex}
 \subfile{abstracts/M03_Daghir-Wojtkowiak.tex}
@@ -257,6 +266,11 @@ Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 \backmatter
 \printindex[a]
 \printindex[p]
+
+\clearpage\phantom{}
+ \thispagestyle{empty}
+\clearpage\phantom{}
+ \thispagestyle{empty}
 
 \includepdf{figs/back_cover.pdf}
 

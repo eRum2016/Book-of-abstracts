@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  5 OCT 2016 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  5 OCT 2016 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -65,6 +65,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \f@ncyO@erf=\skip49
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
@@ -956,7 +960,7 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen170
 \Gin@req@width=\dimen171
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2015/08/16 v0.5c Insert pages of external PDF documents (AM)
@@ -1013,21 +1017,21 @@ File: block.tss 2011/12/15
 ) (./boa.aux)
 \openout1 = `boa.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1039,7 +1043,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
 * v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
@@ -1053,7 +1057,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \headsep=19.8738pt
 * \topskip=11.0pt
 * \footskip=27.46295pt
-* \marginparwidth=62.0pt
+* \marginparwidth=116.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1061,13 +1065,13 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 77.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1076,9 +1080,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 
 (./boa.out) (./boa.out)
 \@outlinefile=\write5
@@ -1113,214 +1117,270 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<figs/front_cover.pdf, id=421, 597.50829pt x 847.80675pt>
+<figs/front_cover.pdf, id=425, 597.50829pt x 847.80675pt>
 File: figs/front_cover.pdf Graphic file (type pdf)
 
 <use figs/front_cover.pdf>
-Package pdftex.def Info: figs/front_cover.pdf used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf used on input line 79.
 (pdftex.def)             Requested size: 597.50682pt x 847.80469pt.
 File: figs/front_cover.pdf Graphic file (type pdf)
  <use figs/front_cover.pdf>
-Package pdftex.def Info: figs/front_cover.pdf used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf used on input line 79.
 (pdftex.def)             Requested size: 597.50682pt x 847.80469pt.
 
-<figs/front_cover.pdf, id=424, page=1, 597.50829pt x 847.80675pt>
+<figs/front_cover.pdf, id=428, page=1, 597.50829pt x 847.80675pt>
 File: figs/front_cover.pdf Graphic file (type pdf)
 
 <use figs/front_cover.pdf, page 1>
-Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 79.
 (pdftex.def)             Requested size: 597.50682pt x 847.80469pt.
 File: figs/front_cover.pdf Graphic file (type pdf)
  <use figs/front_cover.pdf, page 1>
-Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 79.
 (pdftex.def)             Requested size: 596.12099pt x 845.83833pt.
 File: figs/front_cover.pdf Graphic file (type pdf)
 
 <use figs/front_cover.pdf, page 1>
-Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 79.
 (pdftex.def)             Requested size: 596.12099pt x 845.83833pt.
 File: figs/front_cover.pdf Graphic file (type pdf)
  <use figs/front_cover.pdf, page 1>
-Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 79.
 (pdftex.def)             Requested size: 596.12099pt x 845.83833pt.
 File: figs/front_cover.pdf Graphic file (type pdf)
 
 <use figs/front_cover.pdf, page 1>
-Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 77.
+Package pdftex.def Info: figs/front_cover.pdf, page1 used on input line 79.
 (pdftex.def)             Requested size: 596.12099pt x 845.83833pt.
  [1
 
- <./figs/front_cover.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+ <./figs/front_cover.pdf>] [2
+
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 85.
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.107 \chapter
-              {Program at glance} [1
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-<figs/qrcode.png, id=448, 3011.25pt x 3011.25pt>
-File: figs/qrcode.png Graphic file (type png)
- <use figs/qrcode.png>
-Package pdftex.def Info: figs/qrcode.png used on input line 108.
-(pdftex.def)             Requested size: 117.36761pt x 117.34222pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 89.
+ [3] [4
 
-<figs/program_at_glance.pdf, id=450, 597.23125pt x 845.1575pt>
+]
+<figs/program_at_glance.pdf, id=465, 597.23125pt x 845.1575pt>
 File: figs/program_at_glance.pdf Graphic file (type pdf)
 
 <use figs/program_at_glance.pdf>
-Package pdftex.def Info: figs/program_at_glance.pdf used on input line 109.
+Package pdftex.def Info: figs/program_at_glance.pdf used on input line 112.
 (pdftex.def)             Requested size: 586.83807pt x 439.0727pt.
- [2
 
- <./figs/qrcode.png> <./figs/program_at_glance.pdf>] (./figs/full_program.tex
-Underfull \hbox (badness 2189) in paragraph at lines 18--18
-[]|\T1/ptm/m/n/9 Using R for back-test-ing al-go-rith-mic trad-ing strate-gies 
-on high-
+<figs/qrcode.png, id=467, 3011.25pt x 3011.25pt>
+File: figs/qrcode.png Graphic file (type png)
+ <use figs/qrcode.png>
+Package pdftex.def Info: figs/qrcode.png used on input line 114.
+(pdftex.def)             Requested size: 117.36761pt x 117.34222pt.
+ [5 <./figs/program_at_glance.pdf> <./figs/qrcode.png>] [6
+
+] (./figs/full_program.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]|\T1/ptm/m/n/9 Rasmus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]|\T1/ptm/m/n/9 Katarzyna
+ []
+
+
+Overfull \hbox (2.76149pt too wide) in paragraph at lines 10--11
+\T1/ptm/m/n/9 Kopczewska| 
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 11--11
+[]|\T1/ptm/m/n/9 Browse Till You Die: Scal-able Hi-er-ar-chi-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+[]|\T1/ptm/m/n/9 Heather
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]|\T1/ptm/m/n/9 Matthias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]|\T1/ptm/m/n/9 Katarzyna
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 19--20
+[]|\T1/ptm/m/n/9 Adolfo Al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\T1/ptm/m/n/9 Barzagar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]|\T1/ptm/m/n/9 Šukasz
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 28
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []|\T1/ptm/m/n/9 Marcin
  []
 
 
-Underfull \vbox (badness 10000) detected at line 30
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]|\T1/ptm/m/n/9 Marcin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-[]|\T1/ptm/m/n/9 Alicja Szabelska-
+Overfull \hbox (4.00348pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/9 Szymkowiak| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-[]|\T1/ptm/m/n/9 Joanna Zyprych-
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]|\T1/ptm/m/n/9 Maciej
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\T1/ptm/m/n/9 Lightning
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]|\T1/ptm/m/n/9 Tomasz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T1/ptm/m/n/9 Lightning
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\T1/ptm/m/n/9 Tomasz
  []
 
-[3
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/ptm/m/n/9 Paul-
+ []
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Overfull \hbox (0.63454pt too wide) in paragraph at lines 56--56
+[]|\T1/ptm/m/n/9 Massimiliano| 
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 57--58
+[]|\T1/ptm/m/n/9 Marek G¡-
+ []
+
+
+Overfull \hbox (1.17737pt too wide) in paragraph at lines 62--63
+[]|\T1/ptm/m/n/9 Przemysªaw
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]|\T1/ptm/m/n/9 Alicja
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\T1/ptm/m/n/9 Szabelska-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]|\T1/ptm/m/n/9 Joanna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+\T1/ptm/m/n/9 Zyprych-
+ []
+
+[7]
+Underfull \hbox (badness 2680) in paragraph at lines 77--77
+[]|\T1/ptm/m/n/9 Multidimensional Clus-ter-ing of Web An-a-lyt-ics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\T1/ptm/m/n/9 Structural bioin-for-mati-cian's note-books with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T1/ptm/m/n/9 RNA-seq tran-scrip-tional pro-fil-ing of PPD-b-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 []|\T1/ptm/m/n/9 Daghir-
  []
 
-[4]) [5] <figs/workshop_map2.jpg, id=504, 751.608pt x 392.1852pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\T1/ptm/m/n/9 Pharmacokinetics-driven mod-el-ing of
+ []
+
+[8]) [9] [10
+
+] <figs/workshop_map2.jpg, id=529, 751.608pt x 392.1852pt>
 File: figs/workshop_map2.jpg Graphic file (type jpg)
 
 <use figs/workshop_map2.jpg>
-Package pdftex.def Info: figs/workshop_map2.jpg used on input line 120.
+Package pdftex.def Info: figs/workshop_map2.jpg used on input line 122.
 (pdftex.def)             Requested size: 469.47046pt x 244.96553pt.
  (./figs/workshops_location.tex
-Underfull \hbox (badness 6691) in paragraph at lines 8--9
-[]|\T1/ptm/m/n/9 Collegium Max-i-mum,
+Overfull \hbox (1.23814pt too wide) in alignment at lines 4--19
+ [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]|\T1/ptm/m/n/9 Collegium Rungego,
+Underfull \vbox (badness 10000) detected at line 19
  []
 
+) <figs/qrcode_work.png, id=530, 3011.25pt x 3011.25pt>
+File: figs/qrcode_work.png Graphic file (type png)
 
-Underfull \hbox (badness 6691) in paragraph at lines 11--12
-[]|\T1/ptm/m/n/9 Collegium Max-i-mum,
- []
+<use figs/qrcode_work.png>
+Package pdftex.def Info: figs/qrcode_work.png used on input line 127.
+(pdftex.def)             Requested size: 117.36761pt x 117.34222pt.
+ [11 <./figs/qrcode_work.png> <./figs/workshop_map2.jpg>] [12
 
-
-Underfull \hbox (badness 6691) in paragraph at lines 12--13
-[]|\T1/ptm/m/n/9 Collegium Max-i-mum,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-[]|\T1/ptm/m/n/9 Collegium Rungego,
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 14--15
-[]|\T1/ptm/m/n/9 Collegium Max-i-mum,
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 15--16
-[]|\T1/ptm/m/n/9 Collegium Max-i-mum,
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 17--18
-[]|\T1/ptm/m/n/9 Collegium Max-i-mum,
- []
-
-
-Underfull \vbox (badness 10000) detected at line 20
- []
-
-) [6
-
-
- <./figs/workshop_map2.jpg>] (./misc/welcome.tex) [7
-
-] (./boa.toc
-Overfull \hbox (5.84pt too wide) in paragraph at lines 15--15
- [][] [][]\T1/ptm/m/n/14.4 Browse Till You Die: Scal-able Hi-er-ar-chi-cal Baye
-sian Mod-el-ing of cookie 
- []
-
-[8
+] (./misc/welcome.tex) [13] [14
 
 ]
-Overfull \hbox (0.64128pt too wide) in paragraph at lines 60--60
- [][] [][]\T1/ptm/m/n/14.4 Us-ing R for back-test-ing al-go-rith-mic trad-ing s
-trate-gies on high-frequency 
- []
-
-[9] [10]
-Overfull \hbox (7.9861pt too wide) in paragraph at lines 237--237
- \T1/ptm/m/n/14.4 and high di-men-sions: com-par-i-son of se-lected meth-ods im
--ple-mented 
- []
-
-
-Overfull \hbox (7.32338pt too wide) in paragraph at lines 248--248
- [][] [][]\T1/ptm/m/n/14.4 Ap-ply-ing ge-netic al-go-rithms to cal-i-brate a pr
-o-cess-ing chain for a Landsat- 
- []
-
-[11])
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 135.
+ (./boa.toc [15] [16])
 \tf@toc=\write6
 \openout6 = `boa.toc'.
 
- [12]
+ [17] [18
+
+]
 Chapter 1.
 (./abstracts/01_Turner.tex
 
@@ -1330,13 +1390,19 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-))pdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
-s been already used, duplicate ignored
+)
+Overfull \hbox (5.1675pt too wide) in paragraph at lines 41--51
+\T1/ptm/m/n/14.4 gen-der gap ([][]$\T1/pcr/m/n/14.4 http : / / forwards . githu
+b . io/$[][]\T1/ptm/m/n/14.4 ; [][]$\T1/pcr/m/n/14.4 https : / / twitter . com 
+/
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.135 \newpage
+l.144 \newpage
                [1
-
 
 ] (./abstracts/02_Stapor.tex)
 
@@ -1345,7 +1411,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./abstracts/03_Baath.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.146 \newpage
+               [2] (./abstracts/03_Baath.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1359,7 +1430,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (./abstracts/05_Gromping.tex)
+[4] (./abstracts/05_Gromping.tex
+Overfull \hbox (8.40326pt too wide) in paragraph at lines 33--46
+\T1/pcr/m/n/14.4 r-[]project . org / web / views / ExperimentalDesign . html$[]
+[]\T1/ptm/m/n/14.4 ). That land-
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1431,25 +1508,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Chapter 3.
-(./abstracts/B01_Kun.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 6.
-
-) (./abstracts/B02_Bracht.tex [14
-
-]) (./abstracts/B03_Ladyzynski.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]) (./abstracts/B04_Brys.tex) (./abstracts/B05_Wojcik.tex
+[14]
+Chapter 3.
+(./abstracts/B01_Kun.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 6.
+
+) (./abstracts/B02_Bracht.tex
+Underfull \vbox (badness 3623) has occurred while \output is active []
+
+ [15
+
+])
+(./abstracts/B03_Ladyzynski.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]) (./abstracts/B04_Brys.tex) (./abstracts/B05_Wojcik.tex
 Overfull \hbox (0.10779pt too wide) in paragraph at lines 7--7
-|\T1/ptm/b/n/14.4 Using R for back-test-ing al-go-rith-mic trad-ing strate-gies
- on high-frequency data| 
+\T1/ptm/b/n/14.4 Using R for back-test-ing al-go-rith-mic trad-ing strate-gies 
+on high-frequency data| 
  []
 
 
@@ -1458,54 +1546,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16])
+[17])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[18]
 Chapter 4.
 (./abstracts/C01_Aydin.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-) (./abstracts/C02_Maj.tex [18
+) (./abstracts/C02_Maj.tex
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
-]) (./abstracts/C04_Wroblewska.tex)
-(./abstracts/C05_Potocka.tex
+ [19
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19])
+])
+(./abstracts/C04_Wroblewska.tex) (./abstracts/C05_Potocka.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
+[20])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21] [22
+
+]
 Chapter 5.
 (./abstracts/D01_Cejrowski.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-) (./abstracts/D02_Shan.tex [21
-
-]) (./abstracts/D03_Ryczkowski.tex
+) (./abstracts/D02_Shan.tex [23]) (./abstracts/D03_Ryczkowski.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
+[24]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 41.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
@@ -1520,23 +1611,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
-Chapter 6.
-(./abstracts/E01_Eckhoff.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 6.
-
-) (./abstracts/E02_Filarowski.tex) (./abstracts/E03_Smolarczyk.tex [25
-
-])
+[25])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1544,15 +1619,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-Chapter 7.
-(./abstracts/F01_Cano.tex
+Chapter 6.
+(./abstracts/E01_Eckhoff.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
 
-) (./abstracts/F02_Thomann.tex [27
+) (./abstracts/E02_Filarowski.tex [27
 
-]
+]) (./abstracts/E03_Smolarczyk.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1560,9 +1635,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
+Chapter 7.
+(./abstracts/F01_Cano.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 6.
+
+[29
+
+]) (./abstracts/F02_Thomann.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
 Overfull \hbox (152.6095pt too wide) in paragraph at lines 113--113
 []\T1/pcr/m/n/14.4 install.packages("SimonsSVM", repos="http://www.isa.uni-stut
 tgart.de/R") 
+ []
+
+
+Overfull \hbox (23.5095pt too wide) in paragraph at lines 124--125
+[][][]$\T1/pcr/m/n/14.4 http : / / www . isa . uni-[]stuttgart . de / software 
+/ R / documentation .
  []
 
 ) (./abstracts/F03_Guhl.tex
@@ -1572,46 +1669,54 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]) (./abstracts/F04_Gorecki.tex) (./abstracts/F05_Hoffmann.tex
+[31]) (./abstracts/F04_Gorecki.tex) (./abstracts/F05_Hoffmann.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30])
+[32])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[33] [34
+
+]
 Chapter 8.
 (./abstracts/J01_Alvarez.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
 
-) (./abstracts/J03_Dyderski.tex [32
-
-]) (./abstracts/J04_Szepannek.tex)
+) (./abstracts/J02_Beresewicz.tex [35]) (./abstracts/J03_Dyderski.tex)
+(./abstracts/J04_Szepannek.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[36])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37] [38
+
+]
 Chapter 9.
 (./abstracts/G01_Hyndman.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
 
-) (./abstracts/G02_Lovelace.tex [34
-
-]) (./abstracts/G03_Buerkner.tex)
+) (./abstracts/G02_Lovelace.tex [39]) (./abstracts/G03_Buerkner.tex)
 (./abstracts/G04_Warnholz.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1619,51 +1724,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]) (./abstracts/G05_Pastore.tex)
+[40]) (./abstracts/G05_Pastore.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[41] [42
+
+]
 Chapter 10.
 (./abstracts/H01_Killick.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-[37
-
-]) (./abstracts/H02_Kosinski.tex) (./abstracts/H03_Wais.tex
+[43]) (./abstracts/H02_Kosinski.tex) (./abstracts/H03_Wais.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]) (./abstracts/H04_Ibtihel.tex
+[44]) (./abstracts/H04_Ibtihel.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39])
+[45])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
+[46]
 Chapter 11.
 (./abstracts/I01_Labaj.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
 
-[41
+[47
 
 ]) (./abstracts/I02_Burdukiewicz.tex
 
@@ -1672,53 +1777,53 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]) (./abstracts/I03_Rodiger.tex) (./abstracts/I04_Wiewiorka.tex
+[48]) (./abstracts/I03_Rodiger.tex) (./abstracts/I04_Wiewiorka.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43]) (./abstracts/I05_Okoniewski.tex [44])
+[49]) (./abstracts/I05_Okoniewski.tex [50])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
+[51] [52
+
+]
 Chapter 12.
 (./abstracts/K01_Schouwenaars.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
 
-) (./abstracts/K02_Schneider.tex [46
-
-]) (./abstracts/K03_Julin.tex
+) (./abstracts/K02_Schneider.tex [53]) (./abstracts/K03_Julin.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47]) (./abstracts/K04_Krawczyk.tex)
+[54]) (./abstracts/K04_Krawczyk.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[55] [56
+
+]
 Chapter 13.
 (./abstracts/L01_Borsuk.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-) (./abstracts/L02_Czernecki.tex [49
-
-]) (./abstracts/L03_Kleka.tex)
+) (./abstracts/L02_Czernecki.tex [57]) (./abstracts/L03_Kleka.tex)
 (./abstracts/L04_Konopka.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1726,72 +1831,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]) (./abstracts/L05_Kruse.tex
+[58]) (./abstracts/L05_Kruse.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]) (./abstracts/L06_Lotti.tex) (./abstracts/L07_Moroz.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]) (./abstracts/L08_Piatkowski.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53]) (./abstracts/L09_Roback.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54]) (./abstracts/L10_Lombardi.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55]) (./abstracts/L11_Ooms.tex) (./abstracts/L12_Sobczyk.tex)
-(./abstracts/L13_Tylutki.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[57]
-Chapter 14.
-(./abstracts/M01_Chmura.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 7.
-
-[58
-
-]) (./abstracts/M02_Correia.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 7.
-
-Overfull \hbox (1.66373pt too wide) in paragraph at lines 7--7
-|\T1/ptm/b/n/14.4 RNA-seq tran-scrip-tional pro-fil-ing of PPD-b-stimulated pe-
-riph-eral blood from
+[59]) (./abstracts/L06_Lotti.tex
+Overfull \hbox (2.25452pt too wide) in paragraph at lines 33--40
+\T1/ptm/m/n/14.4 large trans-ac-tion vol-umes but also through the di-ver-sity 
+of data sources (e.g. search,
  []
 
 
@@ -1800,49 +1853,126 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59]) (./abstracts/M03_Daghir-Wojtkowiak.tex
+[60]) (./abstracts/L07_Moroz.tex
+Overfull \hbox (26.73457pt too wide) in paragraph at lines 64--66
+[]\T1/ptm/m/n/14.4 standardization of lan-guage doc-u-men-ta-tion in \T1/ptm/b/
+n/14.4 R\T1/ptm/m/n/14.4 : in-te-gra-tion with Cross-Linguistic
+ []
+
+) (./abstracts/L08_Piatkowski.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]) (./abstracts/M04_Dmowska.tex
+[61]) (./abstracts/L09_Roback.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]) (./abstracts/M05_Fichou.tex) (./abstracts/M06_Jablonska.tex
+[62]) (./abstracts/L10_Lombardi.tex) (./abstracts/L11_Ooms.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]) (./abstracts/M07_Karas.tex
+[63]) (./abstracts/L12_Sobczyk.tex) (./abstracts/L13_Tylutki.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]) (./abstracts/M08_Kedziora.tex) (./abstracts/M09_Owczarek.tex
+[64])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]) (./abstracts/M10_Rybinska.tex
+[65] [66
+
+]
+Chapter 14.
+(./abstracts/M01_Chmura.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 7.
+
+[67]) (./abstracts/M02_Correia.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 7.
+
+Overfull \hbox (1.66373pt too wide) in paragraph at lines 7--7
+\T1/ptm/b/n/14.4 RNA-seq tran-scrip-tional pro-fil-ing of PPD-b-stimulated pe-r
+iph-eral blood from
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65]) (./abstracts/M11_Santos.tex
+[68]) (./abstracts/M03_Daghir-Wojtkowiak.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69]) (./abstracts/M04_Dmowska.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70]) (./abstracts/M05_Fichou.tex
+Overfull \hbox (5.37955pt too wide) in paragraph at lines 33--47
+[]\T1/ptm/m/n/14.4 Planar chro-matog-ra-phy has a unique speci-ficity com-pared
+ to other chro-mato-graphic
+ []
+
+) (./abstracts/M06_Jablonska.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71]
+Overfull \hbox (4.21289pt too wide) in paragraph at lines 35--51
+[]\T1/ptm/m/n/14.4 High-throughput geno-typ-ing and se-quenc-ing tech-nolo-gies
+ fa-cil-i-tate stud-ies of com-
+ []
+
+) (./abstracts/M07_Karas.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72]) (./abstracts/M08_Kedziora.tex) (./abstracts/M09_Owczarek.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]) (./abstracts/M10_Rybinska.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]) (./abstracts/M11_Santos.tex
 Underfull \hbox (badness 1616) in paragraph at lines 29--31
 [] []\T1/ptm/b/n/10.95 Key-words:[] \T1/ptm/m/n/14.4 time-series anal-y-sis; ge
 -netic al-go-rithms; Land-sat; trop-i-cal
@@ -1855,25 +1985,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66]) (./abstracts/M14_Rabczenko.tex
+[75]) (./abstracts/M14_Rabczenko.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67])
+[76])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68]
+[77] [78
+
+]
 runsystem(makeindex a.idx)...executed safely (allowed).
 
- (./a.ind [69
-
+ (./a.ind [79
 
 
 ]
@@ -1883,18 +2014,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70])
+[80])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[71]
+[81] [82
+
+]
 runsystem(makeindex p.idx)...executed safely (allowed).
 
- (./p.ind [72
-
+ (./p.ind [83
 
 ]
 
@@ -1903,66 +2035,71 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73]) <figs/back_cover.pdf, id=1139, 597.50688pt x 847.7214pt>
+[84])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85] [86
+
+] <figs/back_cover.pdf, id=1209, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf>
-Package pdftex.def Info: figs/back_cover.pdf used on input line 261.
+Package pdftex.def Info: figs/back_cover.pdf used on input line 275.
 (pdftex.def)             Requested size: 597.50542pt x 847.71935pt.
 File: figs/back_cover.pdf Graphic file (type pdf)
  <use figs/back_cover.pdf>
-Package pdftex.def Info: figs/back_cover.pdf used on input line 261.
+Package pdftex.def Info: figs/back_cover.pdf used on input line 275.
 (pdftex.def)             Requested size: 597.50542pt x 847.71935pt.
 
-<figs/back_cover.pdf, id=1142, page=1, 597.50688pt x 847.7214pt>
+<figs/back_cover.pdf, id=1212, page=1, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf, page 1>
-Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 261.
+Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 275.
 (pdftex.def)             Requested size: 597.50542pt x 847.71935pt.
 File: figs/back_cover.pdf Graphic file (type pdf)
  <use figs/back_cover.pdf, page 1>
-Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 261.
+Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 275.
 (pdftex.def)             Requested size: 596.1196pt x 845.75319pt.
+ [87
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[74]
+]
 File: figs/back_cover.pdf Graphic file (type pdf)
- <use figs/back_cover.pdf, page 1>
-Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 261.
+
+<use figs/back_cover.pdf, page 1>
+Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 275.
 (pdftex.def)             Requested size: 596.1196pt x 845.75319pt.
 File: figs/back_cover.pdf Graphic file (type pdf)
  <use figs/back_cover.pdf, page 1>
-Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 261.
+Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 275.
 (pdftex.def)             Requested size: 596.1196pt x 845.75319pt.
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf, page 1>
-Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 261.
+Package pdftex.def Info: figs/back_cover.pdf, page1 used on input line 275.
 (pdftex.def)             Requested size: 596.1196pt x 845.75319pt.
- [75 <./figs/back_cover.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+ [88 <./figs/back_cover.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
  (./boa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `boa.out' has not changed.
-(rerunfilecheck)             Checksum: 1E718522CF03B23F5513F3076E69E31D;9892.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+(rerunfilecheck)             Checksum: 19E844C044B649AB65EF41A78723857F;9963.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
- 17011 strings out of 494184
- 283130 string characters out of 6157266
- 396493 words of memory out of 5000000
- 19581 multiletter control sequences out of 15000+600000
- 51277 words of font info for 84 fonts, out of 8000000 for 9000
+ 17059 strings out of 494184
+ 283834 string characters out of 6157266
+ 389615 words of memory out of 5000000
+ 19596 multiletter control sequences out of 15000+600000
+ 59776 words of font info for 90 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 46i,18n,48p,10472b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,48p,10472b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1975,10 +2112,10 @@ r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on boa.pdf (89 pages, 9906020 bytes).
+Output written on boa.pdf (108 pages, 10034924 bytes).
 PDF statistics:
- 1258 PDF objects out of 1440 (max. 8388607)
- 1118 compressed objects within 12 object streams
- 251 named destinations out of 1000 (max. 500000)
- 900 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1332 PDF objects out of 1440 (max. 8388607)
+ 1171 compressed objects within 12 object streams
+ 273 named destinations out of 1000 (max. 500000)
+ 919 words of extra memory for PDF output out of 10000 (max. 10000000)
 

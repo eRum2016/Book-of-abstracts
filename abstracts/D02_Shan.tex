@@ -6,7 +6,7 @@
 Complex Data in Agriculture}
 
 \begin{center}
-  {\bf \index[a]{Shan Ming} Ming Shan$^{1^\star}$}
+  {\bf \index[a]{Shan Ming} Ming Shan$^{1^\star}$, \index[a]{Antony Goulds} Antony Goulds$^{1}$}
 \end{center}
 
 \vskip 0.3cm
@@ -24,10 +24,10 @@ $^\star$Contact author: \href{mailto:ming.shan@kynetec.com}{\nolinkurl{ming.shan
 \vskip 0.5cm
 
 \begin{minipage}{0.915\textwidth}
-\keywords Bayesian; big data; choice modeling; complex survey; real-time; shiny;
+\keywords Bayesian; big data; choice modeling; complex survey; real-time; risk; Shiny;
 simulation; small area estimation; spatial; statistical learning;
 supervised; unsupervised; visualization
-\packages \index[p]{bayesm} bayesm; \index[p]{cluster} cluster; \index[p]{dplyr} dplyr; \index[p]{fields} fields; \index[p]{ggplot2} ggplot2; \index[p]{kohonen} kohonen; \index[p]{lme4} lme4; \index[p]{leaflet} leaflet; \index[p]{magrittr} magrittr; \index[p]{maps} maps; \index[p]{maptools} maptools; \index[p]{party} party; \index[p]{rgdal} rgdal; \index[p]{rgeos} rgeos; \index[p]{sp} sp; \index[p]{spatstat} spatstat; \index[p]{shiny} shiny
+\packages \index[p]{bayesm} bayesm; \index[p]{cluster} cluster; \index[p]{dplyr} dplyr; \index[p]{fields} fields; \index[p]{ggplot2} ggplot2; \index[p]{kohonen} kohonen; \index[p]{leaflet} leaflet; \index[p]{magrittr} magrittr; \index[p]{maps} maps; \index[p]{maptools} maptools; \index[p]{party} party; \index[p]{randomForest} {randomForest; \index[p]{rgdal} rgdal; \index[p]{rgeos} rgeos; \index[p]{sp} sp; \index[p]{spatstat} spatstat; \index[p]{shiny} shiny
 \end{minipage}
 
 \vskip 0.8cm
@@ -35,23 +35,25 @@ supervised; unsupervised; visualization
 One of the key challenges to successfully harness the value of big data
 is to uncover the critical insight through analytics and make it easily
 accessible to decision markers in an intuitive way. \textbf{R}
-\emph{shiny} offers a platform for developing an end-to-end solution
+\emph{Shiny} offers a platform for developing an end-to-end solution
 completely within \textbf{R} from mining the data with many modeling
 choices to insight delivery via powerful and dynamic data visualization.
 Such solution is highly suitable for agricultural data which is vast and
 dynamic, and increasingly abundant due to the recent development and
 adoption of precision farming and the related technologies. We would
-like to illustrate a \emph{shiny} application that integrates a mixture
+like to illustrate \emph{Shiny} applications that integrate a mixture
 of privately collected and governmental data across many key dimensions
-such as time, different geographic levels, crops and product types.
-Analytics including both supervised and unsupervised modeling
-capabilities and other approaches such as small area estimation, spatial
-analysis and complex survey estimation are included. Among many other
-specific examples is an application of discrete choice modeling using
+such as time, different geographic levels, 
+crops and product types and usage. Analytics including both supervised and 
+unsupervised modeling capabilities and other approaches such as 
+small area estimation under complex survey design and 
+water pesticide contamination risk model are included. 
+We also include an application of discrete choice modeling using
 hierarchical Bayesian estimation to capture the preference of brand or
-product features and the price sensitivity by small geographic units and
-also allow the users to conduct market simulation by changing product
+product features and the price sensitivity by small geographic units and offer 
+the capability for the users to conduct market simulation by changing product
 mixture and prices. All the analytics are made and delivered in
 real-time.
+
 
 \end{document}

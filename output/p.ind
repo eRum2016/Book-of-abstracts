@@ -14,16 +14,16 @@
   \item BetaBit, 6
   \item betapart, 65
   \item biogram, 48
-  \item Boruta, 55
-  \item BreakoutDetection, 72
+  \item Boruta, 56
+  \item BreakoutDetection, 73
   \item brms, 40
 
   \indexspace
 
-  \item caret, 25, 36, 55, 67
+  \item caret, 25, 36, 56, 67
   \item caTools, 17, 67
   \item cgmisc, 69
-  \item changepoint, 43, 72
+  \item changepoint, 43, 73
   \item chemometrics, 57
   \item chipPCR, 49
   \item ChoiceModelR, 31
@@ -40,7 +40,7 @@
   \item dbmss, 10
   \item deepnet, 68
   \item dendextend, 72
-  \item deSolve, 62
+  \item deSolve, 63
   \item DiceDesign, 5
   \item DiceKriging, 5
   \item dismo, 73
@@ -51,11 +51,11 @@
 
   \indexspace
 
-  \item e1071, 29, 33, 56
+  \item e1071, 29, 32, 56
   \item EBImage, 68
-  \item ecp, 72
+  \item ecp, 73
   \item edgeR, 66
-  \item elastic, 20
+  \item elastic, 21
   \item EnvCpt, 43
   \item extrafont, 66
 
@@ -63,13 +63,13 @@
 
   \item fda, 32
   \item fields, 24
-  \item FME, 62
+  \item FME, 63
   \item fpc, 37
   \item FWDselect, 72
 
   \indexspace
 
-  \item GA, 72
+  \item GA, 73
   \item GenABEL, 69
   \item genie, 8
   \item ggplot2, 6, 16, 17, 19, 24, 36, 52, 53, 55, 57, 60, 62, 66, 
@@ -86,7 +86,7 @@
   \item hglm, 36
   \item Hmisc, 67
   \item hts, 39
-  \item httr, 20
+  \item httr, 21
 
   \indexspace
 
@@ -108,7 +108,7 @@
   \indexspace
 
   \item klaR, 37, 72
-  \item knitr, 6, 51, 59
+  \item knitr, 6, 51, 60
   \item kohonen, 24
 
   \indexspace
@@ -144,16 +144,16 @@
 
   \indexspace
 
-  \item openssl, 61
+  \item openssl, 62
   \item OptimalDesign, 5
   \item org.Bt.eg.db, 66
 
   \indexspace
 
-  \item parallel, 40, 55
+  \item parallel, 40, 56
   \item parallelMCMCcombine, 4
   \item party, 24
-  \item pdbeeR, 59
+  \item pdbeeR, 60
   \item PerformanceAnalytics, 17
   \item PISA2012lite, 6
   \item planor, 5
@@ -172,14 +172,14 @@
   \item R2WinBUGS, 74
   \item randomForest, 24, 25, 36
   \item ranger, 48
-  \item raster, 55
+  \item raster, 56
   \item rasterVis, 73
   \item Rbbg, 17
   \item RColorBrewer, 52, 66
   \item Rcpp, 4, 7, 17
   \item RcppArmadillo, 17
   \item RDML, 49
-  \item RDruid, 19
+  \item RDruid, 20
   \item refund, 70
   \item RevoMods, 11
   \item RevoPemaR, 11
@@ -193,18 +193,18 @@
   \item rgrass7, 68
   \item rHubble, 58
   \item rjags, 3
-  \item RJBDC, 20
-  \item rkafka, 20, 23
+  \item RJBDC, 21
+  \item rkafka, 21, 23
   \item rkwarddev, 49
   \item rmarkdown, 16, 51, 59
   \item roveR, 15
-  \item Rserve, 24, 52
+  \item Rserve, 25, 52
   \item rsm, 5
   \item RSQLite, 68
   \item rstan, 3, 4, 31
   \item runjags, 67
   \item rvest, 19
-  \item RZabbix, 20
+  \item RZabbix, 21
 
   \indexspace
 
@@ -213,7 +213,7 @@
   \item SimonsSVM, 30
   \item SixSigma, 29
   \item slam, 48
-  \item sodium, 61
+  \item sodium, 62
   \item sp, 10, 24, 36, 68
   \item SparkR, 19, 20, 50
   \item spatstat, 24
@@ -222,17 +222,17 @@
   \item stplanr, 39
   \item stringr, 59
   \item svglite, 66
-  \item svSocket, 24
+  \item svSocket, 25
 
   \indexspace
 
   \item TFX, 17
   \item tgp, 5
-  \item tm, 33
+  \item tm, 32
   \item tseries, 17
   \item TTR, 17
   \item tutorial, 51
-  \item twitteR, 33
+  \item twitteR, 32
 
   \indexspace
 

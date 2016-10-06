@@ -1,6 +1,6 @@
-\documentclass[11pt,twoside]{book}
+\documentclass[11pt,twoside,a4paper]{book}
 
-\usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
+\usepackage[a4paper,margin=2cm,innermargin=2cm]{geometry}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -50,13 +50,18 @@
 \newcommand{\keywords}{\paragraph{Keywords:}}
 \newcommand{\packages}{\paragraph{R packages:}}
 
+\usepackage{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
 \providecommand{\tightlist}{%
 	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\setlength{\topmargin}{-15mm}
+% \setlength{\topmargin}{-25mm}
 \setlength{\oddsidemargin}{-2mm}
-\setlength{\textwidth}{165mm}
-\setlength{\textheight}{250mm}
+% \setlength{\textwidth}{165mm}
+% \setlength{\textheight}{250mm}
 
 \titleformat{\chapter}[display]
 {\normalfont\bfseries}{}{0pt}{\Large}
@@ -126,6 +131,11 @@ Joanna Zyprych-Walczak, \textit{Poznan University of Life Sciences}
 \begin{flushright}
 \includegraphics[width=0.25\textwidth,trim=1cm 1cm 1cm 1cm,clip]{figs/qrcode_work}
 \end{flushright}
+
+\chapter{Social Events}
+
+\input{misc/social.tex}
+
 
 \chapter{Welcome to eRum 2016}
 

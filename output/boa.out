@@ -2,104 +2,105 @@
 \BOOKMARK [0][-]{chapter*.2}{Program at glance}{}% 2
 \BOOKMARK [0][-]{chapter*.3}{Full Program}{}% 3
 \BOOKMARK [0][-]{chapter*.4}{Workshops}{}% 4
-\BOOKMARK [0][-]{chapter*.5}{Welcome to eRum 2016}{}% 5
-\BOOKMARK [0][-]{chapter.1}{Invited Talks}{}% 6
-\BOOKMARK [1][-]{section*.7}{Addressing the Gender Gap in the R Project}{chapter.1}% 7
-\BOOKMARK [1][-]{Item.1}{Heteroscedastic Discriminant Analysis and its integration into `mlR' package for uniform machine learning}{chapter.1}% 8
-\BOOKMARK [1][-]{Item.2}{A survey of tools for Bayesian data analysis in R}{chapter.1}% 9
-\BOOKMARK [1][-]{Item.3}{Browse Till You Die: Scalable Hierarchical Bayesian Modeling of cookie deletion}{chapter.1}% 10
-\BOOKMARK [1][-]{Item.4}{Design of Experiments in R}{chapter.1}% 11
-\BOOKMARK [1][-]{Item.5}{How to use R to hack the publicly available data about skills of 2M+ worldwide students?}{chapter.1}% 12
-\BOOKMARK [1][-]{Item.6}{R and C++}{chapter.1}% 13
-\BOOKMARK [1][-]{Item.6}{Genie: A new, fast, and outlier-resistant hierarchical clustering algorithm and its R interface}{chapter.1}% 14
-\BOOKMARK [1][-]{Item.7}{Simulation of complex synthetic data with the R package simPop}{chapter.1}% 15
-\BOOKMARK [1][-]{Item.8}{Geo-located point data: measurement of agglomeration and concentration}{chapter.1}% 16
-\BOOKMARK [0][-]{chapter.2}{Business 1}{}% 17
-\BOOKMARK [1][-]{section*.8}{Turning R into production \205 make your models reality}{chapter.2}% 18
-\BOOKMARK [1][-]{Item.10}{RevoScaleR - performance and scalability R}{chapter.2}% 19
-\BOOKMARK [1][-]{Item.11}{Bringing R to Enterprise}{chapter.2}% 20
-\BOOKMARK [1][-]{Item.12}{Data science outside the box: Developing a generic scoring algorithm for customer acquisition}{chapter.2}% 21
-\BOOKMARK [1][-]{Item.13}{Embedding R in business processes}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Business 2}{}% 23
-\BOOKMARK [1][-]{section*.9}{Enterprise R Platform \205 the what, the why and the how}{chapter.3}% 24
-\BOOKMARK [1][-]{Item.15}{R in the Mittelstand: Bringing Data Science to small and mid-size companies}{chapter.3}% 25
-\BOOKMARK [1][-]{Item.16}{R tools and tricks for marketing inference in a big internet company}{chapter.3}% 26
-\BOOKMARK [1][-]{Item.17}{Using Google Analytics with R}{chapter.3}% 27
-\BOOKMARK [1][-]{Item.18}{Using R for backtesting algorithmic trading strategies on high-frequency data}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Data Workflow 1}{}% 29
-\BOOKMARK [1][-]{section*.10}{Dynamic Inflation Rate Calculation of Fast-Moving Consumer Goods: Shiny-SparkR App}{chapter.4}% 30
-\BOOKMARK [1][-]{Item.20}{Introduction to RDruid}{chapter.4}% 31
-\BOOKMARK [1][-]{Item.21}{Search phrases in e-commerce platform allegro.pl - big data analysis using SparkR}{chapter.4}% 32
-\BOOKMARK [1][-]{Item.24}{The full process of creating an R application in recommendation systems: from Dockerfile to Zabbix monitoring}{chapter.4}% 33
-\BOOKMARK [0][-]{chapter.5}{Data Workflow 2}{}% 34
-\BOOKMARK [1][-]{section*.11}{Power of Java's RSession and rKafka in the data science team collaboration}{chapter.5}% 35
-\BOOKMARK [1][-]{Item.26}{R Shiny for Real-time Analytics and Insight Delivery \205 A Solution for Complex Data in Agriculture}{chapter.5}% 36
-\BOOKMARK [1][-]{Item.27}{Seamless external R server integration with Excel with step-by-step debugging of the R code}{chapter.5}% 37
-\BOOKMARK [1][-]{Item.28}{Workflow around modelling in Data Science / R}{chapter.5}% 38
-\BOOKMARK [0][-]{chapter.6}{Methodology 1}{}% 39
-\BOOKMARK [1][-]{section*.12}{Predicting machine failures}{chapter.6}% 40
-\BOOKMARK [1][-]{Item.30}{Ensemble learning - idea and applications}{chapter.6}% 41
-\BOOKMARK [1][-]{Item.31}{Ensemble learning - implementation with mlr}{chapter.6}% 42
-\BOOKMARK [0][-]{chapter.7}{Methodology 2}{}% 43
-\BOOKMARK [1][-]{section*.13}{Unattended SVM parameters fitting for monitoring nonlinear profiles}{chapter.7}% 44
-\BOOKMARK [1][-]{Item.35}{SimonsSVM: A Fast and Scalable Support Vector Machine Implementation for R}{chapter.7}% 45
-\BOOKMARK [1][-]{Item.39}{Discrete Choice Models in R}{chapter.7}% 46
-\BOOKMARK [1][-]{Item.40}{Multivariate analysis of variance for functional data using R}{chapter.7}% 47
-\BOOKMARK [1][-]{Item.41}{Text Mining in R}{chapter.7}% 48
-\BOOKMARK [0][-]{chapter.8}{Methodology 3}{}% 49
-\BOOKMARK [1][-]{section*.14}{Classic and network based cluster analysis: together we're better}{chapter.8}% 50
-\BOOKMARK [1][-]{Item.43}{M-quantile regression in R}{chapter.8}% 51
-\BOOKMARK [1][-]{Item.45}{Is forest a pharmacy? - problems with data analyses}{chapter.8}% 52
-\BOOKMARK [1][-]{Item.47}{k Prototypes Clustering of Mixed Type Data}{chapter.8}% 53
-\BOOKMARK [0][-]{chapter.9}{Packages 1}{}% 54
-\BOOKMARK [1][-]{section*.15}{Reconciling forecasts: the hts package}{chapter.9}% 55
-\BOOKMARK [1][-]{Item.49}{stplanr: an R package for transport planning}{chapter.9}% 56
-\BOOKMARK [1][-]{Item.50}{brms: An R Package for Bayesian Multilevel Models using Stan}{chapter.9}% 57
-\BOOKMARK [1][-]{Item.51}{Modules in R}{chapter.9}% 58
-\BOOKMARK [1][-]{Item.52}{influence.SEM 2.0: An R Package for Sensitivity Analysis in Structural Equation Models}{chapter.9}% 59
-\BOOKMARK [0][-]{chapter.10}{Packages 2}{}% 60
-\BOOKMARK [1][-]{section*.16}{EnvCpt: An R package for changepoint identification in environmental data}{chapter.10}% 61
-\BOOKMARK [1][-]{Item.55}{archivist 2.0: News from Managing Data Analysis Results Toolkit}{chapter.10}% 62
-\BOOKMARK [1][-]{Item.56}{LimeRick: Bridge between LimeSurvey and R}{chapter.10}% 63
-\BOOKMARK [1][-]{Item.57}{An R package for consumer and sensory data mapping: Comparison of Preference Mapping stability}{chapter.10}% 64
-\BOOKMARK [0][-]{chapter.11}{BioR}{}% 65
-\BOOKMARK [1][-]{section*.17}{Are we ready for Personalized Medicine?}{chapter.11}% 66
-\BOOKMARK [1][-]{Item.59}{N-gram analysis of biological sequences in R}{chapter.11}% 67
-\BOOKMARK [1][-]{Item.62}{R as an Environment for the Reproducible Analysis of DNA Amplification Experiments}{chapter.11}% 68
-\BOOKMARK [1][-]{Item.64}{Big data genomic data warehouses analyses with R}{chapter.11}% 69
-\BOOKMARK [1][-]{Item.66}{Using SparkR with distributed database in Parquet - a genomic example}{chapter.11}% 70
-\BOOKMARK [0][-]{chapter.12}{Education Learning}{}% 71
-\BOOKMARK [1][-]{section*.18}{Revolutionize how you teach and blog: add interactivity}{chapter.12}% 72
-\BOOKMARK [1][-]{Item.68}{Aargh I have to teach R \(Experiences in the teaching of R\)}{chapter.12}% 73
-\BOOKMARK [1][-]{Item.69}{Using R for artistic purposes}{chapter.12}% 74
-\BOOKMARK [1][-]{Item.70}{Polish Diet Commissions - Text Analyzing}{chapter.12}% 75
-\BOOKMARK [0][-]{chapter.13}{Lightning Talks}{}% 76
-\BOOKMARK [1][-]{section*.19}{R as a tool for graphical diagnostics in population pharmacokinetic modeling}{chapter.13}% 77
-\BOOKMARK [1][-]{Item.72}{Machine learning modeling of phenological phases in Poland}{chapter.13}% 78
-\BOOKMARK [1][-]{Item.78}{Latent Class Analysis in Psychology}{chapter.13}% 79
-\BOOKMARK [1][-]{Item.79}{Exploratory data analysis of a clinical study group - revealing patient subgroups.}{chapter.13}% 80
-\BOOKMARK [1][-]{Item.86}{Multidimensional Clustering of Web Analytics Data}{chapter.13}% 81
-\BOOKMARK [1][-]{Item.87}{R shiny server as core of multiple technologies into Travel Industry}{chapter.13}% 82
-\BOOKMARK [1][-]{Item.88}{Turning Text Mining into Language Mining: Corpus Linguistics in R}{chapter.13}% 83
-\BOOKMARK [1][-]{Item.89}{Structural bioinformatician's notebooks with pdbeeR and knitr}{chapter.13}% 84
-\BOOKMARK [1][-]{Item.90}{Using R to incorporate data science into the undergraduate statistics curriculum}{chapter.13}% 85
-\BOOKMARK [1][-]{Item.91}{Analysing the statistical effects of manipulated data}{chapter.13}% 86
-\BOOKMARK [1][-]{Item.92}{Cryptography in R}{chapter.13}% 87
-\BOOKMARK [1][-]{Item.93}{Visualizing changes in demographics with R}{chapter.13}% 88
-\BOOKMARK [1][-]{Item.94}{R for pharmacokineticists - smulation of steady-state concentrations of amiodarone in heart compartmental model as an example.}{chapter.13}% 89
-\BOOKMARK [0][-]{chapter.14}{Poster Session}{}% 90
-\BOOKMARK [1][-]{section*.20}{What are sampling errors in the vegetation studies using visual estimation of presence and cover of plants? R can help}{chapter.14}% 91
-\BOOKMARK [1][-]{Item.97}{RNA-seq transcriptional profiling of PPD-b-stimulated peripheral blood from cattle infected with Mycobacterium bovis}{chapter.14}% 92
-\BOOKMARK [1][-]{Item.102}{Pharmacokinetics-driven modeling of metabolomics data}{chapter.14}% 93
-\BOOKMARK [1][-]{Item.103}{R as a tool for geospatial modeling in large dataset - example of dasymetric modeling at a continental scale \(United States\)}{chapter.14}% 94
-\BOOKMARK [1][-]{Item.111}{Application of Artificial Neural Network to Planar Chromatography Data}{chapter.14}% 95
-\BOOKMARK [1][-]{Item.112}{cgmisc: enhanced genome-wide association analyses and visualization}{chapter.14}% 96
-\BOOKMARK [1][-]{Item.115}{Penalized regression inference regarding variable selection in regular and high dimensions: comparison of selected methods implemented in R}{chapter.14}% 97
-\BOOKMARK [1][-]{Item.116}{Wrestling with big data in forestry: use of R in Scots pine site index analysis.}{chapter.14}% 98
-\BOOKMARK [1][-]{Item.118}{An R implementation of Kauffman's NK model}{chapter.14}% 99
-\BOOKMARK [1][-]{Item.119}{R as an effective data mining tool in chemistry}{chapter.14}% 100
-\BOOKMARK [1][-]{Item.120}{Applying genetic algorithms to calibrate a processing chain for a Landsat-based time series analysis of disturbance - regrowth dynamics in tropical forests}{chapter.14}% 101
-\BOOKMARK [1][-]{Item.121}{Modelling the distrubution of the bryophytes in different spatial scales}{chapter.14}% 102
-\BOOKMARK [1][-]{Item.124}{Mortality mapping using R}{chapter.14}% 103
-\BOOKMARK [0][-]{section*.21}{Authors}{}% 104
-\BOOKMARK [0][-]{section*.23}{Packages}{}% 105
+\BOOKMARK [0][-]{chapter*.5}{Social Events}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{Welcome to eRum 2016}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Invited Talks}{}% 7
+\BOOKMARK [1][-]{section*.8}{Addressing the Gender Gap in the R Project}{chapter.1}% 8
+\BOOKMARK [1][-]{Item.4}{Heteroscedastic Discriminant Analysis and its integration into `mlR' package for uniform machine learning}{chapter.1}% 9
+\BOOKMARK [1][-]{Item.5}{A survey of tools for Bayesian data analysis in R}{chapter.1}% 10
+\BOOKMARK [1][-]{Item.6}{Browse Till You Die: Scalable Hierarchical Bayesian Modeling of cookie deletion}{chapter.1}% 11
+\BOOKMARK [1][-]{Item.7}{Design of Experiments in R}{chapter.1}% 12
+\BOOKMARK [1][-]{Item.8}{How to use R to hack the publicly available data about skills of 2M+ worldwide students?}{chapter.1}% 13
+\BOOKMARK [1][-]{Item.9}{R and C++}{chapter.1}% 14
+\BOOKMARK [1][-]{Item.9}{Genie: A new, fast, and outlier-resistant hierarchical clustering algorithm and its R interface}{chapter.1}% 15
+\BOOKMARK [1][-]{Item.10}{Simulation of complex synthetic data with the R package simPop}{chapter.1}% 16
+\BOOKMARK [1][-]{Item.11}{Geo-located point data: measurement of agglomeration and concentration}{chapter.1}% 17
+\BOOKMARK [0][-]{chapter.2}{Business 1}{}% 18
+\BOOKMARK [1][-]{section*.9}{Turning R into production \205 make your models reality}{chapter.2}% 19
+\BOOKMARK [1][-]{Item.13}{RevoScaleR - performance and scalability R}{chapter.2}% 20
+\BOOKMARK [1][-]{Item.14}{Bringing R to Enterprise}{chapter.2}% 21
+\BOOKMARK [1][-]{Item.15}{Data science outside the box: Developing a generic scoring algorithm for customer acquisition}{chapter.2}% 22
+\BOOKMARK [1][-]{Item.16}{Embedding R in business processes}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Business 2}{}% 24
+\BOOKMARK [1][-]{section*.10}{Enterprise R Platform \205 the what, the why and the how}{chapter.3}% 25
+\BOOKMARK [1][-]{Item.18}{R in the Mittelstand: Bringing Data Science to small and mid-size companies}{chapter.3}% 26
+\BOOKMARK [1][-]{Item.19}{R tools and tricks for marketing inference in a big internet company}{chapter.3}% 27
+\BOOKMARK [1][-]{Item.20}{Using Google Analytics with R}{chapter.3}% 28
+\BOOKMARK [1][-]{Item.21}{Using R for backtesting algorithmic trading strategies on high-frequency data}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Data Workflow 1}{}% 30
+\BOOKMARK [1][-]{section*.11}{Dynamic Inflation Rate Calculation of Fast-Moving Consumer Goods: Shiny-SparkR App}{chapter.4}% 31
+\BOOKMARK [1][-]{Item.23}{Introduction to RDruid}{chapter.4}% 32
+\BOOKMARK [1][-]{Item.24}{Search phrases in e-commerce platform allegro.pl - big data analysis using SparkR}{chapter.4}% 33
+\BOOKMARK [1][-]{Item.27}{The full process of creating an R application in recommendation systems: from Dockerfile to Zabbix monitoring}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Data Workflow 2}{}% 35
+\BOOKMARK [1][-]{section*.12}{Power of Java's RSession and rKafka in the data science team collaboration}{chapter.5}% 36
+\BOOKMARK [1][-]{Item.29}{R Shiny for Real-time Analytics and Insight Delivery \205 A Solution for Complex Data in Agriculture}{chapter.5}% 37
+\BOOKMARK [1][-]{Item.30}{Seamless external R server integration with Excel with step-by-step debugging of the R code}{chapter.5}% 38
+\BOOKMARK [1][-]{Item.31}{Workflow around modelling in Data Science / R}{chapter.5}% 39
+\BOOKMARK [0][-]{chapter.6}{Methodology 1}{}% 40
+\BOOKMARK [1][-]{section*.13}{Predicting machine failures}{chapter.6}% 41
+\BOOKMARK [1][-]{Item.33}{Ensemble learning - idea and applications}{chapter.6}% 42
+\BOOKMARK [1][-]{Item.34}{Ensemble learning - implementation with mlr}{chapter.6}% 43
+\BOOKMARK [0][-]{chapter.7}{Methodology 2}{}% 44
+\BOOKMARK [1][-]{section*.14}{Unattended SVM parameters fitting for monitoring nonlinear profiles}{chapter.7}% 45
+\BOOKMARK [1][-]{Item.38}{SimonsSVM: A Fast and Scalable Support Vector Machine Implementation for R}{chapter.7}% 46
+\BOOKMARK [1][-]{Item.42}{Discrete Choice Models in R}{chapter.7}% 47
+\BOOKMARK [1][-]{Item.43}{Multivariate analysis of variance for functional data using R}{chapter.7}% 48
+\BOOKMARK [1][-]{Item.44}{Text Mining in R}{chapter.7}% 49
+\BOOKMARK [0][-]{chapter.8}{Methodology 3}{}% 50
+\BOOKMARK [1][-]{section*.15}{Classic and network based cluster analysis: together we're better}{chapter.8}% 51
+\BOOKMARK [1][-]{Item.46}{M-quantile regression in R}{chapter.8}% 52
+\BOOKMARK [1][-]{Item.48}{Is forest a pharmacy? - problems with data analyses}{chapter.8}% 53
+\BOOKMARK [1][-]{Item.50}{k Prototypes Clustering of Mixed Type Data}{chapter.8}% 54
+\BOOKMARK [0][-]{chapter.9}{Packages 1}{}% 55
+\BOOKMARK [1][-]{section*.16}{Reconciling forecasts: the hts package}{chapter.9}% 56
+\BOOKMARK [1][-]{Item.52}{stplanr: an R package for transport planning}{chapter.9}% 57
+\BOOKMARK [1][-]{Item.53}{brms: An R Package for Bayesian Multilevel Models using Stan}{chapter.9}% 58
+\BOOKMARK [1][-]{Item.54}{Modules in R}{chapter.9}% 59
+\BOOKMARK [1][-]{Item.55}{influence.SEM 2.0: An R Package for Sensitivity Analysis in Structural Equation Models}{chapter.9}% 60
+\BOOKMARK [0][-]{chapter.10}{Packages 2}{}% 61
+\BOOKMARK [1][-]{section*.17}{EnvCpt: An R package for changepoint identification in environmental data}{chapter.10}% 62
+\BOOKMARK [1][-]{Item.58}{archivist 2.0: News from Managing Data Analysis Results Toolkit}{chapter.10}% 63
+\BOOKMARK [1][-]{Item.59}{LimeRick: Bridge between LimeSurvey and R}{chapter.10}% 64
+\BOOKMARK [1][-]{Item.60}{An R package for consumer and sensory data mapping: Comparison of Preference Mapping stability}{chapter.10}% 65
+\BOOKMARK [0][-]{chapter.11}{BioR}{}% 66
+\BOOKMARK [1][-]{section*.18}{Are we ready for Personalized Medicine?}{chapter.11}% 67
+\BOOKMARK [1][-]{Item.62}{N-gram analysis of biological sequences in R}{chapter.11}% 68
+\BOOKMARK [1][-]{Item.65}{R as an Environment for the Reproducible Analysis of DNA Amplification Experiments}{chapter.11}% 69
+\BOOKMARK [1][-]{Item.67}{Big data genomic data warehouses analyses with R}{chapter.11}% 70
+\BOOKMARK [1][-]{Item.69}{Using SparkR with distributed database in Parquet - a genomic example}{chapter.11}% 71
+\BOOKMARK [0][-]{chapter.12}{Education Learning}{}% 72
+\BOOKMARK [1][-]{section*.19}{Revolutionize how you teach and blog: add interactivity}{chapter.12}% 73
+\BOOKMARK [1][-]{Item.71}{Aargh I have to teach R \(Experiences in the teaching of R\)}{chapter.12}% 74
+\BOOKMARK [1][-]{Item.72}{Using R for artistic purposes}{chapter.12}% 75
+\BOOKMARK [1][-]{Item.73}{Polish Diet Commissions - Text Analyzing}{chapter.12}% 76
+\BOOKMARK [0][-]{chapter.13}{Lightning Talks}{}% 77
+\BOOKMARK [1][-]{section*.20}{R as a tool for graphical diagnostics in population pharmacokinetic modeling}{chapter.13}% 78
+\BOOKMARK [1][-]{Item.75}{Machine learning modeling of phenological phases in Poland}{chapter.13}% 79
+\BOOKMARK [1][-]{Item.81}{Latent Class Analysis in Psychology}{chapter.13}% 80
+\BOOKMARK [1][-]{Item.82}{Exploratory data analysis of a clinical study group - revealing patient subgroups.}{chapter.13}% 81
+\BOOKMARK [1][-]{Item.89}{Multidimensional Clustering of Web Analytics Data}{chapter.13}% 82
+\BOOKMARK [1][-]{Item.90}{R shiny server as core of multiple technologies into Travel Industry}{chapter.13}% 83
+\BOOKMARK [1][-]{Item.91}{Turning Text Mining into Language Mining: Corpus Linguistics in R}{chapter.13}% 84
+\BOOKMARK [1][-]{Item.92}{Structural bioinformatician's notebooks with pdbeeR and knitr}{chapter.13}% 85
+\BOOKMARK [1][-]{Item.93}{Using R to incorporate data science into the undergraduate statistics curriculum}{chapter.13}% 86
+\BOOKMARK [1][-]{Item.94}{Analysing the statistical effects of manipulated data}{chapter.13}% 87
+\BOOKMARK [1][-]{Item.95}{Cryptography in R}{chapter.13}% 88
+\BOOKMARK [1][-]{Item.96}{Visualizing changes in demographics with R}{chapter.13}% 89
+\BOOKMARK [1][-]{Item.97}{R for pharmacokineticists - smulation of steady-state concentrations of amiodarone in heart compartmental model as an example.}{chapter.13}% 90
+\BOOKMARK [0][-]{chapter.14}{Poster Session}{}% 91
+\BOOKMARK [1][-]{section*.21}{What are sampling errors in the vegetation studies using visual estimation of presence and cover of plants? R can help}{chapter.14}% 92
+\BOOKMARK [1][-]{Item.100}{RNA-seq transcriptional profiling of PPD-b-stimulated peripheral blood from cattle infected with Mycobacterium bovis}{chapter.14}% 93
+\BOOKMARK [1][-]{Item.105}{Pharmacokinetics-driven modeling of metabolomics data}{chapter.14}% 94
+\BOOKMARK [1][-]{Item.106}{R as a tool for geospatial modeling in large dataset - example of dasymetric modeling at a continental scale \(United States\)}{chapter.14}% 95
+\BOOKMARK [1][-]{Item.114}{Application of Artificial Neural Network to Planar Chromatography Data}{chapter.14}% 96
+\BOOKMARK [1][-]{Item.115}{cgmisc: enhanced genome-wide association analyses and visualization}{chapter.14}% 97
+\BOOKMARK [1][-]{Item.118}{Penalized regression inference regarding variable selection in regular and high dimensions: comparison of selected methods implemented in R}{chapter.14}% 98
+\BOOKMARK [1][-]{Item.119}{Wrestling with big data in forestry: use of R in Scots pine site index analysis.}{chapter.14}% 99
+\BOOKMARK [1][-]{Item.121}{An R implementation of Kauffman's NK model}{chapter.14}% 100
+\BOOKMARK [1][-]{Item.122}{R as an effective data mining tool in chemistry}{chapter.14}% 101
+\BOOKMARK [1][-]{Item.123}{Applying genetic algorithms to calibrate a processing chain for a Landsat-based time series analysis of disturbance - regrowth dynamics in tropical forests}{chapter.14}% 102
+\BOOKMARK [1][-]{Item.124}{Modelling the distrubution of the bryophytes in different spatial scales}{chapter.14}% 103
+\BOOKMARK [1][-]{Item.127}{Mortality mapping using R}{chapter.14}% 104
+\BOOKMARK [0][-]{section*.22}{Authors}{}% 105
+\BOOKMARK [0][-]{section*.24}{Packages}{}% 106

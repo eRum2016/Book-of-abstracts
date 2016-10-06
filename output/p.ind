@@ -1,9 +1,9 @@
 \begin{theindex}
 
-  \item abind, 71
+  \item abind, 68
   \item agricolae, 5
   \item AlgDesign, 5
-  \item AnnotationFuncs, 68
+  \item AnnotationFuncs, 66
   \item archivist, 6, 44
   \item archivist.github, 44
 
@@ -12,151 +12,152 @@
   \item base, 15
   \item bayesm, 24, 31
   \item BetaBit, 6
-  \item betapart, 67
+  \item betapart, 65
   \item biogram, 48
-  \item Boruta, 58
-  \item BreakoutDetection, 75
+  \item Boruta, 55
+  \item BreakoutDetection, 72
   \item brms, 40
 
   \indexspace
 
-  \item caret, 25, 36, 58, 69
-  \item caTools, 17, 69
-  \item cgmisc, 72
-  \item changepoint, 43, 75
-  \item chemometrics, 59
+  \item caret, 25, 36, 55, 67
+  \item caTools, 17, 67
+  \item cgmisc, 69
+  \item changepoint, 43, 72
+  \item chemometrics, 57
   \item chipPCR, 49
   \item ChoiceModelR, 31
   \item chron, 17
-  \item cluster, 24, 37, 74
+  \item cluster, 24, 37, 72
   \item clustMixType, 37
-  \item clv, 59
-  \item coda, 69
+  \item clv, 57
+  \item coda, 67
   \item conf.design, 5
 
   \indexspace
 
   \item data.table, 16
   \item dbmss, 10
-  \item deepnet, 71
-  \item dendextend, 74
-  \item deSolve, 65
+  \item deepnet, 68
+  \item dendextend, 72
+  \item deSolve, 62
   \item DiceDesign, 5
   \item DiceKriging, 5
-  \item dismo, 76
+  \item dismo, 73
   \item DoE.base, 5
   \item DoE.wrapper, 5
   \item dpcR, 49
-  \item dplyr, 7, 16, 24, 25, 62, 68, 74
+  \item dplyr, 7, 16, 24, 25, 60, 66, 71, 72
 
   \indexspace
 
-  \item e1071, 29, 33, 58
-  \item EBImage, 71
-  \item ecp, 75
-  \item edgeR, 68
-  \item elastic, 21
+  \item e1071, 29, 33, 56
+  \item EBImage, 68
+  \item ecp, 72
+  \item edgeR, 66
+  \item elastic, 20
   \item EnvCpt, 43
-  \item extrafont, 68
+  \item extrafont, 66
 
   \indexspace
 
   \item fda, 32
   \item fields, 24
-  \item FME, 65
+  \item FME, 62
   \item fpc, 37
-  \item FWDselect, 74
+  \item FWDselect, 72
 
   \indexspace
 
-  \item GA, 75
-  \item GenABEL, 72
+  \item GA, 72
+  \item GenABEL, 69
   \item genie, 8
-  \item ggplot2, 6, 16, 17, 19, 24, 36, 54, 55, 57, 59, 62, 64, 68, 74
+  \item ggplot2, 6, 16, 17, 19, 24, 36, 52, 53, 55, 57, 60, 62, 66, 
+		71, 72
   \item gmnl, 31
-  \item grid, 54
-  \item gridExtra, 68
-  \item GWR, 76
+  \item grid, 52
+  \item gridExtra, 66
+  \item GWR, 74
 
   \indexspace
 
   \item h2o, 16
-  \item hdi, 72
+  \item hdi, 70
   \item hglm, 36
-  \item Hmisc, 69
+  \item Hmisc, 67
   \item hts, 39
-  \item httr, 21
+  \item httr, 20
 
   \indexspace
 
   \item IBrokers, 17
   \item ICAOD, 5
-  \item igraph, 74
+  \item igraph, 71
   \item import, 40
   \item influence.SEM, 41
-  \item INLA, 76
+  \item INLA, 74
   \item inline, 17
   \item intsvy, 6
-  \item irr, 67
-  \item ISLR, 62
+  \item irr, 65
+  \item ISLR, 60
 
   \indexspace
 
-  \item jpeg, 71
+  \item jpeg, 68
 
   \indexspace
 
-  \item klaR, 37, 74
-  \item knitr, 6, 53, 62
+  \item klaR, 37, 72
+  \item knitr, 6, 51, 59
   \item kohonen, 24
 
   \indexspace
 
-  \item lassoscore, 72
-  \item lattice, 57, 69
+  \item lassoscore, 70
+  \item lattice, 55, 67
   \item lavaan, 41
-  \item leaflet, 24, 39, 61, 64
+  \item leaflet, 24, 39, 59, 62
   \item lhs, 5
   \item LimeRick, 44
-  \item limma, 68
+  \item limma, 66
 
   \indexspace
 
-  \item magrittr, 20, 24, 68
+  \item magrittr, 20, 24, 66
   \item maps, 24
   \item maptools, 24
-  \item MASS, 68, 74
-  \item Matrix, 74
-  \item matrixStats, 74
+  \item MASS, 66, 72
+  \item Matrix, 72
+  \item matrixStats, 72
   \item MBmca, 49
-  \item MCMCglmm, 69
+  \item MCMCglmm, 67
   \item MCMCpack, 3
   \item mlogit, 31
   \item mlR, 2
   \item mlr, 27, 28
   \item modules, 40
-  \item multilevel, 67
+  \item multilevel, 65
 
   \indexspace
 
-  \item nlme, 67
+  \item nlme, 65
 
   \indexspace
 
-  \item openssl, 64
+  \item openssl, 61
   \item OptimalDesign, 5
-  \item org.Bt.eg.db, 68
+  \item org.Bt.eg.db, 66
 
   \indexspace
 
-  \item parallel, 40, 58
+  \item parallel, 40, 55
   \item parallelMCMCcombine, 4
   \item party, 24
-  \item pdbeeR, 62
+  \item pdbeeR, 59
   \item PerformanceAnalytics, 17
   \item PISA2012lite, 6
   \item planor, 5
-  \item plotly, 17, 64
+  \item plotly, 17, 62
   \item popSim, 9
 
   \indexspace
@@ -168,60 +169,60 @@
   \indexspace
 
   \item R-INLA, 3
-  \item R2WinBUGS, 76
+  \item R2WinBUGS, 74
   \item randomForest, 24, 25, 36
   \item ranger, 48
-  \item raster, 58
-  \item rasterVis, 76
+  \item raster, 55
+  \item rasterVis, 73
   \item Rbbg, 17
-  \item RColorBrewer, 54, 68
+  \item RColorBrewer, 52, 66
   \item Rcpp, 4, 7, 17
   \item RcppArmadillo, 17
   \item RDML, 49
-  \item RDruid, 20
-  \item refund, 72
+  \item RDruid, 19
+  \item refund, 70
   \item RevoMods, 11
   \item RevoPemaR, 11
   \item RevoScaleR, 11
   \item RevoTreeView, 11
   \item RevoUtils, 11
   \item RevoUtilsMath, 11
-  \item rgdal, 10, 24, 70
+  \item rgdal, 10, 24, 68
   \item rgeos, 10, 24, 36
   \item RGoogleAnalytics, 17
-  \item rgrass7, 70
-  \item rHubble, 60
+  \item rgrass7, 68
+  \item rHubble, 58
   \item rjags, 3
-  \item RJBDC, 21
-  \item rkafka, 21, 23
+  \item RJBDC, 20
+  \item rkafka, 20, 23
   \item rkwarddev, 49
-  \item rmarkdown, 16, 53, 61
+  \item rmarkdown, 16, 51, 59
   \item roveR, 15
-  \item Rserve, 25, 54
+  \item Rserve, 24, 52
   \item rsm, 5
-  \item RSQLite, 70
+  \item RSQLite, 68
   \item rstan, 3, 4, 31
-  \item runjags, 69
+  \item runjags, 67
   \item rvest, 19
-  \item RZabbix, 21
+  \item RZabbix, 20
 
   \indexspace
 
-  \item sgr, 63
-  \item shiny, 6, 15, 16, 19, 24, 39, 53, 55, 61
+  \item sgr, 61
+  \item shiny, 6, 15, 16, 19, 24, 39, 51, 53, 59
   \item SimonsSVM, 30
   \item SixSigma, 29
   \item slam, 48
-  \item sodium, 64
-  \item sp, 10, 24, 36, 70
+  \item sodium, 61
+  \item sp, 10, 24, 36, 68
   \item SparkR, 19, 20, 50
   \item spatstat, 24
-  \item spdep, 10, 76
-  \item stats, 74
+  \item spdep, 10, 74
+  \item stats, 72
   \item stplanr, 39
-  \item stringr, 61
-  \item svglite, 68
-  \item svSocket, 25
+  \item stringr, 59
+  \item svglite, 66
+  \item svSocket, 24
 
   \indexspace
 
@@ -230,13 +231,13 @@
   \item tm, 33
   \item tseries, 17
   \item TTR, 17
-  \item tutorial, 53
+  \item tutorial, 51
   \item twitteR, 33
 
   \indexspace
 
-  \item vegan, 67
-  \item VennDiagram, 68
+  \item vegan, 65
+  \item VennDiagram, 66
 
   \indexspace
 

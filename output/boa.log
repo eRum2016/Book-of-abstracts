@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  6 OCT 2016 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  6 OCT 2016 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1575,9 +1575,25 @@ Package pdftex.def Info: figs/qrcode_work.png used on input line 146.
 
 ]
 Chapter 7.
-(./misc/social.tex) [15] [16
+(./misc/social.tex <figs/party.jpg, id=708, 583.9416pt x 583.9416pt>
+File: figs/party.jpg Graphic file (type jpg)
 
-]
+<use figs/party.jpg>
+Package pdftex.def Info: figs/party.jpg used on input line 12.
+(pdftex.def)             Requested size: 367.60843pt x 367.60893pt.
+
+Overfull \hbox (8.026pt too wide) in paragraph at lines 12--13
+ [] 
+ []
+
+[15 <./figs/party.jpg>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
 Chapter 8.
 (./abstracts/01_Turner.tex
 
@@ -1587,7 +1603,9 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) [17]
+)) [17
+
+]
 (./abstracts/02_Stapor.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2202,7 +2220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [97] [98
 
-] <figs/back_cover.pdf, id=1229, 597.50688pt x 847.7214pt>
+] <figs/back_cover.pdf, id=1230, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf>
@@ -2213,7 +2231,7 @@ File: figs/back_cover.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/back_cover.pdf used on input line 294.
 (pdftex.def)             Requested size: 597.50542pt x 847.71935pt.
 
-<figs/back_cover.pdf, id=1232, page=1, 597.50688pt x 847.7214pt>
+<figs/back_cover.pdf, id=1233, page=1, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf, page 1>
@@ -2251,10 +2269,10 @@ Package rerunfilecheck Info: File `boa.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 17079 strings out of 494184
- 284100 string characters out of 6157266
+ 17084 strings out of 494184
+ 284184 string characters out of 6157266
  396578 words of memory out of 5000000
- 19601 multiletter control sequences out of 15000+600000
+ 19605 multiletter control sequences out of 15000+600000
  61123 words of font info for 90 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  46i,18n,48p,10472b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2270,10 +2288,10 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on boa.pdf (108 pages, 10036237 bytes).
+Output written on boa.pdf (108 pages, 13252278 bytes).
 PDF statistics:
- 1353 PDF objects out of 1440 (max. 8388607)
+ 1354 PDF objects out of 1440 (max. 8388607)
  1192 compressed objects within 12 object streams
  279 named destinations out of 1000 (max. 500000)
- 935 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 940 words of extra memory for PDF output out of 10000 (max. 10000000)
 

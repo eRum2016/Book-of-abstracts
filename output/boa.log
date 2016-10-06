@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  6 OCT 2016 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  6 OCT 2016 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,8 +1293,8 @@ Underfull \hbox (badness 1303) in paragraph at lines 24--24
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 24--25
-[]|\T1/ptm/m/n/9 Adolfo Al-
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]|\T1/ptm/m/n/9 Šukasz
  []
 
 
@@ -1308,8 +1308,8 @@ Underfull \hbox (badness 2065) in paragraph at lines 29--29
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[]|\T1/ptm/m/n/9 Šukasz
+Underfull \hbox (badness 1024) in paragraph at lines 29--30
+[]|\T1/ptm/m/n/9 Adolfo Al-
  []
 
 
@@ -2288,7 +2288,7 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on boa.pdf (108 pages, 13252151 bytes).
+Output written on boa.pdf (108 pages, 13252143 bytes).
 PDF statistics:
  1354 PDF objects out of 1440 (max. 8388607)
  1192 compressed objects within 12 object streams

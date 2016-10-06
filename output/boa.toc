@@ -216,7 +216,7 @@
 \contentsline {section}{Visualizing changes in demographics with R}{80}{Item.96}
 \contentsline {paragraph}{Keywords:}{80}{Item.97}
 \contentsline {paragraph}{R packages:}{80}{Item.97}
-\contentsline {section}{R for pharmacokineticists - smulation of steady-state concentrations of amiodarone in heart compartmental model as an example.}{81}{Item.97}
+\contentsline {section}{R for pharmacokineticists - simulation of steady-state concentrations of amiodarone in heart compartmental model as an example.}{81}{Item.97}
 \contentsline {paragraph}{Keywords:}{81}{Item.98}
 \contentsline {paragraph}{R packages:}{81}{Item.98}
 \contentsline {chapter}{\numberline {21}Poster Session}{83}{chapter.21}

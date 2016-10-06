@@ -45,7 +45,7 @@
 \contentsline {paragraph}{Keywords:}{28}{Item.15}
 \contentsline {section}{Data science outside the box: Developing a generic scoring algorithm for customer acquisition}{28}{Item.15}
 \contentsline {paragraph}{Keywords:}{28}{Item.16}
-\contentsline {section}{Embedding R in business processes}{29}{Item.16}
+\contentsline {section}{Application fields for R in classical analytics}{29}{Item.16}
 \contentsline {paragraph}{Keywords:}{29}{Item.17}
 \contentsline {chapter}{\numberline {10}Business 2}{31}{chapter.10}
 \contentsline {section}{Enterprise R Platform -- the what, the why and the how}{31}{section*.4}

@@ -51,7 +51,7 @@
 \contentsline {section}{Enterprise R Platform -- the what, the why and the how}{15}{section*.11}
 \contentsline {paragraph}{Keywords:}{15}{Item.18}
 \contentsline {paragraph}{R packages:}{15}{Item.18}
-\contentsline {section}{R in the Mittelstand: Bringing Data Science to small and mid-size companies}{15}{Item.18}
+\contentsline {section}{R in the Mittelstand: Bringing Data Science to small and mid-size companies}{16}{Item.18}
 \contentsline {paragraph}{Keywords:}{16}{Item.19}
 \contentsline {section}{R tools and tricks for marketing inference in a big internet company}{16}{Item.19}
 \contentsline {paragraph}{Keywords:}{16}{Item.20}
@@ -66,13 +66,13 @@
 \contentsline {section}{Dynamic Inflation Rate Calculation of Fast-Moving Consumer Goods: Shiny-SparkR App}{19}{section*.12}
 \contentsline {paragraph}{Keywords:}{19}{Item.23}
 \contentsline {paragraph}{R packages:}{19}{Item.23}
-\contentsline {section}{Introduction to RDruid}{19}{Item.23}
+\contentsline {section}{Introduction to RDruid}{20}{Item.23}
 \contentsline {paragraph}{Keywords:}{20}{Item.24}
 \contentsline {paragraph}{R packages:}{20}{Item.24}
 \contentsline {section}{Search phrases in e-commerce platform allegro.pl - big data analysis using SparkR}{20}{Item.24}
 \contentsline {paragraph}{Keywords:}{20}{Item.27}
 \contentsline {paragraph}{R packages:}{20}{Item.27}
-\contentsline {section}{The full process of creating an R application in recommendation systems: from Dockerfile to Zabbix monitoring}{20}{Item.27}
+\contentsline {section}{The full process of creating an R application in recommendation systems: from Dockerfile to Zabbix monitoring}{21}{Item.27}
 \contentsline {paragraph}{Keywords:}{21}{Item.28}
 \contentsline {paragraph}{R packages:}{21}{Item.28}
 \contentsline {chapter}{\numberline {5}Data Workflow 2}{23}{chapter.5}
@@ -82,7 +82,7 @@
 \contentsline {section}{R Shiny for Real-time Analytics and Insight Delivery -- A Solution for Complex Data in Agriculture}{24}{Item.29}
 \contentsline {paragraph}{Keywords:}{24}{Item.30}
 \contentsline {paragraph}{R packages:}{24}{Item.30}
-\contentsline {section}{Seamless external R server integration with Excel with step-by-step debugging of the R code}{24}{Item.30}
+\contentsline {section}{Seamless external R server integration with Excel with step-by-step debugging of the R code}{25}{Item.30}
 \contentsline {paragraph}{Keywords:}{25}{Item.31}
 \contentsline {paragraph}{R packages:}{25}{Item.31}
 \contentsline {section}{Workflow around modelling in Data Science / R}{25}{Item.31}
@@ -110,9 +110,9 @@
 \contentsline {section}{Multivariate analysis of variance for functional data using R}{32}{Item.43}
 \contentsline {paragraph}{Keywords:}{32}{Item.44}
 \contentsline {paragraph}{R packages:}{32}{Item.44}
-\contentsline {section}{Text Mining in R}{32}{Item.44}
-\contentsline {paragraph}{Keywords:}{32}{Item.45}
-\contentsline {paragraph}{R packages:}{32}{Item.45}
+\contentsline {section}{Text Mining in R}{33}{Item.44}
+\contentsline {paragraph}{Keywords:}{33}{Item.45}
+\contentsline {paragraph}{R packages:}{33}{Item.45}
 \contentsline {chapter}{\numberline {8}Methodology 3}{35}{chapter.8}
 \contentsline {section}{Classic and network based cluster analysis: together we're better}{35}{section*.16}
 \contentsline {paragraph}{Keywords:}{35}{Item.46}
@@ -161,102 +161,102 @@
 \contentsline {section}{R as an Environment for the Reproducible Analysis of DNA Amplification Experiments}{49}{Item.65}
 \contentsline {paragraph}{Keywords:}{49}{Item.67}
 \contentsline {paragraph}{R packages:}{49}{Item.67}
-\contentsline {section}{Big data genomic data warehouses analyses with R}{49}{Item.67}
+\contentsline {section}{Big data genomic data warehouses analyses with R}{50}{Item.67}
 \contentsline {paragraph}{Keywords:}{50}{Item.69}
 \contentsline {section}{Using SparkR with distributed database in Parquet - a genomic example}{50}{Item.69}
 \contentsline {paragraph}{Keywords:}{50}{Item.70}
 \contentsline {paragraph}{R packages:}{50}{Item.70}
-\contentsline {chapter}{\numberline {12}Education Learning}{51}{chapter.12}
-\contentsline {section}{Revolutionize how you teach and blog: add interactivity}{51}{section*.20}
-\contentsline {paragraph}{Keywords:}{51}{Item.71}
-\contentsline {paragraph}{R packages:}{51}{Item.71}
-\contentsline {section}{Aargh I have to teach R (Experiences in the teaching of R)}{51}{Item.71}
-\contentsline {paragraph}{Keywords:}{51}{Item.72}
-\contentsline {paragraph}{R packages:}{51}{Item.72}
-\contentsline {section}{Using R for artistic purposes}{52}{Item.72}
-\contentsline {paragraph}{Keywords:}{52}{Item.73}
-\contentsline {paragraph}{R packages:}{52}{Item.73}
-\contentsline {section}{Polish Diet Commissions - Text Analyzing}{53}{Item.73}
-\contentsline {paragraph}{Keywords:}{53}{Item.74}
-\contentsline {paragraph}{R packages:}{53}{Item.74}
-\contentsline {chapter}{\numberline {13}Lightning Talks}{55}{chapter.13}
-\contentsline {section}{R as a tool for graphical diagnostics in population pharmacokinetic modeling}{55}{section*.21}
-\contentsline {paragraph}{Keywords:}{55}{Item.75}
-\contentsline {paragraph}{R packages:}{55}{Item.75}
-\contentsline {section}{Machine learning modeling of phenological phases in Poland}{55}{Item.75}
-\contentsline {paragraph}{Keywords:}{56}{Item.78}
-\contentsline {paragraph}{R packages:}{56}{Item.78}
-\contentsline {section}{Latent Class Analysis in Psychology}{56}{Item.81}
-\contentsline {paragraph}{Keywords:}{56}{Item.82}
-\contentsline {paragraph}{R packages:}{56}{Item.82}
-\contentsline {section}{Exploratory data analysis of a clinical study group - revealing patient subgroups.}{57}{Item.82}
-\contentsline {paragraph}{Keywords:}{57}{Item.85}
-\contentsline {paragraph}{R packages:}{57}{Item.85}
-\contentsline {section}{Multidimensional Clustering of Web Analytics Data}{58}{Item.89}
-\contentsline {paragraph}{Keywords:}{58}{Item.90}
-\contentsline {paragraph}{R packages:}{58}{Item.90}
-\contentsline {section}{R shiny server as core of multiple technologies into Travel Industry}{58}{Item.90}
-\contentsline {paragraph}{Keywords:}{58}{Item.91}
-\contentsline {paragraph}{R packages:}{58}{Item.91}
-\contentsline {section}{Turning Text Mining into Language Mining: Corpus Linguistics in R}{59}{Item.91}
-\contentsline {paragraph}{Keywords:}{59}{Item.92}
-\contentsline {paragraph}{R packages:}{59}{Item.92}
-\contentsline {section}{Structural bioinformatician's notebooks with pdbeeR and knitr}{60}{Item.92}
-\contentsline {paragraph}{Keywords:}{60}{Item.93}
-\contentsline {paragraph}{R packages:}{60}{Item.93}
-\contentsline {section}{Using R to incorporate data science into the undergraduate statistics curriculum}{60}{Item.93}
-\contentsline {paragraph}{Keywords:}{60}{Item.94}
-\contentsline {paragraph}{R packages:}{60}{Item.94}
-\contentsline {section}{Analysing the statistical effects of manipulated data}{61}{Item.94}
-\contentsline {paragraph}{Keywords:}{61}{Item.95}
-\contentsline {paragraph}{R packages:}{61}{Item.95}
-\contentsline {section}{Cryptography in R}{62}{Item.95}
-\contentsline {paragraph}{Keywords:}{62}{Item.96}
-\contentsline {paragraph}{R packages:}{62}{Item.96}
-\contentsline {section}{Visualizing changes in demographics with R}{62}{Item.96}
-\contentsline {paragraph}{Keywords:}{62}{Item.97}
-\contentsline {paragraph}{R packages:}{62}{Item.97}
-\contentsline {section}{R for pharmacokineticists - smulation of steady-state concentrations of amiodarone in heart compartmental model as an example.}{63}{Item.97}
-\contentsline {paragraph}{Keywords:}{63}{Item.98}
-\contentsline {paragraph}{R packages:}{63}{Item.98}
-\contentsline {chapter}{\numberline {14}Poster Session}{65}{chapter.14}
-\contentsline {section}{What are sampling errors in the vegetation studies using visual estimation of presence and cover of plants? R can help}{65}{section*.22}
-\contentsline {paragraph}{Keywords:}{65}{Item.100}
-\contentsline {paragraph}{R packages:}{65}{Item.100}
-\contentsline {section}{RNA-seq transcriptional profiling of PPD-b-stimulated peripheral blood from cattle infected with \emph {Mycobacterium bovis}}{66}{Item.100}
-\contentsline {paragraph}{Keywords:}{66}{Item.103}
-\contentsline {paragraph}{R packages:}{66}{Item.103}
-\contentsline {section}{Pharmacokinetics-driven modeling of metabolomics data}{67}{Item.105}
-\contentsline {paragraph}{Keywords:}{67}{Item.106}
-\contentsline {paragraph}{R packages:}{67}{Item.106}
-\contentsline {section}{R as a tool for geospatial modeling in large dataset - example of dasymetric modeling at a continental scale (United States)}{67}{Item.106}
-\contentsline {paragraph}{Keywords:}{68}{Item.107}
-\contentsline {paragraph}{R packages:}{68}{Item.107}
-\contentsline {section}{Application of Artificial Neural Network to Planar Chromatography Data}{68}{Item.114}
-\contentsline {paragraph}{Keywords:}{68}{Item.115}
-\contentsline {paragraph}{R packages:}{68}{Item.115}
-\contentsline {section}{cgmisc: enhanced genome-wide association analyses and visualization}{69}{Item.115}
-\contentsline {paragraph}{Keywords:}{69}{Item.118}
-\contentsline {paragraph}{R packages:}{69}{Item.118}
-\contentsline {section}{Penalized regression inference regarding variable selection in regular and high dimensions: comparison of selected methods implemented in R}{70}{Item.118}
-\contentsline {paragraph}{Keywords:}{70}{Item.119}
-\contentsline {paragraph}{R packages:}{70}{Item.119}
-\contentsline {section}{Wrestling with big data in forestry: use of R in Scots pine site index analysis.}{70}{Item.119}
-\contentsline {paragraph}{Keywords:}{71}{Item.121}
-\contentsline {section}{An R implementation of Kauffman's NK model}{71}{Item.121}
-\contentsline {paragraph}{Keywords:}{71}{Item.122}
-\contentsline {paragraph}{R packages:}{71}{Item.122}
-\contentsline {section}{R as an effective data mining tool in chemistry}{72}{Item.122}
-\contentsline {paragraph}{Keywords:}{72}{Item.123}
-\contentsline {paragraph}{R packages:}{72}{Item.123}
-\contentsline {section}{Applying genetic algorithms to calibrate a processing chain for a Landsat-based time series analysis of disturbance - regrowth dynamics in tropical forests}{72}{Item.123}
-\contentsline {paragraph}{Keywords:}{73}{Item.124}
-\contentsline {paragraph}{R packages:}{73}{Item.124}
-\contentsline {section}{Modelling the distrubution of the bryophytes in different spatial scales}{73}{Item.124}
-\contentsline {paragraph}{Keywords:}{73}{Item.127}
-\contentsline {paragraph}{R packages:}{73}{Item.127}
-\contentsline {section}{Mortality mapping using R}{74}{Item.127}
-\contentsline {paragraph}{Keywords:}{74}{Item.128}
-\contentsline {paragraph}{R packages:}{74}{Item.128}
-\contentsline {chapter}{Authors}{75}{section*.23}
-\contentsline {chapter}{Packages}{77}{section*.25}
+\contentsline {chapter}{\numberline {12}Education Learning}{53}{chapter.12}
+\contentsline {section}{Revolutionize how you teach and blog: add interactivity}{53}{section*.20}
+\contentsline {paragraph}{Keywords:}{53}{Item.71}
+\contentsline {paragraph}{R packages:}{53}{Item.71}
+\contentsline {section}{Aargh I have to teach R (Experiences in the teaching of R)}{53}{Item.71}
+\contentsline {paragraph}{Keywords:}{53}{Item.72}
+\contentsline {paragraph}{R packages:}{53}{Item.72}
+\contentsline {section}{Using R for artistic purposes}{54}{Item.72}
+\contentsline {paragraph}{Keywords:}{54}{Item.73}
+\contentsline {paragraph}{R packages:}{54}{Item.73}
+\contentsline {section}{Polish Diet Commissions - Text Analyzing}{55}{Item.73}
+\contentsline {paragraph}{Keywords:}{55}{Item.74}
+\contentsline {paragraph}{R packages:}{55}{Item.74}
+\contentsline {chapter}{\numberline {13}Lightning Talks}{57}{chapter.13}
+\contentsline {section}{R as a tool for graphical diagnostics in population pharmacokinetic modeling}{57}{section*.21}
+\contentsline {paragraph}{Keywords:}{57}{Item.75}
+\contentsline {paragraph}{R packages:}{57}{Item.75}
+\contentsline {section}{Machine learning modeling of phenological phases in Poland}{58}{Item.75}
+\contentsline {paragraph}{Keywords:}{58}{Item.78}
+\contentsline {paragraph}{R packages:}{58}{Item.78}
+\contentsline {section}{Latent Class Analysis in Psychology}{58}{Item.81}
+\contentsline {paragraph}{Keywords:}{58}{Item.82}
+\contentsline {paragraph}{R packages:}{58}{Item.82}
+\contentsline {section}{Exploratory data analysis of a clinical study group - revealing patient subgroups.}{59}{Item.82}
+\contentsline {paragraph}{Keywords:}{59}{Item.85}
+\contentsline {paragraph}{R packages:}{59}{Item.85}
+\contentsline {section}{Multidimensional Clustering of Web Analytics Data}{60}{Item.89}
+\contentsline {paragraph}{Keywords:}{60}{Item.90}
+\contentsline {paragraph}{R packages:}{60}{Item.90}
+\contentsline {section}{R shiny server as core of multiple technologies into Travel Industry}{60}{Item.90}
+\contentsline {paragraph}{Keywords:}{60}{Item.91}
+\contentsline {paragraph}{R packages:}{60}{Item.91}
+\contentsline {section}{Turning Text Mining into Language Mining: Corpus Linguistics in R}{61}{Item.91}
+\contentsline {paragraph}{Keywords:}{61}{Item.92}
+\contentsline {paragraph}{R packages:}{61}{Item.92}
+\contentsline {section}{Structural bioinformatician's notebooks with pdbeeR and knitr}{62}{Item.92}
+\contentsline {paragraph}{Keywords:}{62}{Item.93}
+\contentsline {paragraph}{R packages:}{62}{Item.93}
+\contentsline {section}{Using R to incorporate data science into the undergraduate statistics curriculum}{62}{Item.93}
+\contentsline {paragraph}{Keywords:}{62}{Item.94}
+\contentsline {paragraph}{R packages:}{62}{Item.94}
+\contentsline {section}{Analysing the statistical effects of manipulated data}{63}{Item.94}
+\contentsline {paragraph}{Keywords:}{63}{Item.95}
+\contentsline {paragraph}{R packages:}{63}{Item.95}
+\contentsline {section}{Cryptography in R}{64}{Item.95}
+\contentsline {paragraph}{Keywords:}{64}{Item.96}
+\contentsline {paragraph}{R packages:}{64}{Item.96}
+\contentsline {section}{Visualizing changes in demographics with R}{64}{Item.96}
+\contentsline {paragraph}{Keywords:}{64}{Item.97}
+\contentsline {paragraph}{R packages:}{64}{Item.97}
+\contentsline {section}{R for pharmacokineticists - smulation of steady-state concentrations of amiodarone in heart compartmental model as an example.}{65}{Item.97}
+\contentsline {paragraph}{Keywords:}{65}{Item.98}
+\contentsline {paragraph}{R packages:}{65}{Item.98}
+\contentsline {chapter}{\numberline {14}Poster Session}{67}{chapter.14}
+\contentsline {section}{What are sampling errors in the vegetation studies using visual estimation of presence and cover of plants? R can help}{67}{section*.22}
+\contentsline {paragraph}{Keywords:}{67}{Item.100}
+\contentsline {paragraph}{R packages:}{67}{Item.100}
+\contentsline {section}{RNA-seq transcriptional profiling of PPD-b-stimulated peripheral blood from cattle infected with \emph {Mycobacterium bovis}}{68}{Item.100}
+\contentsline {paragraph}{Keywords:}{68}{Item.103}
+\contentsline {paragraph}{R packages:}{68}{Item.103}
+\contentsline {section}{Pharmacokinetics-driven modeling of metabolomics data}{69}{Item.105}
+\contentsline {paragraph}{Keywords:}{69}{Item.106}
+\contentsline {paragraph}{R packages:}{69}{Item.106}
+\contentsline {section}{R as a tool for geospatial modeling in large dataset - example of dasymetric modeling at a continental scale (United States)}{69}{Item.106}
+\contentsline {paragraph}{Keywords:}{70}{Item.107}
+\contentsline {paragraph}{R packages:}{70}{Item.107}
+\contentsline {section}{Application of Artificial Neural Network to Planar Chromatography Data}{70}{Item.114}
+\contentsline {paragraph}{Keywords:}{70}{Item.115}
+\contentsline {paragraph}{R packages:}{70}{Item.115}
+\contentsline {section}{cgmisc: enhanced genome-wide association analyses and visualization}{71}{Item.115}
+\contentsline {paragraph}{Keywords:}{71}{Item.118}
+\contentsline {paragraph}{R packages:}{71}{Item.118}
+\contentsline {section}{Penalized regression inference regarding variable selection in regular and high dimensions: comparison of selected methods implemented in R}{72}{Item.118}
+\contentsline {paragraph}{Keywords:}{72}{Item.119}
+\contentsline {paragraph}{R packages:}{72}{Item.119}
+\contentsline {section}{Wrestling with big data in forestry: use of R in Scots pine site index analysis.}{72}{Item.119}
+\contentsline {paragraph}{Keywords:}{73}{Item.121}
+\contentsline {section}{An R implementation of Kauffman's NK model}{73}{Item.121}
+\contentsline {paragraph}{Keywords:}{73}{Item.122}
+\contentsline {paragraph}{R packages:}{73}{Item.122}
+\contentsline {section}{R as an effective data mining tool in chemistry}{74}{Item.122}
+\contentsline {paragraph}{Keywords:}{74}{Item.123}
+\contentsline {paragraph}{R packages:}{74}{Item.123}
+\contentsline {section}{Applying genetic algorithms to calibrate a processing chain for a Landsat-based time series analysis of disturbance - regrowth dynamics in tropical forests}{74}{Item.123}
+\contentsline {paragraph}{Keywords:}{75}{Item.124}
+\contentsline {paragraph}{R packages:}{75}{Item.124}
+\contentsline {section}{Modelling the distrubution of the bryophytes in different spatial scales}{75}{Item.124}
+\contentsline {paragraph}{Keywords:}{75}{Item.127}
+\contentsline {paragraph}{R packages:}{75}{Item.127}
+\contentsline {section}{Mortality mapping using R}{76}{Item.127}
+\contentsline {paragraph}{Keywords:}{76}{Item.128}
+\contentsline {paragraph}{R packages:}{76}{Item.128}
+\contentsline {chapter}{Authors}{77}{section*.23}
+\contentsline {chapter}{Packages}{79}{section*.25}

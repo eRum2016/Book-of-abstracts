@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  6 OCT 2016 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.7.3)  9 OCT 2016 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **boa.tex
 (./boa.tex
 LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 44 languages loaded.
+Babel <3.9m> and hyphenation patterns for 3 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
@@ -1579,10 +1579,10 @@ Chapter 7.
 File: figs/party.jpg Graphic file (type jpg)
 
 <use figs/party.jpg>
-Package pdftex.def Info: figs/party.jpg used on input line 12.
+Package pdftex.def Info: figs/party.jpg used on input line 13.
 (pdftex.def)             Requested size: 367.60843pt x 367.60893pt.
 
-Overfull \hbox (8.026pt too wide) in paragraph at lines 12--13
+Overfull \hbox (8.026pt too wide) in paragraph at lines 13--14
  [] 
  []
 
@@ -2220,7 +2220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [97] [98
 
-] <figs/back_cover.pdf, id=1230, 597.50688pt x 847.7214pt>
+] <figs/back_cover.pdf, id=1231, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf>
@@ -2231,7 +2231,7 @@ File: figs/back_cover.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/back_cover.pdf used on input line 294.
 (pdftex.def)             Requested size: 597.50542pt x 847.71935pt.
 
-<figs/back_cover.pdf, id=1233, page=1, 597.50688pt x 847.7214pt>
+<figs/back_cover.pdf, id=1234, page=1, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf, page 1>
@@ -2265,16 +2265,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `boa.out' has not changed.
-(rerunfilecheck)             Checksum: 7F549C40876FB6B370AB5874647D2A8B;10109.
+(rerunfilecheck)             Checksum: 0119474112B9003B398B2AE72D0F5D9D;10111.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 17084 strings out of 494184
- 284184 string characters out of 6157266
- 396578 words of memory out of 5000000
- 19605 multiletter control sequences out of 15000+600000
+ 17085 strings out of 494968
+ 284193 string characters out of 6180530
+ 394374 words of memory out of 5000000
+ 19527 multiletter control sequences out of 15000+600000
  61123 words of font info for 90 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
+ 34 hyphenation exceptions out of 8191
  46i,18n,48p,10472b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
@@ -2288,10 +2288,10 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on boa.pdf (108 pages, 13252143 bytes).
+Output written on boa.pdf (108 pages, 13252216 bytes).
 PDF statistics:
- 1354 PDF objects out of 1440 (max. 8388607)
- 1192 compressed objects within 12 object streams
- 279 named destinations out of 1000 (max. 500000)
+ 1355 PDF objects out of 1440 (max. 8388607)
+ 1193 compressed objects within 12 object streams
+ 280 named destinations out of 1000 (max. 500000)
  940 words of extra memory for PDF output out of 10000 (max. 10000000)
 

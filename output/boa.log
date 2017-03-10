@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  10 OCT 2016 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.18)  10 MAR 2017 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,11 +1228,11 @@ File: figs/program_at_glance.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/program_at_glance.pdf used on input line 130.
 (pdftex.def)             Requested size: 483.69685pt x 361.88045pt.
 
-<figs/qrcode.png, id=631, 3011.25pt x 3011.25pt>
+<figs/qrcode.png, id=631, 602.25pt x 602.25pt>
 File: figs/qrcode.png Graphic file (type png)
  <use figs/qrcode.png>
 Package pdftex.def Info: figs/qrcode.png used on input line 132.
-(pdftex.def)             Requested size: 96.73936pt x 96.69576pt.
+(pdftex.def)             Requested size: 96.73936pt x 96.73874pt.
  [7 <./figs/program_at_glance.pdf> <./figs/qrcode.png>] [8
 
 ]
@@ -1539,7 +1539,7 @@ Overfull \hbox (0.75188pt too wide) in paragraph at lines 103--103
 
 [11]) [12]
 Chapter 6.
-<figs/workshop_map2.jpg, id=694, 751.608pt x 392.1852pt>
+<figs/workshop_map2.jpg, id=695, 751.608pt x 392.1852pt>
 File: figs/workshop_map2.jpg Graphic file (type jpg)
 
 <use figs/workshop_map2.jpg>
@@ -1563,19 +1563,19 @@ Overfull \hbox (1.23785pt too wide) in alignment at lines 4--14
 Underfull \vbox (badness 10000) detected at line 14
  []
 
-) <figs/qrcode_work.png, id=695, 3011.25pt x 3011.25pt>
+) <figs/qrcode_work.png, id=696, 602.25pt x 602.25pt>
 File: figs/qrcode_work.png Graphic file (type png)
 
 <use figs/qrcode_work.png>
 Package pdftex.def Info: figs/qrcode_work.png used on input line 146.
-(pdftex.def)             Requested size: 96.73936pt x 96.69576pt.
+(pdftex.def)             Requested size: 96.73936pt x 96.73874pt.
  [13
 
  <./figs/qrcode_work.png> <./figs/workshop_map2.jpg>] [14
 
 ]
 Chapter 7.
-(./misc/social.tex <figs/party.jpg, id=708, 583.9416pt x 583.9416pt>
+(./misc/social.tex <figs/party.jpg, id=710, 583.9416pt x 583.9416pt>
 File: figs/party.jpg Graphic file (type jpg)
 
 <use figs/party.jpg>
@@ -2220,7 +2220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [97] [98
 
-] <figs/back_cover.pdf, id=1231, 597.50688pt x 847.7214pt>
+] <figs/back_cover.pdf, id=1233, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf>
@@ -2231,7 +2231,7 @@ File: figs/back_cover.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/back_cover.pdf used on input line 294.
 (pdftex.def)             Requested size: 597.50542pt x 847.71935pt.
 
-<figs/back_cover.pdf, id=1234, page=1, 597.50688pt x 847.7214pt>
+<figs/back_cover.pdf, id=1236, page=1, 597.50688pt x 847.7214pt>
 File: figs/back_cover.pdf Graphic file (type pdf)
 
 <use figs/back_cover.pdf, page 1>
@@ -2288,9 +2288,9 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on boa.pdf (108 pages, 13252230 bytes).
+Output written on boa.pdf (108 pages, 12309269 bytes).
 PDF statistics:
- 1355 PDF objects out of 1440 (max. 8388607)
+ 1357 PDF objects out of 1440 (max. 8388607)
  1193 compressed objects within 12 object streams
  280 named destinations out of 1000 (max. 500000)
  940 words of extra memory for PDF output out of 10000 (max. 10000000)
